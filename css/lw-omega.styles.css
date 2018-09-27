@@ -16,6 +16,7 @@ body {
   background-repeat: repeat-x;
   background-position: bottom left;
   background-attachment: fixed;
+  display: flex;
 }
 
 .l-page-inner {
@@ -29,6 +30,13 @@ body {
   padding: 7px;
 }
 
-/* No files to import found in components/* */
+.boxed {
+  border-radius: 10px;
+  border: 1px solid #c5bc90;
+  margin: 10px;
+  padding: 1em;
+  background: #f6f5ee;
+  overflow: auto;
+}
 
 /*# sourceMappingURL=lw-omega.styles.css.map */
