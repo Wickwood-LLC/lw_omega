@@ -18,6 +18,13 @@ body {
   background-attachment: fixed;
 }
 
+.l-page-inner {
+  max-width: calc(100% - 2em);
+  margin: 5px auto;
+  cursor: auto;
+  width: 1000px;
+}
+
 /* No files to import found in components/* */
 
 /*# sourceMappingURL=lw-omega.styles.css.map */

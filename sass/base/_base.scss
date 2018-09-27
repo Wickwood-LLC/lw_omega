@@ -15,3 +15,10 @@ body {
     background-position: bottom left;
     background-attachment: fixed;
 }
+
+.l-page-inner {
+	max-width: calc(100% - 2em);
+	margin: 5px auto;
+	cursor: auto;
+	width: 1000px;
+}
