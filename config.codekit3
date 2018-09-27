@@ -7,8 +7,539 @@
 		"uuidString": "192CC82A-2F8A-4E0A-A53D-03006CC2667F"
 		}
 	],
-"creatorBuild": "28795",
+"creatorBuild": "28841",
 "files": {
+	"/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/breakpoint-sass/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/bower_components/breakpoint-sass/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/breakpoint-sass/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/bower_components/breakpoint-sass/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/breakpoint-sass/CHANGELOG.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "/bower_components/breakpoint-sass/CHANGELOG.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/bower_components/breakpoint-sass/CONTRIBUTING.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "/bower_components/breakpoint-sass/CONTRIBUTING.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/bower_components/breakpoint-sass/eyeglass-exports.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/breakpoint-sass/eyeglass-exports.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/bower_components/breakpoint-sass/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/bower_components/breakpoint-sass/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/breakpoint-sass/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "/bower_components/breakpoint-sass/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/bower_components/breakpoint-sass/sache.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/bower_components/breakpoint-sass/sache.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/breakpoint-sass/stylesheets/_breakpoint.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/breakpoint-sass/stylesheets/_breakpoint.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/breakpoint-sass/stylesheets/breakpoint/_context.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/breakpoint-sass/stylesheets/breakpoint/_context.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/breakpoint-sass/stylesheets/breakpoint/_helpers.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/breakpoint-sass/stylesheets/breakpoint/_helpers.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/breakpoint-sass/stylesheets/breakpoint/_legacy-settings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/breakpoint-sass/stylesheets/breakpoint/_legacy-settings.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/breakpoint-sass/stylesheets/breakpoint/_no-query.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/breakpoint-sass/stylesheets/breakpoint/_no-query.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/breakpoint-sass/stylesheets/breakpoint/_parsers.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/breakpoint-sass/stylesheets/breakpoint/_parsers.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/breakpoint-sass/stylesheets/breakpoint/_respond-to.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/breakpoint-sass/stylesheets/breakpoint/_respond-to.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/breakpoint-sass/stylesheets/breakpoint/_settings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/breakpoint-sass/stylesheets/breakpoint/_settings.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/_double.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/_double.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/_query.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/_query.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/_resolution.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/_resolution.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/_single.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/_single.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/_triple.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/_triple.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/double/_default-pair.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/double/_default-pair.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/double/_default.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/double/_default.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/double/_double-string.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/double/_double-string.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/resolution/_resolution.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/resolution/_resolution.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/single/_default.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/single/_default.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/triple/_default.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/breakpoint-sass/stylesheets/breakpoint/parsers/triple/_default.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/sassy-maps/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/bower_components/sassy-maps/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/sassy-maps/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/bower_components/sassy-maps/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/sassy-maps/CONTRIBUTING.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "/bower_components/sassy-maps/CONTRIBUTING.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/bower_components/sassy-maps/examples/example.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "/bower_components/sassy-maps/examples/example.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/sassy-maps/examples/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/bower_components/sassy-maps/examples/index.html",
+		"oF": 0
+		},
+	"/bower_components/sassy-maps/lib/sassy-maps.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/bower_components/sassy-maps/lib/sassy-maps.rb",
+		"oF": 0
+		},
+	"/bower_components/sassy-maps/lib/sassy-maps/version.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/bower_components/sassy-maps/lib/sassy-maps/version.rb",
+		"oF": 0
+		},
+	"/bower_components/sassy-maps/lib/tapout/reporters/navigator_reporter.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/bower_components/sassy-maps/lib/tapout/reporters/navigator_reporter.rb",
+		"oF": 0
+		},
+	"/bower_components/sassy-maps/Rakefile": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/bower_components/sassy-maps/Rakefile",
+		"oF": 0
+		},
+	"/bower_components/sassy-maps/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "/bower_components/sassy-maps/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/bower_components/sassy-maps/sache.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/bower_components/sassy-maps/sache.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/sassy-maps/sass/_memo.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/sassy-maps/sass/_memo.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/sassy-maps/sass/_sassy-maps.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/sassy-maps/sass/_sassy-maps.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/sassy-maps/sass/sassy-maps/_map-get.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/sassy-maps/sass/sassy-maps/_map-get.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/sassy-maps/sass/sassy-maps/_map-set.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/sassy-maps/sass/sassy-maps/_map-set.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/sassy-maps/sass/sassy-maps/_map-to-string.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/bower_components/sassy-maps/sass/sassy-maps/_map-to-string.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/bower_components/sassy-maps/sassy-maps.gemspec": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/bower_components/sassy-maps/sassy-maps.gemspec",
+		"oF": 0
+		},
 	"/css/lw-omega.reset.css": {
 		"aP": 1,
 		"bl": 0,
@@ -28,6 +559,13 @@
 		"oAP": "/css/lw-omega.styles-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/css/lw-omega.styles.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/css/lw-omega.styles.css.map",
+		"oF": 0
 		},
 	"/favicon.ico": {
 		"cB": 0,
@@ -62,6 +600,17 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/logo.png": {
+		"ft": 32768,
+		"iS": 123629,
+		"oA": 0,
+		"oAP": "/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/lw_omega.info": {
 		"cB": 0,
@@ -127,6 +676,174 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/sass/.sass-cache/038b4a9e4af01dd4e6bbe2a305df3635227175a1/%042c": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/sass/.sass-cache/038b4a9e4af01dd4e6bbe2a305df3635227175a1/%042c",
+		"oF": 0
+		},
+	"/sass/.sass-cache/10d86204d44b8fe00c8b552d807f30fbc3587af4/_context.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/10d86204d44b8fe00c8b552d807f30fbc3587af4/_context.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/10d86204d44b8fe00c8b552d807f30fbc3587af4/_helpers.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/10d86204d44b8fe00c8b552d807f30fbc3587af4/_helpers.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/10d86204d44b8fe00c8b552d807f30fbc3587af4/_legacy-settings.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/10d86204d44b8fe00c8b552d807f30fbc3587af4/_legacy-settings.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/10d86204d44b8fe00c8b552d807f30fbc3587af4/_no-query.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/10d86204d44b8fe00c8b552d807f30fbc3587af4/_no-query.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/10d86204d44b8fe00c8b552d807f30fbc3587af4/_parsers.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/10d86204d44b8fe00c8b552d807f30fbc3587af4/_parsers.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/10d86204d44b8fe00c8b552d807f30fbc3587af4/_respond-to.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/10d86204d44b8fe00c8b552d807f30fbc3587af4/_respond-to.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/10d86204d44b8fe00c8b552d807f30fbc3587af4/_settings.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/10d86204d44b8fe00c8b552d807f30fbc3587af4/_settings.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/11fec64ae04689f440a5e8c8fe825eaf636547d8/%042c": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/sass/.sass-cache/11fec64ae04689f440a5e8c8fe825eaf636547d8/%042c",
+		"oF": 0
+		},
+	"/sass/.sass-cache/121b4ac071137073e75f6f9e9fb9998ddd16d2a6/_default-pair.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/121b4ac071137073e75f6f9e9fb9998ddd16d2a6/_default-pair.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/121b4ac071137073e75f6f9e9fb9998ddd16d2a6/_default.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/121b4ac071137073e75f6f9e9fb9998ddd16d2a6/_default.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/121b4ac071137073e75f6f9e9fb9998ddd16d2a6/_double-string.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/121b4ac071137073e75f6f9e9fb9998ddd16d2a6/_double-string.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/25dd74ea3130464227fa67cdcaf92c434c5e5ba6/%042c": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/sass/.sass-cache/25dd74ea3130464227fa67cdcaf92c434c5e5ba6/%042c",
+		"oF": 0
+		},
+	"/sass/.sass-cache/55c1f3eaad052d8ab752403d7f70c30bb364a3e1/_breakpoint.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/55c1f3eaad052d8ab752403d7f70c30bb364a3e1/_breakpoint.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/5aecf9fd7e1551fb2cf574fe06817fafd5b89ef6/_default.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/5aecf9fd7e1551fb2cf574fe06817fafd5b89ef6/_default.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/65cb9dd2c21ebb2c8a22745d017c77633c75bc61/_resolution.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/65cb9dd2c21ebb2c8a22745d017c77633c75bc61/_resolution.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/8834f343cd181b247d2fac80022b3cceaed751c5/%042c": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/sass/.sass-cache/8834f343cd181b247d2fac80022b3cceaed751c5/%042c",
+		"oF": 0
+		},
+	"/sass/.sass-cache/a09fc263590e5a5a7808e81c7f49e67bae315f09/_double.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/a09fc263590e5a5a7808e81c7f49e67bae315f09/_double.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/a09fc263590e5a5a7808e81c7f49e67bae315f09/_query.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/a09fc263590e5a5a7808e81c7f49e67bae315f09/_query.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/a09fc263590e5a5a7808e81c7f49e67bae315f09/_resolution.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/a09fc263590e5a5a7808e81c7f49e67bae315f09/_resolution.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/a09fc263590e5a5a7808e81c7f49e67bae315f09/_single.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/a09fc263590e5a5a7808e81c7f49e67bae315f09/_single.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/a09fc263590e5a5a7808e81c7f49e67bae315f09/_triple.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/a09fc263590e5a5a7808e81c7f49e67bae315f09/_triple.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/a9fa1a4767c86178ad3fd7ff08c4dc3616641566/_default.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/a9fa1a4767c86178ad3fd7ff08c4dc3616641566/_default.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/acab960180cb76e9d82a82661d8e279504f8f826/lw-omega.styles.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/sass/.sass-cache/acab960180cb76e9d82a82661d8e279504f8f826/lw-omega.styles.scssc",
+		"oF": 0
 		},
 	"/sass/abstractions/README.md": {
 		"cB": 0,
@@ -196,17 +913,17 @@
 		"uL": 1
 		},
 	"/sass/lw-omega.styles.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
-		"oAP": "/sass/lw-omega.styles.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
+		"oAP": "/css/lw-omega.styles.css",
+		"oF": 2,
+		"oS": 1,
+		"uL": 0
 		},
 	"/sass/README.md": {
 		"cB": 0,
@@ -243,6 +960,17 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/screenshot.png": {
+		"ft": 32768,
+		"iS": 78324,
+		"oA": 0,
+		"oAP": "/screenshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/template.php": {
 		"cB": 0,
