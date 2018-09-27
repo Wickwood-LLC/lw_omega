@@ -1,6 +1,12 @@
 /* No files to import found in variables/* */
 /* No files to import found in abstractions/* */
-/* No files to import found in base/* */
+body {
+  margin: 0;
+  color: #000000;
+  background-color: #FEFEFC;
+  background: linear-gradient(to bottom, #e9d784 0%, #ffffff 100%);
+}
+
 /* No files to import found in components/* */
 
 /*# sourceMappingURL=lw-omega.styles.css.map */
