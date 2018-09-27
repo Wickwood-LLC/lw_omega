@@ -5,6 +5,17 @@ body {
   color: #000000;
   background-color: #FEFEFC;
   background: linear-gradient(to bottom, #e9d784 0%, #ffffff 100%);
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: top left;
+  font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Sans-Serif;
+}
+
+.l-page {
+  background-image: url(../images/larrys-bookshelf-extracted.png);
+  background-repeat: repeat-x;
+  background-position: bottom left;
+  background-attachment: fixed;
 }
 
 /* No files to import found in components/* */

@@ -584,6 +584,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/images/larrys-bookshelf-extracted.png": {
+		"ft": 32768,
+		"iS": 410797,
+		"oA": 0,
+		"oAP": "/images/larrys-bookshelf-extracted.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/README.txt": {
 		"cB": 0,
 		"ft": 8192,
@@ -829,6 +840,13 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "/sass/.sass-cache/a09fc263590e5a5a7808e81c7f49e67bae315f09/_triple.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/a532477d5d1c7b6e182d996f130deedb2ec07fa0/_base.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/a532477d5d1c7b6e182d996f130deedb2ec07fa0/_base.scssc",
 		"oF": 0
 		},
 	"/sass/.sass-cache/a9fa1a4767c86178ad3fd7ff08c4dc3616641566/_default.scssc": {
