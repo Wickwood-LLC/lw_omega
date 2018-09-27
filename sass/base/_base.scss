@@ -16,13 +16,13 @@ body {
     background-attachment: fixed;
 }
 
-.l-page-inner {
-	max-width: calc(100% - 2em);
-	margin: 5px auto;
+.l-page-inner {	
+	max-width: calc(100% - 4em);
+	margin: 1em auto;
 	cursor: auto;
 	width: 1000px;
-	background: #efede0;
-	box-shadow: 0 0 5px 3px #c6c0ac;
+	background: rgba(239, 237, 224, 0.95);
+	box-shadow: 0 0 5px 3px rgba(101, 99, 93, 0.32);
 	border-radius: 5px;
 	padding: 7px;
 }
