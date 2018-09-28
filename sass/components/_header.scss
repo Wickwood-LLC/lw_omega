@@ -2,9 +2,17 @@
 	background: linear-gradient(to bottom, #eed889 0%,#e3be3c 50%,#eed889 100%);
 	border-radius: 5px;
 	margin-bottom: 5px;
-}
 
-.l-branding-inner {
-	background-image: url(../images/blockheader.png);
-	display: flex;
+	&:before {
+		position: absolute;
+		display: block;
+		content: ' ';
+		z-index: -2;
+		top: 0;
+		width: 100%;
+		height: 225px;
+		background-image: url(/sites/www.lawrenceswittner.com/themes/lwtheme/images/header.png);
+		background-repeat: no-repeat;
+		background-position: top center;
+	}
 }
