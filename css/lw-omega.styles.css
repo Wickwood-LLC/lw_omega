@@ -117,7 +117,7 @@ body {
   height: 1.2em;
   text-align: center;
 }
-#block-panels-mini-follow-block .mailchimp-newsletter-mergefields #edit-actions {
+#block-panels-mini-follow-block #edit-actions {
   text-decoration: none;
   font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Sans-Serif;
   font-size: 11px;
