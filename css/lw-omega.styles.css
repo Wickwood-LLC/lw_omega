@@ -135,7 +135,7 @@ body {
   margin: 0;
   padding: 0 20px;
   cursor: pointer;
-  color: #e3cb61;
+  background: #e3cb61;
   border: 1px solid #a58b1e;
 }
 #block-panels-mini-follow-block #widgets-element-socialmedia_profile-default {
