@@ -81,6 +81,41 @@ body {
   background: #f6f5ed;
   border: 1px solid #c5bb8f;
   border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+#block-panels-mini-follow-block .block__title {
+  min-height: 25px;
+  line-height: 25px;
+  color: #000000;
+  font-size: 16px;
+  margin: 0;
+  padding: 0 10px 0 10px;
+  white-space: nowrap;
+  text-align: center;
+}
+#block-panels-mini-follow-block .mailchimp-newsletter-mergefields .form-item {
+  margin: 0;
+  text-align: center;
+  margin-bottom: .1em;
+}
+#block-panels-mini-follow-block .mailchimp-newsletter-mergefields .form-item label {
+  font-weight: normal;
+  font-style: normal;
+  font-size: .8em;
+  width: 12em;
+  margin-right: auto;
+  margin-left: auto;
+}
+#block-panels-mini-follow-block .mailchimp-newsletter-mergefields .form-item input {
+  font-weight: normal;
+  font-style: normal;
+  font-size: .8em;
+  width: 12em;
+  margin-right: auto;
+  margin-left: auto;
+  height: 1.2em;
+  text-align: center;
 }
 
 /*# sourceMappingURL=lw-omega.styles.css.map */
