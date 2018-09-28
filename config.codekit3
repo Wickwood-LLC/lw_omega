@@ -584,6 +584,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/images/blockheader.png": {
+		"ft": 32768,
+		"iS": 13209,
+		"oA": 0,
+		"oAP": "/images/blockheader.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/header.png": {
 		"ft": 32768,
 		"iS": 2093,
@@ -858,6 +869,13 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "/sass/.sass-cache/a27841023a6e4ff29a5ee4420e855992cfb26a88/_components.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/a27841023a6e4ff29a5ee4420e855992cfb26a88/_header.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/a27841023a6e4ff29a5ee4420e855992cfb26a88/_header.scssc",
 		"oF": 0
 		},
 	"/sass/.sass-cache/a532477d5d1c7b6e182d996f130deedb2ec07fa0/_base.scssc": {

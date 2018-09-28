@@ -40,7 +40,7 @@ body {
 }
 
 .l-branding {
-  background-image: url(../images/header.png);
+  background-image: url(../images/blockheader.png);
   display: flex;
   border-radius: 5px;
   margin-bottom: 5px;
