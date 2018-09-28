@@ -595,17 +595,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/header.png": {
-		"ft": 32768,
-		"iS": 2093,
-		"oA": 0,
-		"oAP": "/images/header.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/images/larrys-bookshelf-extracted.png": {
 		"ft": 32768,
 		"iS": 410797,
@@ -623,6 +612,17 @@
 		"oA": 0,
 		"oAP": "/images/README.txt",
 		"oF": 0
+		},
+	"/images/textblock-bg.png": {
+		"ft": 32768,
+		"iS": 209956,
+		"oA": 0,
+		"oAP": "/images/textblock-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/js/lw-omega.behaviors.js": {
 		"ft": 64,

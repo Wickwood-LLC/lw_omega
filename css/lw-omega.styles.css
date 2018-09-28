@@ -52,7 +52,7 @@ body {
   top: 0;
   width: 100%;
   height: 225px;
-  background-image: url(/sites/www.lawrenceswittner.com/themes/lwtheme/images/header.png);
+  background-image: url(../images/textblock-bg.png);
   background-repeat: no-repeat;
   background-position: top center;
 }
