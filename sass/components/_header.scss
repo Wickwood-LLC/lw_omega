@@ -83,23 +83,28 @@
     }
 
     #edit-actions {
-    	text-decoration: none;
-    	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Sans-Serif;
-    	font-size: 11px;
-    	display: inline-block;
-    	vertical-align: middle;
-    	white-space: nowrap;
     	text-align: center;
-    	color: #000000;
-    	line-height: 24px;
-    	height: 24px;
-    	margin: 0 !important;
-    	padding: 0 20px !important;
-    	cursor: pointer;
-    	color: #e3cb61;
-    	border: 1px solid #a58b1e;
+    	margin: 1em 0;
+
+    	input {
+        	text-decoration: none;
+        	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Sans-Serif;
+        	font-size: 11px;
+        	display: inline-block;
+        	vertical-align: middle;
+        	white-space: nowrap;
+        	text-align: center;
+        	color: #000000;
+        	line-height: 24px;
+        	height: 24px;
+        	margin: 0;
+        	padding: 0 20px;
+        	cursor: pointer;
+        	color: #e3cb61;
+        	border: 1px solid #a58b1e;
+        }
     }
-    
+
     #widgets-element-socialmedia_profile-default {
     	text-align: center;
 
