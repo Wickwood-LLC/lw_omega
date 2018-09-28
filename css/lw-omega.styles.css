@@ -40,10 +40,14 @@ body {
 }
 
 .l-branding {
-  background-image: url(../images/blockheader.png);
-  display: flex;
+  background: linear-gradient(to bottom, #eed889 0%, #e3be3c 50%, #eed889 100%);
   border-radius: 5px;
   margin-bottom: 5px;
+}
+
+.l-branding-inner {
+  background-image: url(../images/blockheader.png);
+  display: flex;
 }
 
 /*# sourceMappingURL=lw-omega.styles.css.map */
