@@ -248,7 +248,7 @@ body {
   line-height: 23px;
   text-align: left;
   border: 1px solid #E8CA5E;
-  border-top-width: 0px;
+  border-top-color: transparent;
 }
 #superfish-1 li.sf-depth-1.menuparent > ul li a:hover {
   background-color: #f6ebbf;
