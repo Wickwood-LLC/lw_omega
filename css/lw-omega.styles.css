@@ -256,7 +256,7 @@ body {
   border-color: #8E988B;
 }
 #superfish-1 li.sf-depth-1.menuparent > ul li:first-child a {
-  border-top-width: 1px;
+  border-top-color: #E8CA5E;
 }
 
 /*# sourceMappingURL=lw-omega.styles.css.map */
