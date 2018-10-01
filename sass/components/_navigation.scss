@@ -57,6 +57,7 @@
 
             >ul {
                 background-color: #efd882;
+                top: 25px;
 
                 li a {
                     font-size: 18px;
@@ -69,6 +70,11 @@
                     line-height: 23px;
                     text-align: center;
                     border: 1px solid #E8CA5E;
+                    border-top-width: 0px;
+
+                    &:first-child {
+                    	border-top-width: 1px;
+                    }
                 }
             }
         }
