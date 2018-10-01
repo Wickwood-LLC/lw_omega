@@ -295,5 +295,23 @@ body {
   color: #070807;
   background: linear-gradient(to bottom, #edd576 0%, #e5c233 100%);
 }
+#superfish-1-accordion li.menuparent > a:after {
+  content: '\f0da';
+  margin-left: 0.5em;
+  font-family: FontAwesome;
+}
+#superfish-1-accordion li.menuparent ul {
+  display: block;
+  background-color: #bae8f3;
+  border: 1px solid #49c3df;
+  box-sizing: border-box;
+  margin-left: 1em;
+  width: calc(100% - 1em);
+}
+#superfish-1-accordion li.menuparent.sf-expanded > a:after {
+  content: '\f0d7';
+  margin-left: 0.5em;
+  font-family: FontAwesome;
+}
 
 /*# sourceMappingURL=lw-omega.styles.css.map */

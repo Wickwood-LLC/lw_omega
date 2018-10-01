@@ -126,4 +126,28 @@
 		    background: linear-gradient(to bottom, #edd576 0%, #e5c233 100%);
 		}
 	}
+
+	li.menuparent {
+		> a:after {
+			content: '\f0da';
+			margin-left: 0.5em;
+			font-family: FontAwesome;
+		}
+
+		ul {
+			display: block;
+			background-color: #bae8f3;
+			border: 1px solid #49c3df;
+			box-sizing: border-box;
+			margin-left: 1em;
+			width: calc(100% - 1em);
+		}
+	}
+	li.menuparent.sf-expanded {
+		> a:after {
+			content: '\f0d7';
+			margin-left: 0.5em;
+			font-family: FontAwesome;
+		}
+	}
 }
