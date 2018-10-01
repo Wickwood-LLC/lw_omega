@@ -227,10 +227,16 @@ body {
   color: #070807;
   background: linear-gradient(to bottom, #edd576 0%, #e5c233 100%);
 }
-#superfish-1 li.sf-depth-1 > a.menuparent > ul {
+#superfish-1 li.sf-depth-1.menuparent > a:after {
+  content: '\f0d7';
+  font-family: FontAwesome;
+  position: relative;
+  left: 5px;
+}
+#superfish-1 li.sf-depth-1.menuparent > ul {
   background-color: #efd882;
 }
-#superfish-1 li.sf-depth-1 > a.menuparent > ul li a {
+#superfish-1 li.sf-depth-1.menuparent > ul li a {
   font-size: 18px;
   text-decoration: none;
   height: 23px;
@@ -241,12 +247,6 @@ body {
   line-height: 23px;
   text-align: center;
   border: 1px solid #E8CA5E;
-}
-#superfish-1 li.sf-depth-1.menuparent > a:after {
-  content: '\f0d7';
-  font-family: FontAwesome;
-  position: relative;
-  left: 5px;
 }
 
 /*# sourceMappingURL=lw-omega.styles.css.map */

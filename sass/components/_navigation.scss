@@ -45,8 +45,17 @@
                 color: #070807;
                 background: linear-gradient(to bottom, #edd576 0%, #e5c233 100%);
             }
+        }
 
-            &.menuparent>ul {
+        &.menuparent{
+        	>a:after {
+                content: '\f0d7';
+                font-family: FontAwesome;
+                position: relative;
+                left: 5px;
+            }
+
+            >ul {
                 background-color: #efd882;
 
                 li a {
@@ -62,13 +71,6 @@
                     border: 1px solid #E8CA5E;
                 }
             }
-        }
-
-        &.menuparent>a:after {
-            content: '\f0d7';
-            font-family: FontAwesome;
-            position: relative;
-            left: 5px;
         }
     }
 }
