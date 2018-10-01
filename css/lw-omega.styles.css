@@ -263,6 +263,7 @@ body {
 }
 
 #superfish-1-toggle {
+  display: block;
   text-decoration: none;
   color: #1E201D;
   font-size: 18px;
