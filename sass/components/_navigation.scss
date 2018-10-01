@@ -1,24 +1,52 @@
 #block-superfish-1 {
-	display: inline-block;
-	width: 100%;
-	background: linear-gradient(to bottom, #c2c7c0 0%,#9ba498 100%);
+    display: inline-block;
+    width: 100%;
+    background: linear-gradient(to bottom, #c2c7c0 0%, #9ba498 100%);
+
+    a>.sf-sub-indicator {
+        display: none;
+    }
 }
 
 #superfish-1 {
-	li.sf-depth-1 {
-		display: inline-block;
-		float: none;
+    text-align: center;
+    padding: 6px;
 
-		a {
-			font-size: 18px;
-			text-decoration: none;
-			height: 23px;
-			cursor: pointer;
-			text-decoration: none;
-			color: #1E201D;
-			padding: 0 12px;
-			line-height: 23px;
-			text-align: center;
-		}
-	}
+    li.sf-depth-1 {
+        display: inline-block;
+        float: none;
+
+        a {
+            font-size: 18px;
+            text-decoration: none;
+            height: 23px;
+            cursor: pointer;
+            text-decoration: none;
+            color: #1E201D;
+            padding: 0 12px;
+            line-height: 23px;
+            text-align: center;
+            border: 1px solid transparent;
+            border-radius: 2px;
+
+            &:hover {
+                border: 1px solid #343932;
+                color: #2F332E;
+                background: linear-gradient(to bottom, #fbf6e4 0%, #f1e0a2 100%);
+            }
+
+            &.active {
+                border: 1px solid #9d8000;
+                color: #070807;
+                background: linear-gradient(to bottom, #fbf6e4 0%, #f1e0a2 100%);
+            }
+        }
+
+        &.menuparent>a:after {
+            content: '\f0d7';
+            font-family: FontAwesome;
+            position: relative;
+            left: 5px;
+        }
+    }
 }
