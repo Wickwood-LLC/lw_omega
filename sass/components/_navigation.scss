@@ -71,10 +71,9 @@
                     text-align: center;
                     border: 1px solid #E8CA5E;
                     border-top-width: 0px;
-
-                    &:first-child {
-                    	border-top-width: 1px;
-                    }
+                }
+                li:first-child a {
+                	border-top-width: 1px;
                 }
             }
         }
