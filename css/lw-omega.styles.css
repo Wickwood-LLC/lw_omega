@@ -246,9 +246,15 @@ body {
   color: #1E201D;
   padding: 0 12px;
   line-height: 23px;
-  text-align: center;
+  text-align: left;
   border: 1px solid #E8CA5E;
   border-top-width: 0px;
+}
+#superfish-1 li.sf-depth-1.menuparent > ul li a:hover {
+  background-color: #f6ebbf;
+  color: #403A20;
+  border-color: #8E988B;
+  border-top-width: 1px !important;
 }
 #superfish-1 li.sf-depth-1.menuparent > ul li:first-child a {
   border-top-width: 1px;
