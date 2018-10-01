@@ -6,36 +6,15 @@
  * LW Omega theme.
  */
 
-function lw_omega_breadcrumb($vars) {
-  $output = '<ul class="breadcrumb">';
+function lw_omega_breadcrumb($variables) {
+  $breadcrumb = $variables['breadcrumb'];
 
-  // Optional: Add the site name to the front of the stack.
-  if (!empty($vars['prepend'])) {
-    $site_name = empty($vars['breadcrumb']) ? "<strong>". check_plain(variable_get('site_name', '')) ."</strong>" : l(variable_get('site_name', ''), '<front>', array('purl' => array('disabled' => TRUE)));
-    array_unshift($vars['breadcrumb'], $site_name);
-  }
+  if (!empty($breadcrumb) && (count($breadcrumb) > 2 )) {
+    // Provide a navigational heading to give context for breadcrumb links to
+    // screen-reader users. Make the heading invisible with .element-invisible.
+    $output = '<h2 class="element-invisible art-postheader">' . t('You are here') . '</h2>';
 
-  $depth = 0;
-  $separator = '  » ';
-  foreach ($vars['breadcrumb'] as $link) {
-
-    // If the item isn't a link, surround it with a strong tag to format it like
-    // one.
-    if (!preg_match('/^<a/', $link) && !preg_match('/^<strong/', $link)) {
-      $link = '<strong>' . $link . '</strong>';
-    }
-
-    $output .= "<span class='breadcrumb-link breadcrumb-depth-{$depth}'>{$link}</span>";
-    $depth++;
-
-    if ($link !== end($vars['breadcrumb'])) {   // Add separators, unless we're on the last item
-      $output .= "<span class='bc-separator'>{$separator}</span>" ;
-    }
-  }
-
-  $output .= '</ul>';
-
-  if ($depth > 1) { // Only show breadcrumbs if we have more than 2 links or if we are on the exempted pages
+    $output .= '<div class="breadcrumb art-postcontent">' . implode(' » ', $breadcrumb) . '</div>';
     return $output;
   }
 }
