@@ -2,9 +2,15 @@
     display: inline-block;
     width: 100%;
     background: linear-gradient(to bottom, #c2c7c0 0%, #9ba498 100%);
+    border-radius: 5px;
 
     a>.sf-sub-indicator {
         display: none;
+    }
+
+    .sf-accordion-toggle {
+    	text-align: center;
+    	padding: 6px;
     }
 }
 
@@ -85,4 +91,11 @@
             }
         }
     }
+}
+
+#superfish-1-toggle {
+	text-decoration: none;
+	color: #1E201D;
+	font-size: 18px;
+	line-height: 25px;
 }

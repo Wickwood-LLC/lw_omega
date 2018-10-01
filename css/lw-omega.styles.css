@@ -187,9 +187,14 @@ body {
   display: inline-block;
   width: 100%;
   background: linear-gradient(to bottom, #c2c7c0 0%, #9ba498 100%);
+  border-radius: 5px;
 }
 #block-superfish-1 a > .sf-sub-indicator {
   display: none;
+}
+#block-superfish-1 .sf-accordion-toggle {
+  text-align: center;
+  padding: 6px;
 }
 
 #superfish-1 {
@@ -257,6 +262,13 @@ body {
 }
 #superfish-1 li.sf-depth-1.menuparent > ul li:first-child a {
   border-top-color: #E8CA5E;
+}
+
+#superfish-1-toggle {
+  text-decoration: none;
+  color: #1E201D;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 /*# sourceMappingURL=lw-omega.styles.css.map */
