@@ -199,6 +199,10 @@ body {
 #superfish-1 li.sf-depth-1 {
   display: inline-block;
   float: none;
+  margin-left: 10px;
+}
+#superfish-1 li.sf-depth-1:first-child {
+  margin-left: 0;
 }
 #superfish-1 li.sf-depth-1 a {
   font-size: 18px;
