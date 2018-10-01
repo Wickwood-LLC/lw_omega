@@ -65,6 +65,9 @@ body {
   z-index: 1;
   position: relative;
   flex: 1;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
 }
 
 .l-region--branding {
@@ -85,6 +88,7 @@ body {
   display: block;
   text-align: left;
   margin: 0;
+  margin-top: 8.5%;
 }
 .site-name a {
   font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Sans-Serif;
@@ -180,6 +184,28 @@ body {
   margin-left: 4px;
   display: inline-block;
   float: none;
+}
+
+#block-superfish-1 {
+  display: inline-block;
+  width: 100%;
+  background: linear-gradient(to bottom, #c2c7c0 0%, #9ba498 100%);
+}
+
+#superfish-1 li.sf-depth-1 {
+  display: inline-block;
+  float: none;
+}
+#superfish-1 li.sf-depth-1 a {
+  font-size: 18px;
+  text-decoration: none;
+  height: 23px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #1E201D;
+  padding: 0 12px;
+  line-height: 23px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=lw-omega.styles.css.map */

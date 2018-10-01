@@ -7,7 +7,7 @@
 		"uuidString": "192CC82A-2F8A-4E0A-A53D-03006CC2667F"
 		}
 	],
-"creatorBuild": "28901",
+"creatorBuild": "28841",
 "files": {
 	"/bower.json": {
 		"ft": 524288,
@@ -636,7 +636,7 @@
 		},
 	"/logo.png": {
 		"ft": 32768,
-		"iS": 123629,
+		"iS": 1775,
 		"oA": 0,
 		"oAP": "/logo.png",
 		"oF": 0,
@@ -974,6 +974,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/sass/components/_navigation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/sass/components/_navigation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/sass/components/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -1056,7 +1069,7 @@
 		},
 	"/screenshot.png": {
 		"ft": 32768,
-		"iS": 78324,
+		"iS": 4603,
 		"oA": 0,
 		"oAP": "/screenshot.png",
 		"oF": 0,

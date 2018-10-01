@@ -1,0 +1,24 @@
+#block-superfish-1 {
+	display: inline-block;
+	width: 100%;
+	background: linear-gradient(to bottom, #c2c7c0 0%,#9ba498 100%);
+}
+
+#superfish-1 {
+	li.sf-depth-1 {
+		display: inline-block;
+		float: none;
+
+		a {
+			font-size: 18px;
+			text-decoration: none;
+			height: 23px;
+			cursor: pointer;
+			text-decoration: none;
+			color: #1E201D;
+			padding: 0 12px;
+			line-height: 23px;
+			text-align: center;
+		}
+	}
+}
