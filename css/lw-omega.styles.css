@@ -225,7 +225,7 @@ body {
 #superfish-1 li.sf-depth-1 a.active {
   border: 1px solid #9d8000;
   color: #070807;
-  background: linear-gradient(to bottom, #fbf6e4 0%, #f1e0a2 100%);
+  background: linear-gradient(to bottom, #edd576 0%, #e5c233 100%);
 }
 #superfish-1 li.sf-depth-1.menuparent > a:after {
   content: '\f0d7';
