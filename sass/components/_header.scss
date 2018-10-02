@@ -3,8 +3,6 @@
     border-radius: 5px;
     margin-bottom: 5px;
     position: relative;
-    display: flex;
-    flex-flow: row wrap;
 
     &:before {
         position: absolute;
@@ -21,32 +19,28 @@
     }
 }
 
-.site-brand {
-    z-index: 1;
-    position: relative;
-    flex: 1;
-}
-
-.l-region--branding {
-    z-index: 1;
-    position: relative;
-}
-
 .site-logo {
-    float: left;
     margin-right: 1em;
     height: 100%;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
 
     img {
     	height: 100%;
     }
 }
 
+.sitename-and-slogan {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .site-name {
-	display: block;
-	text-align: left;
-	margin: 0;
-    margin-top: 8.5%;
+	display: inline-block;
+    text-align: left;
+    margin: 0;
+    position: relative;
 
 	a {
 		font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Sans-Serif;
@@ -61,7 +55,8 @@
 }
 
 .site-slogan{
-	display: block;
+    position: relative;
+    display: block;
 	text-align: left;
 	padding: 0;
 	margin: 0;
@@ -71,6 +66,10 @@
 	font-weight: bold;
 	font-size: 2em;
 	text-decoration: none;
+}
+
+.l-region--branding {
+    float: right;
 }
 
 #block-panels-mini-follow-block {
@@ -101,7 +100,7 @@
             label {
                 font-weight: normal;
                 font-style: normal;
-                font-size: .8em;
+                font-size: 11px;
                 width: 12em;
                 margin-right: auto;
                 margin-left: auto;
@@ -109,7 +108,7 @@
             input {
             	font-weight: normal;
             	font-style: normal;
-            	font-size: .8em;
+            	font-size: 11px;
             	margin-right: auto;
             	margin-left: auto;
             	height: 1.2em;
@@ -121,7 +120,7 @@
 
     #edit-actions {
     	text-align: center;
-    	margin: 1em 0;
+    	margin: 0.5em 0;
 
     	input {
         	text-decoration: none;
