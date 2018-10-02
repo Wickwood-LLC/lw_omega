@@ -67,6 +67,7 @@
                     <a href="<?php print $front_page;?>" title="<?php print t('Home');?>" rel="home" class="site-logo"><img src="<?php print $logo;?>" alt="<?php print t('Home');?>" /></a>
                 <?php endif;?>
                 <?php if ($site_name || $site_slogan): ?>
+                    <div class="sitename-and-slogan">
                     <?php if ($site_name): ?>
                         <h1 class="site-name">
                                     <a href="<?php print $front_page;?>" title="<?php print t('Home');?>" rel="home"><span><?php print $site_name;?></span></a>
@@ -75,6 +76,7 @@
                     <?php if ($site_slogan): ?>
                         <h2 class="site-slogan"><?php print $site_slogan;?></h2>
                     <?php endif;?>
+                    </div>
                 <?php endif;?>
                 <?php print render($page['branding']); ?>
             </div>
