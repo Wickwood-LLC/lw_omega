@@ -63,70 +63,58 @@
     <div class="l-page-inner">
         <header class="l-header" role="banner">
             <div class="l-branding">
-                <div class="site-brand">
-                    <?php if ($logo): ?>
-                    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
-                    <?php endif; ?>
-                    <?php if ($site_name || $site_slogan): ?>
+                <?php if ($logo): ?>
+                    <a href="<?php print $front_page;?>" title="<?php print t('Home');?>" rel="home" class="site-logo"><img src="<?php print $logo;?>" alt="<?php print t('Home');?>" /></a>
+                <?php endif;?>
+                <?php if ($site_name || $site_slogan): ?>
                     <?php if ($site_name): ?>
-                    <h1 class="site-name">
-                                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-                              </h1>
-                    <?php endif; ?>
+                        <h1 class="site-name">
+                                    <a href="<?php print $front_page;?>" title="<?php print t('Home');?>" rel="home"><span><?php print $site_name;?></span></a>
+                                  </h1>
+                    <?php endif;?>
                     <?php if ($site_slogan): ?>
-                    <h2 class="site-slogan"><?php print $site_slogan; ?></h2>
-                    <?php endif; ?>
-                    <?php endif; ?>
-                </div>
+                        <h2 class="site-slogan"><?php print $site_slogan;?></h2>
+                    <?php endif;?>
+                <?php endif;?>
                 <?php print render($page['branding']); ?>
             </div>
-            <?php print render($page['header']); ?>
-            <?php print render($page['navigation']); ?>
+            <?php print render($page['header']);?>
+            <?php print render($page['navigation']);?>
         </header>
-
         <div class="l-main">
             <section class="l-banner">
             </section>
             <div class="l-content" role="main">
-                <?php print render($page['highlighted']); ?>
-                <?php print $breadcrumb; ?>
+                <?php print render($page['highlighted']);?>
+                <?php print $breadcrumb;?>
                 <a id="main-content"></a>
-                <?php print $messages; ?>
-                <?php print render($page['help']); ?>
-                <?php print render($tabs); ?>
+                <?php print $messages;?>
+                <?php print render($page['help']);?>
+                <?php print render($tabs);?>
                 <?php if ($action_links && !(in_array($node->type, array('article_post', 'panopoly_news_article', 'press_release')))): ?>
-                <ul class="action-links">
-                    <?php print render($action_links); ?>
-                </ul>
-                <?php endif; ?>
+                    <ul class="action-links">
+                        <?php print render($action_links);?>
+                    </ul>
+                <?php endif;?>
                 <main id="main-content">
                     <?php if (!($is_front)): ?>
-                    <div class="title-bar">
-                        <?php print render($title_prefix); ?>
-                        <?php if ($title): ?>
-                        <h1 class="page-title"><?php print $title; ?></h1>
-                        <?php endif; ?>
-                        <?php print render($title_suffix); ?>
-                    </div>
-                    <?php endif; ?>
-                    <?php print render($page['content']); ?>
-                    <?php print $feed_icons; ?>
+                        <div class="title-bar">
+                            <?php print render($title_prefix);?>
+                            <?php if ($title): ?>
+                            <h1 class="page-title"><?php print $title;?></h1>
+                            <?php endif;?>
+                            <?php print render($title_suffix);?>
+                        </div>
+                    <?php endif;?>
+                    <?php print render($page['content']);?>
+                    <?php print $feed_icons;?>
                 </main>
             </div>
-            <?php print render($page['sidebar_first']); ?>
-            <?php print render($page['sidebar_second']); ?>
+            <?php print render($page['sidebar_first']);?>
+            <?php print render($page['sidebar_second']);?>
         </div>
-        
-        <?php if (!empty($page['bottom1']) || !empty($page['bottom2']) || !empty($page['bottom3'])) : ?>
-        <section class="l-bottom">
-            <?php if (!empty($page['bottom1'])) { print render($page['bottom1']); } ?>
-            <?php if (!empty($page['bottom2'])) { print render($page['bottom2']); } ?>
-            <?php if (!empty($page['bottom3'])) { print render($page['bottom3']); } ?>
-        </section>
-        <?php endif; ?>
-
         <footer class="l-footer" role="contentinfo">
-            <?php print render($page['footer']); ?>
+            <?php print render($page['footer']);?>
         </footer>
     </div>
 </div>
