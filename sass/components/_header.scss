@@ -33,14 +33,17 @@
     display: inline-block;
     vertical-align: middle;
     float: left;
+    width: 100%;
 
     img {
     	height: 100%;
+        width: 100%;
         display: block;
     }
 
     @include breakpoint(1010px) {
         float: none;
+        width: auto;
     }
 }
 
@@ -60,10 +63,11 @@
 		font-style: normal;
 		font-weight: bold;
 		text-decoration: none;
-		font-size: 55px;
 		padding: 0;
 		margin: 0;
 		color: #221F11;
+        font-size: 55px;
+        @include fluid-type(400px, 1009px, 38px, 55px); // values inside are ($min_width,$max_width, $min_font, $max_font); 
 	}
 }
 
@@ -77,8 +81,9 @@
 	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Sans-Serif;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 2em;
 	text-decoration: none;
+    font-size: 2em;
+    @include fluid-type(400px, 1009px, 1.5em, 2em); // values inside are ($min_width,$max_width, $min_font, $max_font); 
 }
 
 .l-region--branding {
@@ -100,6 +105,10 @@
 
     @include breakpoint(1010px) {
         width: 150px;
+    }
+
+    #mailchimp-signup-subscribe-block-follow-larry-form {
+        text-align: center;
     }
 
     .block__title {

@@ -1,5 +1,5 @@
 /* No files to import found in variables/* */
-/* No files to import found in abstractions/* */
+/* Fluid Typography */
 body {
   margin: 0;
   color: #000000;
@@ -84,14 +84,17 @@ body {
   display: inline-block;
   vertical-align: middle;
   float: left;
+  width: 100%;
 }
 .site-logo img {
   height: 100%;
+  width: 100%;
   display: block;
 }
 @media (min-width: 1010px) {
   .site-logo {
     float: none;
+    width: auto;
   }
 }
 
@@ -111,10 +114,20 @@ body {
   font-style: normal;
   font-weight: bold;
   text-decoration: none;
-  font-size: 55px;
   padding: 0;
   margin: 0;
   color: #221F11;
+  font-size: 55px;
+}
+@media screen and (min-width: 400px) {
+  .site-name a {
+    font-size: calc(38px + 17 * ((100vw - 400px) / 609));
+  }
+}
+@media screen and (min-width: 1009px) {
+  .site-name a {
+    font-size: 55px;
+  }
 }
 
 .site-slogan {
@@ -127,8 +140,8 @@ body {
   font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Sans-Serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 2em;
   text-decoration: none;
+  font-size: 2em;
 }
 
 .l-region--branding {
@@ -153,6 +166,9 @@ body {
   #block-panels-mini-follow-block {
     width: 150px;
   }
+}
+#block-panels-mini-follow-block #mailchimp-signup-subscribe-block-follow-larry-form {
+  text-align: center;
 }
 #block-panels-mini-follow-block .block__title {
   min-height: 25px;
