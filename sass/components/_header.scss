@@ -50,6 +50,11 @@
 .sitename-and-slogan {
     display: inline-block;
     flex: 1 1 400px;
+    vertical-align: top;
+
+    @include breakpoint(605px) {
+        vertical-align: middle;
+    }
 }
 
 .site-name {
@@ -88,7 +93,11 @@
 
 .l-region--branding {
     overflow: auto;
+    width: 100%;
 
+    @include breakpoint(1010px) {
+        width: auto;
+    }
     @include breakpoint(1010px) {
         overflow: unset;
     }

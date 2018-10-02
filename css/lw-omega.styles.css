@@ -101,6 +101,12 @@ body {
 .sitename-and-slogan {
   display: inline-block;
   flex: 1 1 400px;
+  vertical-align: top;
+}
+@media (min-width: 605px) {
+  .sitename-and-slogan {
+    vertical-align: middle;
+  }
 }
 
 .site-name {
@@ -156,6 +162,12 @@ body {
 
 .l-region--branding {
   overflow: auto;
+  width: 100%;
+}
+@media (min-width: 1010px) {
+  .l-region--branding {
+    width: auto;
+  }
 }
 @media (min-width: 1010px) {
   .l-region--branding {
