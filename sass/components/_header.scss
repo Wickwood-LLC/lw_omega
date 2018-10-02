@@ -44,13 +44,15 @@
 
     @include breakpoint(605px) {
         margin-right: 1em;
-        float: left;
         width: 21%;
 
         img {
             width: 100%;
             display: block;
         }
+    }
+    @include breakpoint(650px) {
+        float: left;
     }
     @include breakpoint(1010px) {
         float: none;
