@@ -46,6 +46,7 @@
 
 .sitename-and-slogan {
     display: inline-block;
+    flex: 1 1 400px;
 }
 
 .site-name {
@@ -91,6 +92,7 @@
     margin: 5px;
     padding: 5px;
     width: auto;
+    box-sizing: border-box;
 
     @include breakpoint(840px) {
         width: 150px;

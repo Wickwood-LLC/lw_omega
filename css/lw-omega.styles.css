@@ -97,6 +97,7 @@ body {
 
 .sitename-and-slogan {
   display: inline-block;
+  flex: 1 1 400px;
 }
 
 .site-name {
@@ -141,6 +142,7 @@ body {
   margin: 5px;
   padding: 5px;
   width: auto;
+  box-sizing: border-box;
 }
 @media (min-width: 840px) {
   #block-panels-mini-follow-block {
