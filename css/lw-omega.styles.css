@@ -84,7 +84,7 @@ body {
   display: inline-block;
   vertical-align: middle;
   float: left;
-  width: 100%;
+  width: 21%;
 }
 .site-logo img {
   height: 100%;
@@ -142,6 +142,16 @@ body {
   font-weight: bold;
   text-decoration: none;
   font-size: 2em;
+}
+@media screen and (min-width: 400px) {
+  .site-slogan {
+    font-size: calc(24px + 8 * ((100vw - 400px) / 609));
+  }
+}
+@media screen and (min-width: 1009px) {
+  .site-slogan {
+    font-size: 32px;
+  }
 }
 
 .l-region--branding {
