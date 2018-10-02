@@ -54,6 +54,8 @@ body {
   border-radius: 5px;
   margin-bottom: 5px;
   position: relative;
+  display: inline-block;
+  width: 100%;
 }
 .l-branding:before {
   position: absolute;
@@ -68,6 +70,12 @@ body {
   background-position: top center;
   background-size: cover;
 }
+@media (min-width: 840px) {
+  .l-branding {
+    display: flex;
+    align-items: center;
+  }
+}
 
 .site-logo {
   margin-right: 1em;
@@ -75,15 +83,20 @@ body {
   position: relative;
   display: inline-block;
   vertical-align: middle;
+  float: left;
 }
 .site-logo img {
   height: 100%;
   display: block;
 }
+@media (min-width: 840px) {
+  .site-logo {
+    float: none;
+  }
+}
 
 .sitename-and-slogan {
   display: inline-block;
-  vertical-align: middle;
 }
 
 .site-name {
@@ -118,7 +131,7 @@ body {
 }
 
 .l-region--branding {
-  float: right;
+  overflow: auto;
 }
 
 #block-panels-mini-follow-block {
@@ -127,7 +140,12 @@ body {
   border-radius: 5px;
   margin: 5px;
   padding: 5px;
-  width: 150px;
+  width: auto;
+}
+@media (min-width: 840px) {
+  #block-panels-mini-follow-block {
+    width: 150px;
+  }
 }
 #block-panels-mini-follow-block .block__title {
   min-height: 25px;
@@ -139,10 +157,21 @@ body {
   white-space: nowrap;
   text-align: center;
 }
+#block-panels-mini-follow-block .block__content {
+  display: flex;
+}
+#block-panels-mini-follow-block .block__content .panels-flexible-6 {
+  width: 100%;
+}
+#block-panels-mini-follow-block .mailchimp-newsletter-mergefields {
+  display: inline-block;
+}
 #block-panels-mini-follow-block .mailchimp-newsletter-mergefields .form-item {
   margin: 0;
   text-align: center;
   margin-bottom: .1em;
+  display: inline-block;
+  vertical-align: middle;
 }
 #block-panels-mini-follow-block .mailchimp-newsletter-mergefields .form-item label {
   font-weight: normal;
@@ -165,6 +194,8 @@ body {
 #block-panels-mini-follow-block #edit-actions {
   text-align: center;
   margin: 0.5em 0;
+  display: inline-block;
+  vertical-align: middle;
 }
 #block-panels-mini-follow-block #edit-actions input {
   text-decoration: none;
