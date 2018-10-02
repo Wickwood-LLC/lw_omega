@@ -17,6 +17,7 @@ body {
   background-position: bottom left;
   background-attachment: fixed;
   display: flex;
+  min-height: calc(100vh - 2em);
 }
 
 .l-page-inner {
@@ -58,7 +59,7 @@ body {
   position: absolute;
   display: block;
   content: ' ';
-  z-index: 1;
+  z-index: 0;
   top: 0;
   width: 100%;
   height: 100%;
@@ -77,6 +78,7 @@ body {
 }
 .site-logo img {
   height: 100%;
+  display: block;
 }
 
 .sitename-and-slogan {
