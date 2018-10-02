@@ -125,10 +125,6 @@ body {
   .sitename-and-slogan {
     width: auto;
     text-align: left;
-  }
-}
-@media (min-width: 605px) {
-  .sitename-and-slogan {
     vertical-align: middle;
   }
 }

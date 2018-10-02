@@ -70,8 +70,6 @@
     @include breakpoint(605px) {
         width: auto;
         text-align: left;
-    }
-    @include breakpoint(605px) {
         vertical-align: middle;
     }
 }
