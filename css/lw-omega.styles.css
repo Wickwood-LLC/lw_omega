@@ -78,18 +78,30 @@ body {
 }
 
 .site-logo {
-  margin-right: 1em;
   height: 100%;
   position: relative;
   display: inline-block;
   vertical-align: middle;
-  float: left;
-  width: 21%;
+  float: none;
+  width: 100%;
+  text-align: center;
+  margin: 0;
 }
 .site-logo img {
   height: 100%;
-  width: 100%;
-  display: block;
+  width: 100px;
+  display: inline-block;
+}
+@media (min-width: 605px) {
+  .site-logo {
+    margin-right: 1em;
+    float: left;
+    width: 21%;
+  }
+  .site-logo img {
+    width: 100%;
+    display: block;
+  }
 }
 @media (min-width: 1010px) {
   .site-logo {
@@ -102,6 +114,14 @@ body {
   display: inline-block;
   flex: 1 1 400px;
   vertical-align: top;
+  width: 100%;
+  text-align: center;
+}
+@media (min-width: 605px) {
+  .sitename-and-slogan {
+    width: auto;
+    text-align: left;
+  }
 }
 @media (min-width: 605px) {
   .sitename-and-slogan {
@@ -147,6 +167,7 @@ body {
   font-style: normal;
   font-weight: bold;
   text-decoration: none;
+  text-align: center;
   font-size: 24px;
 }
 @media screen and (min-width: 600px) {
@@ -159,12 +180,17 @@ body {
     font-size: 32px;
   }
 }
+@media (min-width: 605px) {
+  .site-slogan {
+    text-align: left;
+  }
+}
 
 .l-region--branding {
   overflow: auto;
   width: 100%;
 }
-@media (min-width: 1010px) {
+@media (min-width: 605px) {
   .l-region--branding {
     width: auto;
   }

@@ -27,20 +27,31 @@
 }
 
 .site-logo {
-    margin-right: 1em;
     height: 100%;
     position: relative;
     display: inline-block;
     vertical-align: middle;
-    float: left;
-    width: 21%;
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin: 0;
 
     img {
     	height: 100%;
-        width: 100%;
-        display: block;
+        width: 100px;
+        display: inline-block;
     }
 
+    @include breakpoint(605px) {
+        margin-right: 1em;
+        float: left;
+        width: 21%;
+
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
     @include breakpoint(1010px) {
         float: none;
         width: auto;
@@ -51,7 +62,13 @@
     display: inline-block;
     flex: 1 1 400px;
     vertical-align: top;
+    width: 100%;
+    text-align: center;
 
+    @include breakpoint(605px) {
+        width: auto;
+        text-align: left;
+    }
     @include breakpoint(605px) {
         vertical-align: middle;
     }
@@ -87,15 +104,20 @@
 	font-style: normal;
 	font-weight: bold;
 	text-decoration: none;
+    text-align: center;
     font-size: 24px;
     @include fluid-type(600px, 1009px, 24px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font); 
+
+    @include breakpoint(605px) {
+        text-align: left;
+    }
 }
 
 .l-region--branding {
     overflow: auto;
     width: 100%;
 
-    @include breakpoint(1010px) {
+    @include breakpoint(605px) {
         width: auto;
     }
     @include breakpoint(1010px) {
