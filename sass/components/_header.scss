@@ -66,7 +66,7 @@
 		padding: 0;
 		margin: 0;
 		color: #221F11;
-        font-size: 55px;
+        font-size: 38px;
         @include fluid-type(400px, 1009px, 38px, 55px); // values inside are ($min_width,$max_width, $min_font, $max_font); 
 	}
 }
@@ -82,7 +82,7 @@
 	font-style: normal;
 	font-weight: bold;
 	text-decoration: none;
-    font-size: 2em;
+    font-size: 24px;
     @include fluid-type(400px, 1009px, 24px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font); 
 }
 

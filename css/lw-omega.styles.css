@@ -117,7 +117,7 @@ body {
   padding: 0;
   margin: 0;
   color: #221F11;
-  font-size: 55px;
+  font-size: 38px;
 }
 @media screen and (min-width: 400px) {
   .site-name a {
@@ -141,7 +141,7 @@ body {
   font-style: normal;
   font-weight: bold;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 24px;
 }
 @media screen and (min-width: 400px) {
   .site-slogan {
