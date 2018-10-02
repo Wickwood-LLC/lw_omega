@@ -20,7 +20,7 @@
         background-size: cover;
     }
 
-    @include breakpoint(840px) {
+    @include breakpoint(1010px) {
         display: flex;
         align-items: center;
     }
@@ -39,7 +39,7 @@
         display: block;
     }
 
-    @include breakpoint(840px) {
+    @include breakpoint(1010px) {
         float: none;
     }
 }
@@ -83,6 +83,10 @@
 
 .l-region--branding {
     overflow: auto;
+
+    @include breakpoint(1010px) {
+        overflow: unset;
+    }
 }
 
 #block-panels-mini-follow-block {
@@ -94,7 +98,7 @@
     width: auto;
     box-sizing: border-box;
 
-    @include breakpoint(840px) {
+    @include breakpoint(1010px) {
         width: 150px;
     }
 
