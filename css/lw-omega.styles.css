@@ -83,9 +83,9 @@ body {
   display: inline-block;
   vertical-align: middle;
   float: none;
-  width: 100%;
+  width: 100px;
   text-align: center;
-  margin: 0;
+  margin-right: 0.5em;
 }
 .site-logo img {
   height: 100%;
