@@ -323,6 +323,14 @@ body {
   float: none;
 }
 
+.view-nodequeue-1 .views-row .node__title {
+  text-align: center;
+}
+.view-nodequeue-1 .views-row .node__title a {
+  text-decoration: none;
+  color: black;
+}
+
 #block-superfish-1 {
   display: inline-block;
   width: 100%;
