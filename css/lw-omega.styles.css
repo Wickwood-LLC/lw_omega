@@ -4,6 +4,19 @@ a {
   text-decoration: none;
 }
 
+blockquote {
+  background-color: #E9E4D3;
+  background-image: url(../images/postquote.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  overflow: auto;
+  clear: both;
+  margin: 10px;
+  margin-left: 50px;
+  padding: 0;
+  padding-left: 28px;
+}
+
 body {
   margin: 0;
   color: #000000;
