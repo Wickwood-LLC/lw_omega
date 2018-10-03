@@ -51,11 +51,22 @@
 	        margin-bottom: 1em;
 	    }
 	}
+
+	.node__links {
+	    text-align: right;
+	    font-style: italic;
+
+	    li {
+	    	display: inline-block;
+	    	float: none;
+	    }
+	}
 }
 
 .view-list-of-published-articles {
 	.node__links {
 		text-align: center;
+		font-style: italic;
 		margin-top: 0.5em;
 
 		li {
