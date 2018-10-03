@@ -366,13 +366,13 @@ body {
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper div.panel-col-last .inside {
   margin: 0 0 1em .5em;
 }
-.view-nodequeue-1 .panel-2col-stacked .center-wrapper .field-name-field-book-cover {
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-field-book-cover {
   text-align: center;
 }
-.view-nodequeue-1 .panel-2col-stacked .center-wrapper .field-name-field-book-cover img {
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-field-book-cover img {
   margin: 10px 15px;
 }
-.view-nodequeue-1 .panel-2col-stacked .center-wrapper .field-name-field-author {
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-field-author {
   font-weight: bold;
   margin-bottom: 1em;
 }
