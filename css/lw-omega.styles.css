@@ -118,7 +118,7 @@ body {
   display: inline-block;
   flex: 1 1 400px;
   vertical-align: top;
-  width: 100%;
+  width: calc(100% - (100px + 1em));
   text-align: center;
 }
 @media (min-width: 605px) {
