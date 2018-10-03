@@ -344,11 +344,18 @@ body {
 .front .node-published-books .panel-2col-stacked .center-wrapper div.panel-col-last {
   width: 65%;
 }
+.front .node-published-books .panel-2col-stacked .center-wrapper div.panel-col-last .inside {
+  margin: 0 0 1em .5em;
+}
 .front .node-published-books .panel-2col-stacked .center-wrapper .field-name-field-book-cover {
   text-align: center;
 }
 .front .node-published-books .panel-2col-stacked .center-wrapper .field-name-field-book-cover img {
   margin: 10px 15px;
+}
+.front .node-published-books .panel-2col-stacked .center-wrapper .field-name-field-author {
+  font-weight: bold;
+  margin-bottom: 1em;
 }
 
 .view-nodequeue-1 .views-row .node__title,
