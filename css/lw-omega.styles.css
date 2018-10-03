@@ -35,6 +35,10 @@ body {
   padding: 7px;
 }
 
+.l-main {
+  font-size: 14px;
+}
+
 .boxed {
   border-radius: 5px;
   border: 1px solid #c5bc90;
@@ -327,12 +331,51 @@ body {
   float: none;
 }
 
-.view-nodequeue-1 .views-row .node__title {
+.front .block--views .block__title {
   text-align: center;
 }
-.view-nodequeue-1 .views-row .node__title a {
+.front .node-published-books .panel-2col-stacked .center-wrapper .panel-col-first {
+  width: 30%;
+  margin-left: 3%;
+}
+.front .node-published-books .panel-2col-stacked .center-wrapper .panel-col-first .inside {
+  margin: 0 .5em 1em 0;
+}
+.front .node-published-books .panel-2col-stacked .center-wrapper div.panel-col-last {
+  width: 65%;
+}
+.front .node-published-books .panel-2col-stacked .center-wrapper .field-name-field-book-cover {
+  text-align: center;
+}
+.front .node-published-books .panel-2col-stacked .center-wrapper .field-name-field-book-cover img {
+  margin: 10px 15px;
+}
+
+.view-nodequeue-1 .views-row .node__title,
+.view-nodequeue-1 .views-row .field--name-title,
+.view-nodequeue-1 .views-row .field--name-field-teaser-title-link,
+.view-list-of-published-articles .views-row .node__title,
+.view-list-of-published-articles .views-row .field--name-title,
+.view-list-of-published-articles .views-row .field--name-field-teaser-title-link {
+  text-align: center;
+}
+.view-nodequeue-1 .views-row .node__title a,
+.view-nodequeue-1 .views-row .field--name-title a,
+.view-nodequeue-1 .views-row .field--name-field-teaser-title-link a,
+.view-list-of-published-articles .views-row .node__title a,
+.view-list-of-published-articles .views-row .field--name-title a,
+.view-list-of-published-articles .views-row .field--name-field-teaser-title-link a {
   text-decoration: none;
   color: black;
+}
+
+.view-list-of-published-articles .node__links {
+  text-align: center;
+  margin-top: 0.5em;
+}
+.view-list-of-published-articles .node__links li {
+  display: inline-block;
+  float: none;
 }
 
 #block-superfish-1 {
