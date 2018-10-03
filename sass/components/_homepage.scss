@@ -2,8 +2,26 @@
 	.block--views .block__title {
 		text-align: center;
 	}
+}
 
-	.node-published-books .panel-2col-stacked .center-wrapper {
+.view-nodequeue-1,
+.view-list-of-published-articles {
+	.views-row {
+		.node__title,
+		.field--name-title,
+		.field--name-field-teaser-title-link {
+			text-align: center;
+
+			a {
+				text-decoration: none;
+				color: black;
+			}
+		}
+	}
+}
+
+.view-nodequeue-1 {
+	.panel-2col-stacked .center-wrapper {
 		.panel-col-first {
 		    width: 30%;
 		    margin-left: 3%;
@@ -32,22 +50,6 @@
 	        font-weight: bold;
 	        margin-bottom: 1em;
 	    }
-	}
-}
-
-.view-nodequeue-1,
-.view-list-of-published-articles {
-	.views-row {
-		.node__title,
-		.field--name-title,
-		.field--name-field-teaser-title-link {
-			text-align: center;
-
-			a {
-				text-decoration: none;
-				color: black;
-			}
-		}
 	}
 }
 

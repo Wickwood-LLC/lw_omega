@@ -334,29 +334,6 @@ body {
 .front .block--views .block__title {
   text-align: center;
 }
-.front .node-published-books .panel-2col-stacked .center-wrapper .panel-col-first {
-  width: 30%;
-  margin-left: 3%;
-}
-.front .node-published-books .panel-2col-stacked .center-wrapper .panel-col-first .inside {
-  margin: 0 .5em 1em 0;
-}
-.front .node-published-books .panel-2col-stacked .center-wrapper div.panel-col-last {
-  width: 65%;
-}
-.front .node-published-books .panel-2col-stacked .center-wrapper div.panel-col-last .inside {
-  margin: 0 0 1em .5em;
-}
-.front .node-published-books .panel-2col-stacked .center-wrapper .field-name-field-book-cover {
-  text-align: center;
-}
-.front .node-published-books .panel-2col-stacked .center-wrapper .field-name-field-book-cover img {
-  margin: 10px 15px;
-}
-.front .node-published-books .panel-2col-stacked .center-wrapper .field-name-field-author {
-  font-weight: bold;
-  margin-bottom: 1em;
-}
 
 .view-nodequeue-1 .views-row .node__title,
 .view-nodequeue-1 .views-row .field--name-title,
@@ -374,6 +351,30 @@ body {
 .view-list-of-published-articles .views-row .field--name-field-teaser-title-link a {
   text-decoration: none;
   color: black;
+}
+
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper .panel-col-first {
+  width: 30%;
+  margin-left: 3%;
+}
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper .panel-col-first .inside {
+  margin: 0 .5em 1em 0;
+}
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper div.panel-col-last {
+  width: 65%;
+}
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper div.panel-col-last .inside {
+  margin: 0 0 1em .5em;
+}
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper .field-name-field-book-cover {
+  text-align: center;
+}
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper .field-name-field-book-cover img {
+  margin: 10px 15px;
+}
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper .field-name-field-author {
+  font-weight: bold;
+  margin-bottom: 1em;
 }
 
 .view-list-of-published-articles .node__links {
