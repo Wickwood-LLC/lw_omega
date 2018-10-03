@@ -94,7 +94,7 @@
 		color: #221F11;
         display: inline-block;
         text-align: center;
-        font-size: 38px;
+        font-size: 24px;
         @include fluid-type(600px, 1009px, 38px, 55px); // values inside are ($min_width,$max_width, $min_font, $max_font); 
         @include fluid-type(350px, 599px, 24px, 38px); // values inside are ($min_width,$max_width, $min_font, $max_font); 
 
@@ -116,7 +116,7 @@
 	font-weight: bold;
 	text-decoration: none;
     text-align: center;
-    font-size: 24px;
+    font-size: 12px;
     @include fluid-type(600px, 1009px, 24px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     @include fluid-type(350px, 599px, 12px, 24px); // values inside are ($min_width,$max_width, $min_font, $max_font); 
 }
