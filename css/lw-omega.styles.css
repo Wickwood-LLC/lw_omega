@@ -120,6 +120,7 @@ body {
   vertical-align: top;
   width: calc(100% - (100px + 1em));
   text-align: center;
+  vertical-align: middle;
 }
 @media (min-width: 605px) {
   .sitename-and-slogan {
@@ -162,6 +163,16 @@ body {
     font-size: 55px;
   }
 }
+@media screen and (min-width: 350px) {
+  .site-name a {
+    font-size: calc(24px + 14 * ((100vw - 350px) / 249));
+  }
+}
+@media screen and (min-width: 599px) {
+  .site-name a {
+    font-size: 38px;
+  }
+}
 @media (min-width: 605px) {
   .site-name a {
     text-align: left;
@@ -190,6 +201,16 @@ body {
 @media screen and (min-width: 1009px) {
   .site-slogan {
     font-size: 32px;
+  }
+}
+@media screen and (min-width: 350px) {
+  .site-slogan {
+    font-size: calc(12px + 12 * ((100vw - 350px) / 249));
+  }
+}
+@media screen and (min-width: 599px) {
+  .site-slogan {
+    font-size: 24px;
   }
 }
 
