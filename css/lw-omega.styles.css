@@ -123,9 +123,14 @@ body {
 }
 @media (min-width: 605px) {
   .sitename-and-slogan {
-    width: auto;
-    text-align: left;
+    width: calc(100% - (21% + 1em));
+    text-align: center;
     vertical-align: middle;
+  }
+}
+@media (min-width: 1010px) {
+  .sitename-and-slogan {
+    width: auto;
   }
 }
 
@@ -185,11 +190,6 @@ body {
 @media screen and (min-width: 1009px) {
   .site-slogan {
     font-size: 32px;
-  }
-}
-@media (min-width: 605px) {
-  .site-slogan {
-    text-align: left;
   }
 }
 

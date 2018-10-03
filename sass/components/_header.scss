@@ -68,9 +68,12 @@
     text-align: center;
 
     @include breakpoint(605px) {
-        width: auto;
-        text-align: left;
+        width: calc(100% - (21% + 1em));
+        text-align: center;
         vertical-align: middle;
+    }
+    @include breakpoint(1010px) {
+        width: auto;
     }
 }
 
@@ -113,10 +116,6 @@
     text-align: center;
     font-size: 24px;
     @include fluid-type(600px, 1009px, 24px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font); 
-
-    @include breakpoint(605px) {
-        text-align: left;
-    }
 }
 
 .l-region--branding {
