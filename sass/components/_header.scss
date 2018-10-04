@@ -95,11 +95,10 @@
         display: inline-block;
         text-align: center;
         font-size: 24px;
-        @include fluid-type(600px, 1009px, 38px, 55px); // values inside are ($min_width,$max_width, $min_font, $max_font); 
         @include fluid-type(350px, 599px, 24px, 38px); // values inside are ($min_width,$max_width, $min_font, $max_font); 
-
-        @include breakpoint(605px) {
-            text-align: left;
+        @include fluid-type(600px, 1009px, 38px, 55px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+        @include breakpoint(1010px) {
+        	font-size: 55px;
         }
 	}
 }
@@ -117,8 +116,11 @@
 	text-decoration: none;
     text-align: center;
     font-size: 12px;
-    @include fluid-type(600px, 1009px, 24px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     @include fluid-type(350px, 599px, 12px, 24px); // values inside are ($min_width,$max_width, $min_font, $max_font); 
+    @include fluid-type(600px, 1009px, 24px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include breakpoint(1010px) {
+    	font-size: 32px;
+    }
 }
 
 .l-region--branding {

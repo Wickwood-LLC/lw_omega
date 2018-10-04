@@ -205,16 +205,6 @@ body {
   text-align: center;
   font-size: 24px;
 }
-@media screen and (min-width: 600px) {
-  .site-name a {
-    font-size: calc(38px + 17 * ((100vw - 600px) / 409));
-  }
-}
-@media screen and (min-width: 1009px) {
-  .site-name a {
-    font-size: 55px;
-  }
-}
 @media screen and (min-width: 350px) {
   .site-name a {
     font-size: calc(24px + 14 * ((100vw - 350px) / 249));
@@ -225,9 +215,19 @@ body {
     font-size: 38px;
   }
 }
-@media (min-width: 605px) {
+@media screen and (min-width: 600px) {
   .site-name a {
-    text-align: left;
+    font-size: calc(38px + 17 * ((100vw - 600px) / 409));
+  }
+}
+@media screen and (min-width: 1009px) {
+  .site-name a {
+    font-size: 55px;
+  }
+}
+@media (min-width: 1010px) {
+  .site-name a {
+    font-size: 55px;
   }
 }
 
@@ -245,6 +245,16 @@ body {
   text-align: center;
   font-size: 12px;
 }
+@media screen and (min-width: 350px) {
+  .site-slogan {
+    font-size: calc(12px + 12 * ((100vw - 350px) / 249));
+  }
+}
+@media screen and (min-width: 599px) {
+  .site-slogan {
+    font-size: 24px;
+  }
+}
 @media screen and (min-width: 600px) {
   .site-slogan {
     font-size: calc(24px + 8 * ((100vw - 600px) / 409));
@@ -255,14 +265,9 @@ body {
     font-size: 32px;
   }
 }
-@media screen and (min-width: 350px) {
+@media (min-width: 1010px) {
   .site-slogan {
-    font-size: calc(12px + 12 * ((100vw - 350px) / 249));
-  }
-}
-@media screen and (min-width: 599px) {
-  .site-slogan {
-    font-size: 24px;
+    font-size: 32px;
   }
 }
 
@@ -380,18 +385,14 @@ body {
 }
 
 .view-nodequeue-1 .views-row .node__title,
-.view-nodequeue-1 .views-row .field--name-title,
 .view-nodequeue-1 .views-row .field--name-field-teaser-title-link,
 .view-list-of-published-articles .views-row .node__title,
-.view-list-of-published-articles .views-row .field--name-title,
 .view-list-of-published-articles .views-row .field--name-field-teaser-title-link {
   text-align: center;
 }
 .view-nodequeue-1 .views-row .node__title a,
-.view-nodequeue-1 .views-row .field--name-title a,
 .view-nodequeue-1 .views-row .field--name-field-teaser-title-link a,
 .view-list-of-published-articles .views-row .node__title a,
-.view-list-of-published-articles .views-row .field--name-title a,
 .view-list-of-published-articles .views-row .field--name-field-teaser-title-link a {
   text-decoration: none;
   color: black;
