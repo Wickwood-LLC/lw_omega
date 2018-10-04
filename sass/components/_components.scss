@@ -27,3 +27,17 @@
 		float: none;
 	}
 }
+
+#block-block-4 {
+	font-size: 11px;
+	text-align: center;
+	padding: 10px;
+	color: #221F11;
+	background: linear-gradient(to bottom, #e6e2d0 0%,#d6d0b2 100%);
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+
+	p {
+		margin: 0;
+	}
+}
