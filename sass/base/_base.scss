@@ -49,3 +49,17 @@ body {
 .l-main {
     font-size: 14px;
 }
+
+.media-image {
+    margin: 10px 15px;
+}
+
+.node__links {
+    text-align: right;
+    font-style: italic;
+
+    li {
+        display: inline-block;
+        float: none;
+    }
+}

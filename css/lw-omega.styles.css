@@ -52,6 +52,19 @@ body {
   font-size: 14px;
 }
 
+.media-image {
+  margin: 10px 15px;
+}
+
+.node__links {
+  text-align: right;
+  font-style: italic;
+}
+.node__links li {
+  display: inline-block;
+  float: none;
+}
+
 .boxed {
   border-radius: 5px;
   border: 1px solid #c5bc90;
@@ -423,17 +436,6 @@ body {
 }
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-node-link {
   font-style: italic;
-}
-.view-nodequeue-1 .node__links {
-  text-align: right;
-  font-style: italic;
-}
-.view-nodequeue-1 .node__links li {
-  display: inline-block;
-  float: none;
-}
-.view-nodequeue-1 .media-image {
-  margin: 10px 15px;
 }
 
 .view-list-of-published-articles .node__links {
