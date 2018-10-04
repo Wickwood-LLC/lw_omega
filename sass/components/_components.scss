@@ -50,3 +50,19 @@
 		}
 	}
 }
+
+.media-gallery-media {
+	display: block;
+	margin: 0;
+	width: 100%;
+
+	.field__items {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+
+		.field__item {
+			flex: 1 1 250px;
+		}
+	}
+}
