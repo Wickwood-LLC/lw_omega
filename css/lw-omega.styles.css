@@ -70,6 +70,17 @@ body {
   overflow: auto;
 }
 
+#block-widgets-s-socialmedia-share-default {
+  text-align: center;
+  margin-top: .5em;
+}
+#block-widgets-s-socialmedia-share-default .widgets-element {
+  margin-right: 4px;
+  margin-left: 4px;
+  display: inline-block;
+  float: none;
+}
+
 .l-branding {
   background: linear-gradient(to bottom, #eed889 0%, #e3be3c 50%, #eed889 100%);
   border-radius: 5px;
