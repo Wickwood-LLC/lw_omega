@@ -389,6 +389,9 @@ body {
   font-weight: bold;
   margin-bottom: 1em;
 }
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-node-link {
+  font-style: italic;
+}
 .view-nodequeue-1 .node__links {
   text-align: right;
   font-style: italic;
@@ -409,6 +412,11 @@ body {
 .view-list-of-published-articles .node__links li {
   display: inline-block;
   float: none;
+}
+.view-list-of-published-articles .more-link {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
 }
 
 #block-superfish-1 {
