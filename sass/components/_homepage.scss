@@ -86,4 +86,14 @@
 		font-size: 16px;
 		text-align: center;
 	}
+
+	.pager {
+		li {
+		    display: inline-block;
+		    font-size: 16px;
+		}
+		.pager-current {
+			font-weight: bold;
+		}
+	}
 }

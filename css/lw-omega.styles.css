@@ -97,7 +97,7 @@ body {
   color: #221F11;
   text-decoration: underline;
 }
-#block-block-4 a :hover {
+#block-block-4 a:hover {
   text-decoration: none;
 }
 
@@ -448,6 +448,13 @@ body {
   font-weight: bold;
   font-size: 16px;
   text-align: center;
+}
+.view-list-of-published-articles .pager li {
+  display: inline-block;
+  font-size: 16px;
+}
+.view-list-of-published-articles .pager .pager-current {
+  font-weight: bold;
 }
 
 #block-superfish-1 {
