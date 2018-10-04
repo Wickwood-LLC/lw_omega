@@ -40,4 +40,13 @@
 	p {
 		margin: 0;
 	}
+
+	a {
+		color: #221F11;
+		text-decoration: underline;
+
+		:hover {
+			text-decoration: none;
+		}
+	}
 }

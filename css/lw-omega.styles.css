@@ -93,6 +93,13 @@ body {
 #block-block-4 p {
   margin: 0;
 }
+#block-block-4 a {
+  color: #221F11;
+  text-decoration: underline;
+}
+#block-block-4 a :hover {
+  text-decoration: none;
+}
 
 .l-branding {
   background: linear-gradient(to bottom, #eed889 0%, #e3be3c 50%, #eed889 100%);
