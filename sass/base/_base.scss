@@ -50,6 +50,13 @@ body {
     font-size: 14px;
 }
 
+.page-title {
+    margin: 3px 0;
+    line-height: 1em;
+    font-size: 22px;
+    text-align: center;
+}
+
 .media-element {
     margin: 10px 15px;
 }
@@ -62,5 +69,16 @@ body {
     li {
         display: inline-block;
         float: none;
+    }
+}
+
+.page-node {
+    main#main-content {
+        border-radius: 5px;
+        border: 1px solid #c5bc90;
+        margin: 10px;
+        padding: 1em;
+        background: rgb(246, 245, 238);
+        overflow: hidden;
     }
 }
