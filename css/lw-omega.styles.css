@@ -57,8 +57,9 @@ body {
 }
 
 .node__links {
-  text-align: right;
+  text-align: center;
   font-style: italic;
+  margin-top: 0.5em;
 }
 .node__links li {
   display: inline-block;
