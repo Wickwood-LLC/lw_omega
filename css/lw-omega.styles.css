@@ -165,6 +165,19 @@ body {
   margin-bottom: 0.5em;
 }
 
+.node.node--published-article-listing .field--name-field-article-publication-date {
+  text-align: center;
+}
+.node.node--published-article-listing .node__links {
+  text-align: right;
+  font-style: italic;
+  margin-top: 0.5em;
+}
+.node.node--published-article-listing .node__links li {
+  display: inline-block;
+  float: none;
+}
+
 .l-branding {
   background: linear-gradient(to bottom, #eed889 0%, #e3be3c 50%, #eed889 100%);
   border-radius: 5px;
@@ -515,18 +528,6 @@ body {
   float: none;
 }
 
-.view-list-of-published-articles .field--name-field-article-publication-date {
-  text-align: center;
-}
-.view-list-of-published-articles .node__links {
-  text-align: right;
-  font-style: italic;
-  margin-top: 0.5em;
-}
-.view-list-of-published-articles .node__links li {
-  display: inline-block;
-  float: none;
-}
 .view-list-of-published-articles .more-link {
   font-weight: bold;
   font-size: 16px;

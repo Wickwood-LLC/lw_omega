@@ -73,20 +73,6 @@ justify-content: center;
 }
 
 .view-list-of-published-articles {
-	.field--name-field-article-publication-date {
-		text-align: center;
-	}
-
-	.node__links {
-		text-align: right;
-		font-style: italic;
-		margin-top: 0.5em;
-
-		li {
-			display: inline-block;
-			float: none;
-		}
-	}
 	.more-link {
 		font-weight: bold;
 		font-size: 16px;
