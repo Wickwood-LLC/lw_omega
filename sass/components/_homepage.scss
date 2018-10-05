@@ -21,8 +21,11 @@
 
 .view-nodequeue-1 {
 	.panel-2col-stacked .center-wrapper {
+		display: flex;
+		flex-flow: row wrap;
+		
 		.panel-col-first {
-		    width: 30%;
+		    flex: 1 1 220px;
 		    margin-left: 3%;
 
 		    .inside {
@@ -31,7 +34,7 @@
 		}
 	
 	    div.panel-col-last {
-	        width: 65%;
+	        flex: 1 1 65%;
 
 	        .inside {
 	            margin: 0 0 1em .5em;
