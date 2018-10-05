@@ -145,6 +145,20 @@ body {
   flex: 1 1 250px;
 }
 
+.node-type-published-books main#main-content .panel-2col-stacked .center-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+.node-type-published-books main#main-content .panel-2col-stacked .panel-col-first {
+  flex: 1 1 30%;
+  min-width: 210px;
+  display: flex;
+  justify-content: center;
+}
+.node-type-published-books main#main-content .panel-2col-stacked .panel-col-last {
+  flex: 1 1 60%;
+}
+
 .l-branding {
   background: linear-gradient(to bottom, #eed889 0%, #e3be3c 50%, #eed889 100%);
   border-radius: 5px;
@@ -449,8 +463,7 @@ body {
 }
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .panel-col-first,
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper .panel-col-first {
-  flex: 1 1 220px;
-  margin-left: 3%;
+  flex: 0 0 220px;
 }
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .panel-col-first .inside,
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper .panel-col-first .inside {

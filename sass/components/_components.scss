@@ -66,3 +66,21 @@
 		}
 	}
 }
+
+.node-type-published-books {
+	main#main-content .panel-2col-stacked {
+		.center-wrapper {
+			display: flex;
+			flex-flow: row wrap;
+		}
+		.panel-col-first {
+			flex: 1 1 30%;
+			min-width: 210px;
+			display: flex;
+			justify-content: center;
+		}
+		.panel-col-last {
+			flex: 1 1 60%;
+		}
+	}
+}
