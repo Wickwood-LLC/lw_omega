@@ -19,11 +19,12 @@
 	}
 }
 
-.view-nodequeue-1 {
+.view-nodequeue-1,
+.view-nodequeue-2 {
 	.panel-2col-stacked .center-wrapper {
 		display: flex;
 		flex-flow: row wrap;
-		
+
 		.panel-col-first {
 		    flex: 1 1 220px;
 		    margin-left: 3%;
