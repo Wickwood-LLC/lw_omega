@@ -26,7 +26,10 @@
 		flex-flow: row wrap;
 
 		.panel-col-first {
-		    flex: 0 0 220px;
+		    flex: 1 1 30%;
+			min-width: 210px;
+display: flex;
+justify-content: center;
 
 		    .inside {
 		        margin: 0 .5em 1em 0;

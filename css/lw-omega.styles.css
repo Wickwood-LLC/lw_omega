@@ -469,7 +469,10 @@ body {
 }
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .panel-col-first,
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper .panel-col-first {
-  flex: 0 0 220px;
+  flex: 1 1 30%;
+  min-width: 210px;
+  display: flex;
+  justify-content: center;
 }
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .panel-col-first .inside,
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper .panel-col-first .inside {
