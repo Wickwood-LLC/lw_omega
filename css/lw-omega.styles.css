@@ -158,6 +158,14 @@ body {
 .node-type-published-books main#main-content .panel-2col-stacked .panel-col-last {
   flex: 1 1 60%;
 }
+.node-type-published-books main#main-content .panel-2col-stacked .field--name-field-teaser-title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
 
 .l-branding {
   background: linear-gradient(to bottom, #eed889 0%, #e3be3c 50%, #eed889 100%);
