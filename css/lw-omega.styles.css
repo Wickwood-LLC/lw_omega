@@ -94,6 +94,10 @@ body {
   overflow: hidden;
 }
 
+.inside {
+  margin: 0 !important;
+}
+
 .breadcrumb {
   border-radius: 5px;
   border: 1px solid #c5bc90;
