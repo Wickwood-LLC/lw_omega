@@ -3,6 +3,9 @@
 a {
   text-decoration: none;
 }
+a:hover {
+  text-decoration: underline;
+}
 
 blockquote {
   background-color: #E9E4D3;
@@ -498,6 +501,15 @@ body {
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper div.panel-col-last .inside,
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper div.panel-col-last .inside {
   margin: 0 0 1em .5em;
+}
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-title-field h2, .view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-title-field p,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-title-field h2,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-title-field p {
+  margin: 0;
+}
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-title-field a,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-title-field a {
+  color: black;
 }
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-field-book-cover,
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-field-book-cover {
