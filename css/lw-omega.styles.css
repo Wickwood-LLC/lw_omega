@@ -29,6 +29,109 @@ blockquote {
   }
 }
 
+h1 {
+  text-transform: none;
+  font-weight: 700;
+  border-bottom: none;
+  font-size: 24px;
+}
+@media screen and (min-width: 400px) {
+  h1 {
+    font-size: calc(24px + 8 * ((100vw - 400px) / 800));
+  }
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+h2 {
+  text-transform: none;
+  border-bottom: none;
+  font-size: 22px;
+}
+@media screen and (min-width: 400px) {
+  h2 {
+    font-size: calc(20px + 6 * ((100vw - 400px) / 800));
+  }
+}
+@media screen and (min-width: 1200px) {
+  h2 {
+    font-size: 26px;
+  }
+}
+
+h3 {
+  font-size: 14px;
+}
+@media screen and (min-width: 400px) {
+  h3 {
+    font-size: calc(14px + 4 * ((100vw - 400px) / 800));
+  }
+}
+@media screen and (min-width: 1200px) {
+  h3 {
+    font-size: 18px;
+  }
+}
+
+h4 {
+  font-size: 12px;
+}
+@media screen and (min-width: 400px) {
+  h4 {
+    font-size: calc(14px + 2 * ((100vw - 400px) / 800));
+  }
+}
+@media screen and (min-width: 1200px) {
+  h4 {
+    font-size: 16px;
+  }
+}
+
+h5 {
+  font-size: 10px;
+}
+@media screen and (min-width: 400px) {
+  h5 {
+    font-size: calc(10px + 4 * ((100vw - 400px) / 800));
+  }
+}
+@media screen and (min-width: 1200px) {
+  h5 {
+    font-size: 14px;
+  }
+}
+
+h6 {
+  font-size: 9px;
+}
+@media screen and (min-width: 400px) {
+  h6 {
+    font-size: calc(9px + 3 * ((100vw - 400px) / 800));
+  }
+}
+@media screen and (min-width: 1200px) {
+  h6 {
+    font-size: 12px;
+  }
+}
+
+p {
+  font-size: 13px;
+}
+@media screen and (min-width: 400px) {
+  p {
+    font-size: calc(13px + 5 * ((100vw - 400px) / 800));
+  }
+}
+@media screen and (min-width: 1200px) {
+  p {
+    font-size: 18px;
+  }
+}
+
 body {
   margin: 0;
   color: #000000;
