@@ -6,6 +6,10 @@ a {
     }
 }
 
+p {
+    text-align: justify;
+}
+
 blockquote {
     background-color: #E9E4D3;
     background-image: url(../images/postquote.png);
@@ -14,9 +18,13 @@ blockquote {
     overflow: auto;
     clear: both;
     margin: 10px;
-    margin-left: 50px;
     padding: 0;
     padding-left: 28px;
+    padding-right: 14px;
+
+    @include breakpoint(739px) {
+        margin-left: 50px;
+    }
 }
 
 body {

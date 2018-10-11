@@ -7,6 +7,10 @@ a:hover {
   text-decoration: underline;
 }
 
+p {
+  text-align: justify;
+}
+
 blockquote {
   background-color: #E9E4D3;
   background-image: url(../images/postquote.png);
@@ -15,9 +19,14 @@ blockquote {
   overflow: auto;
   clear: both;
   margin: 10px;
-  margin-left: 50px;
   padding: 0;
   padding-left: 28px;
+  padding-right: 14px;
+}
+@media (min-width: 739px) {
+  blockquote {
+    margin-left: 50px;
+  }
 }
 
 body {
@@ -89,7 +98,7 @@ body {
   border-radius: 5px;
   border: 1px solid #c5bc90;
   margin: 10px;
-  padding: 1em;
+  padding: 1em 2.8%;
   background: #f6f5ee;
   overflow: hidden;
 }
