@@ -10,7 +10,13 @@
 		.node__title,
 		.field--name-field-teaser-title-link {
 			text-align: center;
+			margin-bottom: .5em;
 
+			h2 {
+				font-size: 24px;
+				text-align: center;
+				font-weight: bold;
+			}
 			a {
 				text-decoration: none;
 				color: black;
@@ -45,6 +51,8 @@
 	    }
 
 	    .field--name-title-field {
+	    	margin-bottom: .2em;
+	    	
 	    	h2, p {
 	    		margin: 0;
 	    	}
