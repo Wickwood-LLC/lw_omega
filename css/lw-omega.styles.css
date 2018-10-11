@@ -476,8 +476,7 @@ body {
 .view-list-of-published-articles .views-row .node__title h2,
 .view-list-of-published-articles .views-row .field--name-field-teaser-title-link h2 {
   font-size: 24px;
-  text-align: center;
-  font-weight: bold;
+  margin: 0;
 }
 .view-nodequeue-1 .views-row .node__title a,
 .view-nodequeue-1 .views-row .field--name-field-teaser-title-link a,
@@ -485,6 +484,12 @@ body {
 .view-list-of-published-articles .views-row .field--name-field-teaser-title-link a {
   text-decoration: none;
   color: black;
+}
+.view-nodequeue-1 .views-row .node__title a:hover,
+.view-nodequeue-1 .views-row .field--name-field-teaser-title-link a:hover,
+.view-list-of-published-articles .views-row .node__title a:hover,
+.view-list-of-published-articles .views-row .field--name-field-teaser-title-link a:hover {
+  text-decoration: underline;
 }
 
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper,
