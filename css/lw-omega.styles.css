@@ -230,8 +230,6 @@ body {
 }
 
 #block-block-4 {
-  font-size: 11px;
-  text-align: center;
   padding: 10px;
   color: #221F11;
   background: linear-gradient(to bottom, #e6e2d0 0%, #d6d0b2 100%);
@@ -240,6 +238,8 @@ body {
 }
 #block-block-4 p {
   margin: 0;
+  font-size: 11px;
+  text-align: center;
 }
 #block-block-4 a {
   color: #221F11;
@@ -279,6 +279,14 @@ body {
 .node-type-published-books main#main-content .panel-2col-stacked .field--name-field-teaser-title {
   font-size: 24px;
   text-align: center;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+.node-type-published-books main#main-content .panel-2col-stacked .field--name-title-field {
+  margin-top: 0;
+  margin-bottom: .2em;
+}
+.node-type-published-books main#main-content .panel-2col-stacked .field--name-field-author {
   font-weight: bold;
   margin-bottom: 0.5em;
 }

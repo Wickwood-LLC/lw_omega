@@ -33,8 +33,6 @@
 }
 
 #block-block-4 {
-	font-size: 11px;
-	text-align: center;
 	padding: 10px;
 	color: #221F11;
 	background: linear-gradient(to bottom, #e6e2d0 0%,#d6d0b2 100%);
@@ -43,6 +41,8 @@
 
 	p {
 		margin: 0;
+		font-size: 11px;
+		text-align: center;
 	}
 
 	a {
@@ -90,6 +90,14 @@
 		.field--name-field-teaser-title {
 			font-size: 24px;
 			text-align: center;
+			font-weight: bold;
+			margin-bottom: 0.5em;
+		}
+		.field--name-title-field {
+			margin-top: 0;
+			margin-bottom: .2em;
+		}
+		.field--name-field-author {
 			font-weight: bold;
 			margin-bottom: 0.5em;
 		}
