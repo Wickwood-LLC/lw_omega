@@ -638,7 +638,7 @@ body {
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .node__title,
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-title-field,
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper .node__title {
-  margin-bottom: .2em;
+  margin-bottom: .5em;
 }
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-title-field h2, .view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-title-field p,
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .node__title h2,
@@ -702,7 +702,7 @@ body {
 }
 .view-nodequeue-1 .field--name-field-book-sub-title,
 .view-nodequeue-2 .field--name-field-book-sub-title {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   font-weight: bold;
   font-style: italic;
 }
