@@ -590,7 +590,6 @@ body {
 .view-nodequeue-1 .views-row .field--name-field-teaser-title-link h2,
 .view-list-of-published-articles .views-row .node__title h2,
 .view-list-of-published-articles .views-row .field--name-field-teaser-title-link h2 {
-  font-size: 24px;
   margin: 0;
 }
 .view-nodequeue-1 .views-row .node__title a,
@@ -642,7 +641,9 @@ body {
 }
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-field-teaser-title-link h2,
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-field-teaser-title-link h2 {
-  margin: 0;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: .5em;
 }
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-field-teaser-title-link a,
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-field-teaser-title-link a {
