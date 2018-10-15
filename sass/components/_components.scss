@@ -5,6 +5,10 @@
 	padding: 1em 2.8%;
 	background: rgb(246, 245, 238);
 	overflow: hidden;
+
+	.block__title {
+		background: url(../images/blockheader.png);
+	}
 }
 
 .inside {
