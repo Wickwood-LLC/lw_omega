@@ -37,12 +37,12 @@ h1 {
 }
 @media screen and (min-width: 400px) {
   h1 {
-    font-size: calc(24px + 8 * ((100vw - 400px) / 800));
+    font-size: calc(24px + 4 * ((100vw - 400px) / 800));
   }
 }
 @media screen and (min-width: 1200px) {
   h1 {
-    font-size: 32px;
+    font-size: 28px;
   }
 }
 
@@ -53,7 +53,7 @@ h2 {
 }
 @media screen and (min-width: 400px) {
   h2 {
-    font-size: calc(20px + 6 * ((100vw - 400px) / 800));
+    font-size: calc(22px + 4 * ((100vw - 400px) / 800));
   }
 }
 @media screen and (min-width: 1200px) {
@@ -63,72 +63,72 @@ h2 {
 }
 
 h3 {
-  font-size: 14px;
+  font-size: 18px;
 }
 @media screen and (min-width: 400px) {
   h3 {
-    font-size: calc(14px + 4 * ((100vw - 400px) / 800));
+    font-size: calc(18px + 4 * ((100vw - 400px) / 800));
   }
 }
 @media screen and (min-width: 1200px) {
   h3 {
-    font-size: 18px;
+    font-size: 22px;
   }
 }
 
 h4 {
-  font-size: 12px;
+  font-size: 16px;
 }
 @media screen and (min-width: 400px) {
   h4 {
-    font-size: calc(14px + 2 * ((100vw - 400px) / 800));
+    font-size: calc(16px + 4 * ((100vw - 400px) / 800));
   }
 }
 @media screen and (min-width: 1200px) {
   h4 {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
 h5 {
-  font-size: 10px;
+  font-size: 14px;
 }
 @media screen and (min-width: 400px) {
   h5 {
-    font-size: calc(10px + 4 * ((100vw - 400px) / 800));
+    font-size: calc(14px + 4 * ((100vw - 400px) / 800));
   }
 }
 @media screen and (min-width: 1200px) {
   h5 {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 
 h6 {
-  font-size: 9px;
+  font-size: 12px;
 }
 @media screen and (min-width: 400px) {
   h6 {
-    font-size: calc(9px + 3 * ((100vw - 400px) / 800));
+    font-size: calc(12px + 4 * ((100vw - 400px) / 800));
   }
 }
 @media screen and (min-width: 1200px) {
   h6 {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 
 p {
-  font-size: 13px;
+  font-size: 12px;
 }
 @media screen and (min-width: 400px) {
   p {
-    font-size: calc(13px + 5 * ((100vw - 400px) / 800));
+    font-size: calc(12px + 4 * ((100vw - 400px) / 800));
   }
 }
 @media screen and (min-width: 1200px) {
   p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
