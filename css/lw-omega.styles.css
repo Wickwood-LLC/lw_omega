@@ -673,23 +673,31 @@ body {
   font-style: italic;
 }
 .view-nodequeue-1 .field--name-field-teaser-title-link,
-.view-nodequeue-2 .field--name-field-teaser-title-link {
+.view-nodequeue-1 .node__title,
+.view-nodequeue-2 .field--name-field-teaser-title-link,
+.view-nodequeue-2 .node__title {
   text-align: center;
   margin-bottom: .5em;
 }
 .view-nodequeue-1 .field--name-field-teaser-title-link h2,
-.view-nodequeue-2 .field--name-field-teaser-title-link h2 {
+.view-nodequeue-1 .node__title h2,
+.view-nodequeue-2 .field--name-field-teaser-title-link h2,
+.view-nodequeue-2 .node__title h2 {
   text-align: center;
   margin-top: 0;
   margin-bottom: .5em;
 }
 .view-nodequeue-1 .field--name-field-teaser-title-link a,
-.view-nodequeue-2 .field--name-field-teaser-title-link a {
+.view-nodequeue-1 .node__title a,
+.view-nodequeue-2 .field--name-field-teaser-title-link a,
+.view-nodequeue-2 .node__title a {
   text-decoration: none;
   color: black;
 }
 .view-nodequeue-1 .field--name-field-teaser-title-link a:hover,
-.view-nodequeue-2 .field--name-field-teaser-title-link a:hover {
+.view-nodequeue-1 .node__title a:hover,
+.view-nodequeue-2 .field--name-field-teaser-title-link a:hover,
+.view-nodequeue-2 .node__title a:hover {
   text-decoration: underline;
 }
 .view-nodequeue-1 .node__links,
