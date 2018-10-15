@@ -46,7 +46,7 @@
             }
         }
 
-        &.active-trail a {
+        &.active-trail > a {
             border: 1px solid #9d8000;
             color: #070807;
             background: linear-gradient(to bottom, #edd576 0%, #e5c233 100%);

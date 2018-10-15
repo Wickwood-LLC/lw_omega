@@ -304,6 +304,21 @@ body {
   float: none;
 }
 
+table th {
+  text-align: center;
+  vertical-align: middle;
+  padding: 7px;
+}
+table td {
+  padding: 2px;
+  border: solid 1px #C7BC8F;
+  vertical-align: top;
+}
+
+table.fc-header {
+  margin-bottom: 3px;
+}
+
 .l-branding {
   background: linear-gradient(to bottom, #eed889 0%, #e3be3c 50%, #eed889 100%);
   border-radius: 5px;
@@ -782,7 +797,7 @@ body {
   color: #2F332E;
   background: linear-gradient(to bottom, #fbf6e4 0%, #f1e0a2 100%);
 }
-#superfish-1 li.sf-depth-1.active-trail a {
+#superfish-1 li.sf-depth-1.active-trail > a {
   border: 1px solid #9d8000;
   color: #070807;
   background: linear-gradient(to bottom, #edd576 0%, #e5c233 100%);

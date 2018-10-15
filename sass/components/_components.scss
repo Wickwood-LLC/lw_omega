@@ -120,3 +120,20 @@
 		}
 	}
 }
+
+table {
+	th {
+		text-align: center;
+		vertical-align: middle;
+		padding: 7px;
+	}
+	td {
+		padding: 2px;
+		border: solid 1px #C7BC8F;
+		vertical-align: top;
+	}
+}
+
+table.fc-header {
+	margin-bottom: 3px;
+}
