@@ -635,16 +635,24 @@ body {
   margin: 0 0 1em .5em;
 }
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-title-field,
-.view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-title-field {
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper .node__title,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-title-field,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper .node__title {
   margin-bottom: .2em;
 }
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-title-field h2, .view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-title-field p,
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper .node__title h2,
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper .node__title p,
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-title-field h2,
-.view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-title-field p {
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-title-field p,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper .node__title h2,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper .node__title p {
   margin: 0;
 }
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-title-field a,
-.view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-title-field a {
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper .node__title a,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-title-field a,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper .node__title a {
   color: black;
 }
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-field-book-cover,
