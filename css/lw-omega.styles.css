@@ -212,7 +212,7 @@ body {
 .page-calendar .l-content {
   order: 1;
   flex: 1 1 70%;
-  margin: 15px 30px;
+  margin: 10px 30px;
 }
 .page-calendar .l-region--sidebar-first {
   order: 0;
