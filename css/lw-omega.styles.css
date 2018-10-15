@@ -304,15 +304,16 @@ body {
   float: none;
 }
 
-table th {
+main#main-content table th {
   text-align: center;
   vertical-align: middle;
   padding: 7px;
 }
-table td {
+main#main-content table td {
   padding: 2px;
   border: solid 1px #C7BC8F;
   vertical-align: top;
+  border-collapse: collapse;
 }
 
 table.fc-header {

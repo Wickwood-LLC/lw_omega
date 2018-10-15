@@ -121,7 +121,7 @@
 	}
 }
 
-table {
+main#main-content table {
 	th {
 		text-align: center;
 		vertical-align: middle;
@@ -131,6 +131,7 @@ table {
 		padding: 2px;
 		border: solid 1px #C7BC8F;
 		vertical-align: top;
+		border-collapse: collapse;
 	}
 }
 
