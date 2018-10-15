@@ -666,7 +666,7 @@ body {
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-field-author,
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-field-author {
   font-weight: bold;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-node-link,
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-node-link {
