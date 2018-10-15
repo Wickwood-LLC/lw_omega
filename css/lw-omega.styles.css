@@ -782,7 +782,7 @@ body {
   color: #2F332E;
   background: linear-gradient(to bottom, #fbf6e4 0%, #f1e0a2 100%);
 }
-#superfish-1 li.sf-depth-1 > a.active {
+#superfish-1 li.sf-depth-1.active-trail a {
   border: 1px solid #9d8000;
   color: #070807;
   background: linear-gradient(to bottom, #edd576 0%, #e5c233 100%);
