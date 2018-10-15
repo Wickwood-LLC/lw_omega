@@ -133,8 +133,8 @@ main#main-content table {
 		vertical-align: top;
 		border-collapse: collapse;
 	}
-}
 
-table.fc-header {
-	margin-bottom: 3px;
+	&.fc-border-separate {
+		border-collapse: collapse;
+	}
 }

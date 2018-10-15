@@ -1,0 +1,29 @@
+.page-calendar {
+	table.fc-header {
+		margin-bottom: 3px;
+
+		.fc-header-title h2 {
+			margin: 0;
+		}
+	}
+
+	.l-main {
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	.l-banner {
+		flex: 1;
+	}
+
+	.l-region {
+		order: 1;
+		flex: 1 1 70%;
+		margin: 15px 30px;
+	}
+
+	.l-region--sidebar-first {
+		order: 0;
+		flex: 0 0 20%;
+	}
+}
