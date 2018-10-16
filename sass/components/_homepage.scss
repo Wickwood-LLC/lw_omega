@@ -54,6 +54,15 @@
 	        .inside {
 	            margin: 0 0 1em .5em;
 	        }
+
+	        .field--name-title-field,
+	        .field--name-field-author {
+				text-align: center;
+
+				@include breakpoint(738px) {
+					text-align: center;
+				}
+	        }
 	    }
 
 	    .field--name-title-field,

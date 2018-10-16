@@ -97,6 +97,15 @@
 		}
 		.panel-col-last {
 			flex: 1 1 60%;
+
+			.field--name-title-field,
+			.field--name-field-author {
+				text-align: center;
+
+				@include breakpoint(738px) {
+					text-align: center;
+				}
+			}
 		}
 
 		.field--name-field-teaser-title {
@@ -155,7 +164,7 @@ main#main-content table {
 .field--name-field-short-blurbs {
 	blockquote + p {
 		margin-top: -0.5em;
-		margin-right: 1em;
+		margin-right: 10px;
 		margin-bottom: 1.5em;
 	}
 }
