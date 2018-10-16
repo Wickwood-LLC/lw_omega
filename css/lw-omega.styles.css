@@ -899,9 +899,8 @@ main#main-content #mini-panel-contact_information table th, main#main-content #m
 }
 main#main-content #mini-panel-contact_information table img {
   float: left;
-  margin-top: 0;
   border-width: 0;
-  margin: 10px 15px;
+  margin: 0px 10px 15px 10px;
 }
 main#main-content #mini-panel-contact_information table div.views-field {
   margin-left: 5em;
@@ -1045,4 +1044,5 @@ main#main-content #mini-panel-contact_information table div.field-content {
   margin-left: 0.5em;
   font-family: FontAwesome;
 }
+
 /*# sourceMappingURL=lw-omega.styles.css.map */
