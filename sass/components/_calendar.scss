@@ -2,6 +2,27 @@
 	table.fc-header {
 		margin-bottom: 3px;
 
+		tr {
+			display: flex;
+			flex-flow: row wrap;
+			width: 100%;
+
+			td {
+				display: flex;
+				justify-content: center;
+
+				&.fc-header-left {
+					flex: 1 0 135px;
+				}
+				&.fc-header-center {
+					flex: 1 0 185px;
+				}
+				&.fc-header-right {
+					flex: 1 0 175px;
+				}
+			}
+		}
+
 		.fc-header-title h2 {
 			margin: 0;
 		}

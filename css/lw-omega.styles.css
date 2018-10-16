@@ -200,6 +200,24 @@ body {
 .page-calendar table.fc-header {
   margin-bottom: 3px;
 }
+.page-calendar table.fc-header tr {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+.page-calendar table.fc-header tr td {
+  display: flex;
+  justify-content: center;
+}
+.page-calendar table.fc-header tr td.fc-header-left {
+  flex: 1 0 135px;
+}
+.page-calendar table.fc-header tr td.fc-header-center {
+  flex: 1 0 185px;
+}
+.page-calendar table.fc-header tr td.fc-header-right {
+  flex: 1 0 175px;
+}
 .page-calendar table.fc-header .fc-header-title h2 {
   margin: 0;
 }
