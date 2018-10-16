@@ -889,23 +889,25 @@ main#main-content table.fc-border-separate {
   font-weight: bold;
 }
 
-#mini-panel-contact_information table {
+main#main-content #mini-panel-contact_information table {
   width: 75%;
   margin-right: auto;
   margin-left: auto;
 }
-#mini-panel-contact_information table th, #mini-panel-contact_information table td {
+main#main-content #mini-panel-contact_information table th, main#main-content #mini-panel-contact_information table td {
   border: none;
 }
-#mini-panel-contact_information table img {
+main#main-content #mini-panel-contact_information table img {
   float: left;
   margin-top: 0;
+  border-width: 0;
+  margin: 10px 15px;
 }
-#mini-panel-contact_information table div.views-field {
+main#main-content #mini-panel-contact_information table div.views-field {
   margin-left: 5em;
   margin-bottom: .4em;
 }
-#mini-panel-contact_information table div.field-content {
+main#main-content #mini-panel-contact_information table div.field-content {
   display: inline;
 }
 
