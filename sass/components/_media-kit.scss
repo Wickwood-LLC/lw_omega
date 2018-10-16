@@ -1,0 +1,36 @@
+.page-media-kit {
+	#media-kit-toc {
+		.menu {
+			width: 25%;
+			margin: 1em auto 1em auto;
+
+			li {
+				margin: 5px 0 0 10px;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+#mini-panel-contact_information table {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+
+    th, td {
+        border: none;
+    }
+
+    img {
+        float: left;
+        margin-top: 0;
+    }
+
+    div.views-field {
+        margin-left: 5em;
+        margin-bottom: .4em;
+    }
+    div.field-content {
+        display: inline;
+    }
+}

@@ -880,6 +880,35 @@ main#main-content table.fc-border-separate {
   font-weight: bold;
 }
 
+.page-media-kit #media-kit-toc .menu {
+  width: 25%;
+  margin: 1em auto 1em auto;
+}
+.page-media-kit #media-kit-toc .menu li {
+  margin: 5px 0 0 10px;
+  font-weight: bold;
+}
+
+#mini-panel-contact_information table {
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#mini-panel-contact_information table th, #mini-panel-contact_information table td {
+  border: none;
+}
+#mini-panel-contact_information table img {
+  float: left;
+  margin-top: 0;
+}
+#mini-panel-contact_information table div.views-field {
+  margin-left: 5em;
+  margin-bottom: .4em;
+}
+#mini-panel-contact_information table div.field-content {
+  display: inline;
+}
+
 #block-superfish-1 {
   display: inline-block;
   width: 100%;
