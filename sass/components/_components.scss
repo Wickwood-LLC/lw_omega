@@ -6,7 +6,8 @@
 	background: rgb(246, 245, 238);
 	overflow: hidden;
 
-	.block__title {
+	.block__title,
+	.pane-title {
 		background: url(../images/blockheader.png);
 		min-height: 40px;
 		line-height: 40px;
@@ -16,6 +17,7 @@
 		padding: 0 10px 0 10px;
 		white-space: nowrap;
 		border-radius: 3px;
+		text-align: center;
 	}
 }
 
