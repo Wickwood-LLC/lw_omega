@@ -64,6 +64,7 @@ h6 {
 }
 
 p {
+  line-height: 1.35em;
   font-size: 12px;
   @include fluid-type(400px, 1200px, 12px, 16px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 

@@ -119,6 +119,7 @@ h6 {
 }
 
 p {
+  line-height: 1.35em;
   font-size: 12px;
 }
 @media screen and (min-width: 400px) {
@@ -351,6 +352,13 @@ main#main-content table td {
 }
 main#main-content table.fc-border-separate {
   border-collapse: collapse;
+}
+
+.field--name-field-blurbs blockquote + p,
+.field--name-field-short-blurbs blockquote + p {
+  margin-top: -0.5em;
+  margin-right: 1em;
+  margin-bottom: 1.5em;
 }
 
 .l-branding {

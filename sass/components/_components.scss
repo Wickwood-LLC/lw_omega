@@ -150,3 +150,12 @@ main#main-content table {
 		border-collapse: collapse;
 	}
 }
+
+.field--name-field-blurbs,
+.field--name-field-short-blurbs {
+	blockquote + p {
+		margin-top: -0.5em;
+		margin-right: 1em;
+		margin-bottom: 1.5em;
+	}
+}
