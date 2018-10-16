@@ -907,6 +907,9 @@ main#main-content #mini-panel-contact_information table div.views-field {
   margin-left: 5em;
   margin-bottom: .4em;
 }
+main#main-content #mini-panel-contact_information table div.views-field.views-field-picture {
+  margin-left: 0em;
+}
 main#main-content #mini-panel-contact_information table div.field-content {
   display: inline;
 }
@@ -1042,5 +1045,4 @@ main#main-content #mini-panel-contact_information table div.field-content {
   margin-left: 0.5em;
   font-family: FontAwesome;
 }
-
 /*# sourceMappingURL=lw-omega.styles.css.map */

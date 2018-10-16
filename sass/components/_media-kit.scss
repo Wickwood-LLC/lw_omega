@@ -23,14 +23,16 @@ main#main-content #mini-panel-contact_information table {
 
     img {
         float: left;
-        margin-top: 0;
         border-width: 0;
-        margin: 10px 15px;
+        margin: 0 10px 15px 10px;
     }
 
     div.views-field {
         margin-left: 5em;
         margin-bottom: .4em;
+    }
+    div.views-field.views-field-picture {
+        margin-left: 0em;
     }
     div.field-content {
         display: inline;
