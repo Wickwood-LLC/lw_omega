@@ -1,0 +1,38 @@
+#webform-client-form-65 {
+	width: 65%;
+	border-style: double;
+	border-color: #cbc299;
+	margin-bottom: 1em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	.form-item, .form-actions {
+	    width: 95%;
+	    margin-right: auto;
+	    margin-left: auto;
+	    margin-top: 1em;
+	    margin-bottom: 1em;
+	}
+
+	label {
+	    width: 160px;
+	    display: block;
+	    float: left;
+	    margin-right: .5em;
+	    text-align: left;
+	}
+
+	input[type="submit"] {
+		font-size: 11px;
+		text-align: center;
+		width: auto;
+		line-height: 24px;
+		height: 24px;
+		cursor: pointer;
+		margin: 0px !important;
+		padding: 0px 20px !important;
+		background: #e9cb54;
+		border: 1px solid #ac8c00;
+	}
+}
