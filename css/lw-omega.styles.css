@@ -930,6 +930,14 @@ main#main-content #mini-panel-contact_information table div.field-content {
   display: inline;
 }
 
+#media-kit-contacts .panels-flexible-5-inside {
+  display: flex;
+  flex-flow: row wrap;
+}
+#media-kit-contacts .panels-flexible-5-inside .panels-flexible-column {
+  flex: 1 1 250px;
+}
+
 #block-superfish-1 {
   display: inline-block;
   width: 100%;

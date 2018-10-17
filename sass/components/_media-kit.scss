@@ -38,3 +38,14 @@ main#main-content #mini-panel-contact_information table {
         display: inline;
     }
 }
+
+#media-kit-contacts {
+	.panels-flexible-5-inside {
+		display: flex;
+		flex-flow: row wrap;
+
+		.panels-flexible-column {
+			flex: 1 1 250px;
+		}
+	}
+}
