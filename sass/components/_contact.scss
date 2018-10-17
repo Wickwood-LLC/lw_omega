@@ -21,6 +21,14 @@
 	    display: flex;
 	    flex-flow: row wrap;
 	}
+	
+	.webform-component--general-instructions {
+		justify-content: flex-end;
+
+		p {
+			margin: 0;
+		}
+	}
 
 	label {
 	    width: 160px;
