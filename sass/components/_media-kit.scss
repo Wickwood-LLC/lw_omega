@@ -63,7 +63,6 @@ main#main-content #mini-panel-media_appearances {
 	th {
 		border: 1px none #C7BC8F;
 		border-top: 1px solid #C7BC8F;
-		border-bottom: 1px solid #C7BC8F;
 		background: transparent;
 
 		&:first-child {
@@ -73,6 +72,10 @@ main#main-content #mini-panel-media_appearances {
 		&:last-child {
 			border-right: 1px solid #C7BC8F;
 			border-radius: 0 6px 0 0;
+		}
+		th:only-child{
+		    border-top: 1px solid #C7BC8F;
+		    border-radius: 6px 6px 0 0;
 		}
 	}
 	tbody {
