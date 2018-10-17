@@ -948,6 +948,7 @@ main#main-content #mini-panel-contact_information table div.field-content {
   background-color: #ecdb99;
 }
 #mini-panel-media_appearances th {
+  border: 1px none #C7BC8F;
   border-top: 1px solid #C7BC8F;
   border-bottom: 1px solid #C7BC8F;
   background: transparent;
@@ -970,6 +971,7 @@ main#main-content #mini-panel-contact_information table div.field-content {
   background-color: #e9e4d3;
 }
 #mini-panel-media_appearances td {
+  border: 1px none #C7BC8F;
   border-top: 1px solid #C7BC8F;
   border-bottom: 1px solid #C7BC8F;
 }
