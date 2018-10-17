@@ -950,6 +950,7 @@ main#main-content #mini-panel-media_appearances thead {
 main#main-content #mini-panel-media_appearances th {
   border: 1px none #C7BC8F;
   border-top: 1px solid #C7BC8F;
+  border-bottom: 1px solid #C7BC8F;
   background: transparent;
 }
 main#main-content #mini-panel-media_appearances th:first-child {
@@ -975,7 +976,6 @@ main#main-content #mini-panel-media_appearances tr.even {
 }
 main#main-content #mini-panel-media_appearances td {
   border: 1px none #C7BC8F;
-  border-top: 1px solid #C7BC8F;
   border-bottom: 1px solid #C7BC8F;
 }
 main#main-content #mini-panel-media_appearances td:first-child {
