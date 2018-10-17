@@ -942,6 +942,10 @@ main#main-content #mini-panel-contact_information table div.field-content {
   flex: 1 1 250px;
 }
 
+.view-media-appearances-view .view-content {
+  overflow-x: auto;
+}
+
 main#main-content #mini-panel-media_appearances table {
   margin: 1px;
   border-collapse: separate;
