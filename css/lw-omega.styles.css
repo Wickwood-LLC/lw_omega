@@ -907,7 +907,7 @@ main#main-content table.fc-border-separate {
 }
 
 main#main-content #mini-panel-contact_information table {
-  width: 75%;
+  width: 276px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -936,6 +936,53 @@ main#main-content #mini-panel-contact_information table div.field-content {
 }
 #media-kit-contacts .panels-flexible-5-inside .panels-flexible-column {
   flex: 1 1 250px;
+}
+
+#mini-panel-media_appearances table {
+  margin: 1px;
+}
+#mini-panel-media_appearances thead {
+  background-color: #ecdb99;
+}
+#mini-panel-media_appearances th {
+  border-top: 1px solid #C7BC8F;
+  border-bottom: 1px solid #C7BC8F;
+}
+#mini-panel-media_appearances th:first-child {
+  border-left: 1px solid #C7BC8F;
+  border-radius: 6px 0 0 0;
+}
+#mini-panel-media_appearances th:last-child {
+  border-right: 1px solid #C7BC8F;
+  border-radius: 0 6px 0 0;
+}
+#mini-panel-media_appearances tbody tr:last-child td:first-child {
+  border-radius: 0 0 0 0.6em;
+}
+#mini-panel-media_appearances tbody tr:last-child td:last-child {
+  border-radius: 0 0 0.6em 0;
+}
+#mini-panel-media_appearances tr.even {
+  background-color: #e9e4d3;
+}
+#mini-panel-media_appearances td {
+  border-top: 1px solid #C7BC8F;
+  border-bottom: 1px solid #C7BC8F;
+}
+#mini-panel-media_appearances td:first-child {
+  border-left: 1px solid #C7BC8F;
+}
+#mini-panel-media_appearances td:last-child {
+  border-right: 1px solid #C7BC8F;
+}
+#mini-panel-media_appearances .views-field-field-event-date,
+#mini-panel-media_appearances .views-field-field-event-links {
+  width: 10em;
+  text-align: center;
+}
+#mini-panel-media_appearances .views-field-title {
+  text-align: left;
+  padding-left: 0;
 }
 
 #block-superfish-1 {

@@ -13,7 +13,7 @@
 }
 
 main#main-content #mini-panel-contact_information table {
-    width: 75%;
+    width: 276px;
     margin-right: auto;
     margin-left: auto;
 
@@ -47,5 +47,59 @@ main#main-content #mini-panel-contact_information table {
 		.panels-flexible-column {
 			flex: 1 1 250px;
 		}
+	}
+}
+
+#mini-panel-media_appearances {
+	table {
+		margin: 1px;
+	}
+	thead {
+	    background-color: #ecdb99;
+	}
+	th {
+		border-top: 1px solid #C7BC8F;
+		border-bottom: 1px solid #C7BC8F;
+
+		&:first-child {
+			border-left: 1px solid #C7BC8F;
+			border-radius: 6px 0 0 0;
+		}
+		&:last-child {
+			border-right: 1px solid #C7BC8F;
+			border-radius: 0 6px 0 0;
+		}
+	}
+	tbody {
+		tr:last-child td:first-child {
+		    border-radius: 0 0 0 0.6em;
+		}
+		tr:last-child td:last-child {
+		    border-radius: 0 0 0.6em 0;
+		}
+	}
+	tr.even {
+	    background-color: #e9e4d3;
+	}
+	td {
+		border-top: 1px solid #C7BC8F;
+		border-bottom: 1px solid #C7BC8F;
+
+		&:first-child {
+			border-left: 1px solid #C7BC8F;
+		}
+		&:last-child {
+			border-right: 1px solid #C7BC8F;
+		}
+	}
+
+	.views-field-field-event-date,
+	.views-field-field-event-links {
+	    width: 10em;
+	    text-align: center;
+	}
+	.views-field-title {
+	    text-align: left;
+	    padding-left: 0;
 	}
 }
