@@ -940,6 +940,9 @@ main#main-content #mini-panel-contact_information table div.field-content {
 
 #mini-panel-media_appearances table {
   margin: 1px;
+  border-collapse: separate;
+  *border-collapse: collapse;
+  border-spacing: 0;
 }
 #mini-panel-media_appearances thead {
   background-color: #ecdb99;
@@ -947,6 +950,7 @@ main#main-content #mini-panel-contact_information table div.field-content {
 #mini-panel-media_appearances th {
   border-top: 1px solid #C7BC8F;
   border-bottom: 1px solid #C7BC8F;
+  background: transparent;
 }
 #mini-panel-media_appearances th:first-child {
   border-left: 1px solid #C7BC8F;
