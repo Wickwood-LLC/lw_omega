@@ -397,14 +397,19 @@ main#main-content table.fc-border-separate {
   margin-bottom: 1.5em;
 }
 
+#webform-ajax-wrapper-65 {
+  display: flex;
+}
+
 #webform-client-form-65 {
-  width: 65%;
+  flex: 0 1 65%;
   border-style: double;
   border-color: #cbc299;
   margin-bottom: 1em;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: calc(100% - 6px);
 }
 #webform-client-form-65 .form-item, #webform-client-form-65 .form-actions {
   width: 95%;
@@ -412,6 +417,8 @@ main#main-content table.fc-border-separate {
   margin-left: auto;
   margin-top: 1em;
   margin-bottom: 1em;
+  display: flex;
+  flex-flow: row wrap;
 }
 #webform-client-form-65 label {
   width: 160px;
@@ -419,6 +426,13 @@ main#main-content table.fc-border-separate {
   float: left;
   margin-right: .5em;
   text-align: left;
+}
+#webform-client-form-65 input#edit-submitted-first-name,
+#webform-client-form-65 input#edit-submitted-last-name {
+  flex: 1;
+}
+#webform-client-form-65 input#edit-submitted-email-address {
+  max-width: calc(100% - 4px);
 }
 #webform-client-form-65 input[type="submit"] {
   font-size: 11px;
