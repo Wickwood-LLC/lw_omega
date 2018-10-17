@@ -32,7 +32,8 @@
 
 	input#edit-submitted-first-name,
 	input#edit-submitted-last-name {
-		flex: 1;
+		flex: 1 1 auto;
+		min-width: 0;
 	}
 	input#edit-submitted-email-address {
 		max-width: calc(100% - 4px);

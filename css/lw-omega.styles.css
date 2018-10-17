@@ -429,7 +429,8 @@ main#main-content table.fc-border-separate {
 }
 #webform-client-form-65 input#edit-submitted-first-name,
 #webform-client-form-65 input#edit-submitted-last-name {
-  flex: 1;
+  flex: 1 1 auto;
+  min-width: 0;
 }
 #webform-client-form-65 input#edit-submitted-email-address {
   max-width: calc(100% - 4px);
