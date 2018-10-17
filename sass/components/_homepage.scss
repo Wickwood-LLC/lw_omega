@@ -56,12 +56,9 @@
 	        }
 
 	        .field--name-title-field,
+	        .field--name-field-book-sub-title,
 	        .field--name-field-author {
 				text-align: center;
-
-				@include breakpoint(738px) {
-					text-align: center;
-				}
 	        }
 	    }
 

@@ -336,11 +336,13 @@ body {
   flex: 1 1 60%;
 }
 .node-type-published-books main#main-content .panel-2col-stacked .panel-col-last .field--name-title-field,
+.node-type-published-books main#main-content .panel-2col-stacked .panel-col-last .field--name-field-book-sub-title,
 .node-type-published-books main#main-content .panel-2col-stacked .panel-col-last .field--name-field-author {
   text-align: center;
 }
 @media (min-width: 738px) {
   .node-type-published-books main#main-content .panel-2col-stacked .panel-col-last .field--name-title-field,
+  .node-type-published-books main#main-content .panel-2col-stacked .panel-col-last .field--name-field-book-sub-title,
   .node-type-published-books main#main-content .panel-2col-stacked .panel-col-last .field--name-field-author {
     text-align: center;
   }
@@ -770,18 +772,12 @@ main#main-content table.fc-border-separate {
   margin: 0 0 1em .5em;
 }
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-title-field,
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-field-book-sub-title,
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-field-author,
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-title-field,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-field-book-sub-title,
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-field-author {
   text-align: center;
-}
-@media (min-width: 738px) {
-  .view-nodequeue-1 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-title-field,
-  .view-nodequeue-1 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-field-author,
-  .view-nodequeue-2 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-title-field,
-  .view-nodequeue-2 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-field-author {
-    text-align: center;
-  }
 }
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-title-field,
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .node__title,
