@@ -947,6 +947,7 @@ main#main-content #mini-panel-media_appearances table {
   border-collapse: separate;
   *border-collapse: collapse;
   border-spacing: 0;
+  width: calc(100% - 2px);
 }
 main#main-content #mini-panel-media_appearances thead {
   background-color: #ecdb99;
