@@ -938,55 +938,55 @@ main#main-content #mini-panel-contact_information table div.field-content {
   flex: 1 1 250px;
 }
 
-#mini-panel-media_appearances table {
+main#main-content #mini-panel-media_appearances table {
   margin: 1px;
   border-collapse: separate;
   *border-collapse: collapse;
   border-spacing: 0;
 }
-#mini-panel-media_appearances thead {
+main#main-content #mini-panel-media_appearances thead {
   background-color: #ecdb99;
 }
-#mini-panel-media_appearances th {
+main#main-content #mini-panel-media_appearances th {
   border: 1px none #C7BC8F;
   border-top: 1px solid #C7BC8F;
   border-bottom: 1px solid #C7BC8F;
   background: transparent;
 }
-#mini-panel-media_appearances th:first-child {
+main#main-content #mini-panel-media_appearances th:first-child {
   border-left: 1px solid #C7BC8F;
   border-radius: 6px 0 0 0;
 }
-#mini-panel-media_appearances th:last-child {
+main#main-content #mini-panel-media_appearances th:last-child {
   border-right: 1px solid #C7BC8F;
   border-radius: 0 6px 0 0;
 }
-#mini-panel-media_appearances tbody tr:last-child td:first-child {
+main#main-content #mini-panel-media_appearances tbody tr:last-child td:first-child {
   border-radius: 0 0 0 0.6em;
 }
-#mini-panel-media_appearances tbody tr:last-child td:last-child {
+main#main-content #mini-panel-media_appearances tbody tr:last-child td:last-child {
   border-radius: 0 0 0.6em 0;
 }
-#mini-panel-media_appearances tr.even {
+main#main-content #mini-panel-media_appearances tr.even {
   background-color: #e9e4d3;
 }
-#mini-panel-media_appearances td {
+main#main-content #mini-panel-media_appearances td {
   border: 1px none #C7BC8F;
   border-top: 1px solid #C7BC8F;
   border-bottom: 1px solid #C7BC8F;
 }
-#mini-panel-media_appearances td:first-child {
+main#main-content #mini-panel-media_appearances td:first-child {
   border-left: 1px solid #C7BC8F;
 }
-#mini-panel-media_appearances td:last-child {
+main#main-content #mini-panel-media_appearances td:last-child {
   border-right: 1px solid #C7BC8F;
 }
-#mini-panel-media_appearances .views-field-field-event-date,
-#mini-panel-media_appearances .views-field-field-event-links {
+main#main-content #mini-panel-media_appearances .views-field-field-event-date,
+main#main-content #mini-panel-media_appearances .views-field-field-event-links {
   width: 10em;
   text-align: center;
 }
-#mini-panel-media_appearances .views-field-title {
+main#main-content #mini-panel-media_appearances .views-field-title {
   text-align: left;
   padding-left: 0;
 }
