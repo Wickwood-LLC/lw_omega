@@ -88,6 +88,9 @@ main#main-content #mini-panel-media_appearances {
 		    border-radius: 0 0 0.6em 0;
 		}
 	}
+	tr.odd {
+	    background-color: transparent;
+	}
 	tr.even {
 	    background-color: #e9e4d3;
 	}

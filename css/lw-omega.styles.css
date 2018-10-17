@@ -976,6 +976,9 @@ main#main-content #mini-panel-media_appearances tbody tr:last-child td:first-chi
 main#main-content #mini-panel-media_appearances tbody tr:last-child td:last-child {
   border-radius: 0 0 0.6em 0;
 }
+main#main-content #mini-panel-media_appearances tr.odd {
+  background-color: transparent;
+}
 main#main-content #mini-panel-media_appearances tr.even {
   background-color: #e9e4d3;
 }
