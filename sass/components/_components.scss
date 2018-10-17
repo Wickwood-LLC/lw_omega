@@ -171,3 +171,32 @@ main#main-content table {
 		margin-bottom: 1.5em;
 	}
 }
+
+ul.tabs.tabs--primary {
+	border-bottom: 0;
+
+	li > a {
+		color: black;
+		text-decoration: none;
+		font-size: 11px;
+		text-align: center;
+		width: auto;
+		line-height: 24px;
+		height: 24px;
+		cursor: pointer;
+		margin: 0px !important;
+		padding: 0px 20px !important;
+		background: #e9cb54;
+		border: 1px solid #ac8c00;
+
+		&:hover {
+			background: #707a6c;
+			border: 1px solid #484e46;
+		}
+		&.active{
+			color: #F7EDC9;
+			background: #707a6c;
+			border: 1px solid #484e46;
+		}
+	}
+}
