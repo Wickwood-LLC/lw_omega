@@ -881,7 +881,7 @@ main#main-content table.fc-border-separate {
 }
 
 .page-media-kit #media-kit-toc .menu {
-  width: 25%;
+  max-width: 250px;
   margin: 1em auto 1em auto;
 }
 .page-media-kit #media-kit-toc .menu li {
