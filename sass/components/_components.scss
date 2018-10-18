@@ -174,6 +174,7 @@ main#main-content table {
 
 ul.tabs.tabs--primary {
 	border-bottom: 0;
+	margin-top: 6px;
 
 	li > a {
 		color: black;
@@ -199,4 +200,17 @@ ul.tabs.tabs--primary {
 			border: 1px solid #484e46;
 		}
 	}
+}
+
+input[type="submit"] {
+	font-size: 11px;
+	text-align: center;
+	width: auto;
+	line-height: 24px;
+	height: 24px;
+	cursor: pointer;
+	margin: 0px !important;
+	padding: 0px 20px !important;
+	background: #e9cb54;
+	border: 1px solid #ac8c00;
 }

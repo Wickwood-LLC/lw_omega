@@ -406,6 +406,7 @@ main#main-content table.fc-border-separate {
 
 ul.tabs.tabs--primary {
   border-bottom: 0;
+  margin-top: 6px;
 }
 ul.tabs.tabs--primary li > a {
   color: black;
@@ -474,18 +475,6 @@ ul.tabs.tabs--primary li > a.active {
 }
 #webform-client-form-65 input#edit-submitted-email-address {
   max-width: calc(100% - 4px);
-}
-#webform-client-form-65 input[type="submit"] {
-  font-size: 11px;
-  text-align: center;
-  width: auto;
-  line-height: 24px;
-  height: 24px;
-  cursor: pointer;
-  margin: 0px !important;
-  padding: 0px 20px !important;
-  background: #e9cb54;
-  border: 1px solid #ac8c00;
 }
 
 .l-branding {
