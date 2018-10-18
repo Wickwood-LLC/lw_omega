@@ -103,10 +103,13 @@ body {
 	box-shadow: 0 0 5px 3px rgba(101, 99, 93, 0.32);
 	border-radius: 5px;
 	padding: 7px;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .l-main {
     font-size: 14px;
+    flex: 1;
 }
 
 .page-title {
