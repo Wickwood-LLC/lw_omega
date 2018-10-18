@@ -203,6 +203,8 @@ ul.tabs.tabs--primary {
 }
 
 input[type="submit"] {
+	color: black;
+	text-decoration: none;
 	font-size: 11px;
 	text-align: center;
 	width: auto;
@@ -213,4 +215,14 @@ input[type="submit"] {
 	padding: 0px 20px !important;
 	background: #e9cb54;
 	border: 1px solid #ac8c00;
+
+	&:hover {
+		background: #707a6c;
+		border: 1px solid #484e46;
+	}
+	&.active{
+		color: #F7EDC9;
+		background: #707a6c;
+		border: 1px solid #484e46;
+	}
 }

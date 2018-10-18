@@ -127,6 +127,7 @@
     overflow: auto;
     width: 100%;
     z-index: 1;
+    position: relative;
 
     @include breakpoint(605px) {
         width: auto;
