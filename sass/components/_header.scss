@@ -126,6 +126,7 @@
 .l-region--branding {
     overflow: auto;
     width: 100%;
+    z-index: 1;
 
     @include breakpoint(605px) {
         width: auto;
