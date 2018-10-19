@@ -870,6 +870,10 @@ input[type="submit"].active {
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper .node__title a {
   color: black;
 }
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-title-field,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-title-field {
+  margin-top: 0;
+}
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-field-book-cover,
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-field-book-cover {
   text-align: center;
