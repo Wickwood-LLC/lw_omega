@@ -848,6 +848,25 @@ input[type="submit"].active {
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-field-book-sub-title,
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-field-author {
   text-align: center;
+  margin: 0;
+}
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-title-field h1, .view-nodequeue-1 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-title-field h2, .view-nodequeue-1 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-title-field h3,
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-field-book-sub-title h1,
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-field-book-sub-title h2,
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-field-book-sub-title h3,
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-field-author h1,
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-field-author h2,
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-field-author h3,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-title-field h1,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-title-field h2,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-title-field h3,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-field-book-sub-title h1,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-field-book-sub-title h2,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-field-book-sub-title h3,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-field-author h1,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-field-author h2,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper div.panel-col-last .field--name-field-author h3 {
+  margin: 0;
 }
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-title-field,
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .node__title,
@@ -869,10 +888,6 @@ input[type="submit"].active {
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-title-field a,
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper .node__title a {
   color: black;
-}
-.view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-title-field,
-.view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-title-field {
-  margin-top: 0;
 }
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-field-book-cover,
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-field-book-cover {
