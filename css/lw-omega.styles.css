@@ -154,7 +154,7 @@ body {
   background-position: bottom left;
   background-attachment: fixed;
   display: flex;
-  min-height: calc(100vh - 2em);
+  min-height: 100vh;
 }
 
 .l-page-inner {
@@ -954,6 +954,11 @@ input[type="submit"].active {
 }
 .page-user .g-recaptcha {
   display: inline-block;
+}
+
+body.maintenance-page .l-content {
+  text-align: center;
+  margin-top: 5em;
 }
 
 .page-media-kit #media-kit-toc .menu {
