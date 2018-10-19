@@ -1106,6 +1106,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/sass/components/_maintenance.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/sass/components/_maintenance.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/sass/components/_media-kit.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1241,6 +1254,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/template.php",
+		"oF": 0
+		},
+	"/templates/maintenance-page.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/maintenance-page.tpl.php",
 		"oF": 0
 		},
 	"/templates/page.tpl.php": {
