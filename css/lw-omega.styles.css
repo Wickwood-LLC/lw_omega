@@ -946,12 +946,13 @@ input[type="submit"].active {
   font-weight: bold;
 }
 
-.page-user-login #user-login {
+.page-user #user-login,
+.page-user #user-pass {
   max-width: 500px;
   margin: 1em auto;
   text-align: center;
 }
-.page-user-login .g-recaptcha {
+.page-user .g-recaptcha {
   display: inline-block;
 }
 
