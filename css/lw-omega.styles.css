@@ -951,6 +951,9 @@ input[type="submit"].active {
   margin: 1em auto;
   text-align: center;
 }
+.page-user-login .g-recaptcha {
+  display: inline-block;
+}
 
 .page-media-kit #media-kit-toc .menu {
   max-width: 250px;
