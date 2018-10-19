@@ -33,16 +33,16 @@ h1 {
   text-transform: none;
   font-weight: 700;
   border-bottom: none;
-  font-size: 24px;
+  font-size: 28px;
 }
 @media screen and (min-width: 400px) {
   h1 {
-    font-size: calc(24px + 4 * ((100vw - 400px) / 800));
+    font-size: calc(28px + 4 * ((100vw - 400px) / 800));
   }
 }
 @media screen and (min-width: 1200px) {
   h1 {
-    font-size: 28px;
+    font-size: 32px;
   }
 }
 
@@ -901,6 +901,10 @@ input[type="submit"].active {
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-field-author {
   font-weight: bold;
   margin-bottom: 0.5em;
+}
+.view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-field-publisher,
+.view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-field-publisher {
+  margin-top: 1em;
 }
 .view-nodequeue-1 .panel-2col-stacked .center-wrapper .field--name-node-link,
 .view-nodequeue-2 .panel-2col-stacked .center-wrapper .field--name-node-link {
