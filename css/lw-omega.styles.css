@@ -145,7 +145,11 @@ body {
   background-repeat: repeat-x;
   background-attachment: fixed;
   background-position: top left;
-  font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Sans-Serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Sans-Serif;
+}
+
+body.cke_editable {
+  background: white;
 }
 
 .l-page {

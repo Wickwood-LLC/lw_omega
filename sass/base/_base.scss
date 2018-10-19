@@ -28,45 +28,45 @@ blockquote {
 }
 
 h1 {
-  text-transform: none;
-  font-weight: 700;
-  border-bottom: none;
-  font-size: 28px;  // backup size
-  @include fluid-type(400px, 1200px, 28px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    text-transform: none;
+    font-weight: 700;
+    border-bottom: none;
+    font-size: 28px; // backup size
+    @include fluid-type(400px, 1200px, 28px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 h2 {
-  text-transform: none;
-  border-bottom: none;
-  font-size: 22px;
-  @include fluid-type(400px, 1200px, 22px, 26px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    text-transform: none;
+    border-bottom: none;
+    font-size: 22px;
+    @include fluid-type(400px, 1200px, 22px, 26px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 h3 {
-  font-size: 18px;
-  @include fluid-type(400px, 1200px, 18px, 22px); // values inside are ($min_width, $max_width, $min_font, $max_font);
+    font-size: 18px;
+    @include fluid-type(400px, 1200px, 18px, 22px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 h4 {
-  font-size: 16px;
-  @include fluid-type(400px, 1200px, 16px, 20px); // values inside are ($min_width, $max_width, $min_font, $max_font);
+    font-size: 16px;
+    @include fluid-type(400px, 1200px, 16px, 20px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 
 }
 
 h5 {
-  font-size: 14px;
-  @include fluid-type(400px, 1200px, 14px, 18px); // values inside are ($min_width, $max_width, $min_font, $max_font);
+    font-size: 14px;
+    @include fluid-type(400px, 1200px, 14px, 18px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 h6 {
-  font-size: 12px;
-  @include fluid-type(400px, 1200px, 12px, 16px); // values inside are ($min_width, $max_width, $min_font, $max_font);
+    font-size: 12px;
+    @include fluid-type(400px, 1200px, 12px, 16px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 p {
-  line-height: 1.35em;
-  font-size: 12px;
-  @include fluid-type(400px, 1200px, 12px, 16px); // values inside are ($min_width, $max_width, $min_font, $max_font);
+    line-height: 1.35em;
+    font-size: 12px;
+    @include fluid-type(400px, 1200px, 12px, 16px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 
 }
 
@@ -75,14 +75,18 @@ table {
 }
 
 body {
-	margin: 0;
+    margin: 0;
     color: #000000;
     background-color: #FEFEFC;
     background: linear-gradient(to bottom, #e9d784 0%, #ffffff 100%);
     background-repeat: repeat-x;
     background-attachment: fixed;
     background-position: top left;
-    font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Sans-Serif;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Sans-Serif;
+}
+
+body.cke_editable {
+    background: white;
 }
 
 .l-page {
@@ -94,17 +98,17 @@ body {
     min-height: 100vh;
 }
 
-.l-page-inner {	
-	max-width: calc(100% - 4em);
-	margin: 1em auto;
-	cursor: auto;
-	width: 1000px;
-	background: rgba(239, 237, 224, 0.95);
-	box-shadow: 0 0 5px 3px rgba(101, 99, 93, 0.32);
-	border-radius: 5px;
-	padding: 7px;
-  display: flex;
-  flex-flow: column nowrap;
+.l-page-inner {
+    max-width: calc(100% - 4em);
+    margin: 1em auto;
+    cursor: auto;
+    width: 1000px;
+    background: rgba(239, 237, 224, 0.95);
+    box-shadow: 0 0 5px 3px rgba(101, 99, 93, 0.32);
+    border-radius: 5px;
+    padding: 7px;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .l-main {
