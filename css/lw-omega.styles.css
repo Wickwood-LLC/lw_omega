@@ -946,6 +946,12 @@ input[type="submit"].active {
   font-weight: bold;
 }
 
+.page-user-login {
+  max-width: 500px;
+  margin: 1em auto;
+  text-align: center;
+}
+
 .page-media-kit #media-kit-toc .menu {
   max-width: 250px;
   margin: 1em auto 1em auto;
