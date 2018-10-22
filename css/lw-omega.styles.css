@@ -948,6 +948,16 @@ input[type="submit"].active {
   font-weight: bold;
   font-style: italic;
 }
+.view-nodequeue-1 .field--name-field-book-sub-title a,
+.view-nodequeue-2 .field--name-field-book-sub-title a {
+  color: black;
+  text-decoration: none;
+}
+.view-nodequeue-1 .field--name-field-book-sub-title a:hover,
+.view-nodequeue-2 .field--name-field-book-sub-title a:hover {
+  color: initial;
+  text-decoration: underline;
+}
 .view-nodequeue-1 .node__links,
 .view-nodequeue-2 .node__links {
   text-align: right;
