@@ -4,9 +4,23 @@
 		max-width: 500px;
 		margin: 1em auto;
 		text-align: center;
+
+		input.form-text {
+			max-width: 100%;
+			box-sizing: border-box;
+			width: 365px;
+		}
+
+		fieldset.captcha {
+			max-width: 100%;
+			min-width: 0;
+			box-sizing: border-box;
+		}
 	}
 
 	.g-recaptcha {
 		display: inline-block;
+		overflow-x: auto;
+		max-width: 100%;
 	}
 }

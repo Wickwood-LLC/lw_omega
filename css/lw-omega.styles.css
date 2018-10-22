@@ -979,8 +979,22 @@ input[type="submit"].active {
   margin: 1em auto;
   text-align: center;
 }
+.page-user #user-login input.form-text,
+.page-user #user-pass input.form-text {
+  max-width: 100%;
+  box-sizing: border-box;
+  width: 365px;
+}
+.page-user #user-login fieldset.captcha,
+.page-user #user-pass fieldset.captcha {
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
 .page-user .g-recaptcha {
   display: inline-block;
+  overflow-x: auto;
+  max-width: 100%;
 }
 
 body.maintenance-page .l-content {
