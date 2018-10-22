@@ -956,7 +956,7 @@ input[type="submit"].active {
 }
 .view-nodequeue-1 .field--name-field-book-sub-title a:hover,
 .view-nodequeue-2 .field--name-field-book-sub-title a:hover {
-  color: initial;
+  color: #0000EE;
   text-decoration: underline;
 }
 .view-nodequeue-1 .node__links,
