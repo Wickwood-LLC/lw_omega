@@ -1270,5 +1270,15 @@ main#main-content #mini-panel-media_appearances .views-field-title {
   background: #f6f5ee;
   overflow: hidden;
 }
+.page-user #user-account-main-page .center-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+.page-user #user-account-main-page .center-wrapper > div {
+  flex: 1 1 225px;
+  min-width: 225px;
+  width: initial;
+  float: none;
+}
 
 /*# sourceMappingURL=lw-omega.styles.css.map */

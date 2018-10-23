@@ -7,4 +7,18 @@
 		background: rgb(246, 245, 238);
 		overflow: hidden;
 	}
+
+	#user-account-main-page {
+		.center-wrapper {
+			display: flex;
+			flex-flow: row wrap;
+
+			> div {
+				flex: 1 1 225px;
+				min-width: 225px;
+				width: initial;
+				float: none;
+			}
+		}
+	}
 }
