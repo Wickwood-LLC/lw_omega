@@ -713,7 +713,7 @@ input[type="submit"].active {
 #block-panels-mini-follow-block .mailchimp-signup-subscribe-form > div {
   display: flex;
   flex-flow: row wrap;
-  align-items: baseline;
+  align-items: center;
   justify-content: center;
 }
 #block-panels-mini-follow-block .block__title {
