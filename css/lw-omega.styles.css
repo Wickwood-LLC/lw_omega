@@ -735,6 +735,7 @@ input[type="submit"].active {
 #block-panels-mini-follow-block .pane-mailchimp-signup-form-field {
   display: inline-block;
   max-width: 100%;
+  margin: 0 5px;
 }
 #block-panels-mini-follow-block .pane-mailchimp-signup-form-field .form-item {
   margin: 0;
