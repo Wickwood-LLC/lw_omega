@@ -154,6 +154,13 @@
         text-align: center;
     }
 
+    .mailchimp-signup-subscribe-form > div {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: baseline;
+        justify-content: center;
+    }
+
     .block__title {
         min-height: 25px;
         line-height: 25px;
@@ -172,8 +179,9 @@
         }
     }
 
-    .mailchimp-newsletter-mergefields {
+    .pane-mailchimp-signup-form-field {
         display: inline-block;
+        max-width: 100%;
 
         .form-item {
             margin: 0;
