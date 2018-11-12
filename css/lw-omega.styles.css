@@ -712,7 +712,7 @@ input[type="submit"].active {
   flex-flow: row wrap;
 }
 #block-panels-mini-follow-block .pane-mailchimp-form {
-  flex: 1 1 calc(100% - 120px);
+  flex: 1 1 80%;
   max-width: 100%;
 }
 #block-panels-mini-follow-block #mailchimp-signup-subscribe-block-follow-larry-form {
@@ -799,13 +799,12 @@ input[type="submit"].active {
   border: 1px solid #a58b1e;
 }
 #block-panels-mini-follow-block .pane-widgets-s-socialmedia-profile-default {
-  flex: 1 1 auto;
-  align-items: center;
-  justify-content: center;
+  flex: 1 1 20%;
   display: flex;
+  justify-content: center;
 }
 #block-panels-mini-follow-block #widgets-element-socialmedia_profile-default {
-  text-align: center;
+  text-align: right;
 }
 #block-panels-mini-follow-block #widgets-element-socialmedia_profile-default .widgets-element {
   margin-right: 4px;

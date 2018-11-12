@@ -156,7 +156,7 @@
     }
 
     .pane-mailchimp-form {
-        flex: 1 1 calc(100% - 120px);
+        flex: 1 1 80%;
         max-width: 100%;
     }
 
@@ -254,14 +254,13 @@
     }
 
     .pane-widgets-s-socialmedia-profile-default {
-        flex: 1 1 auto;
-        align-items: center;
-        justify-content: center;
+        flex: 1 1 20%;
         display: flex;
+        justify-content: center;
     }
 
     #widgets-element-socialmedia_profile-default {
-    	text-align: center;
+    	text-align: right;
 
     	.widgets-element {
     		margin-right: 4px;
