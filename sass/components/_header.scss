@@ -150,6 +150,15 @@
         width: 150px;
     }
 
+    .panels-flexible-region-inside {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .pane-mailchimp-form {
+        flex: 1 1 calc(100% - 120px);
+    }
+
     #mailchimp-signup-subscribe-block-follow-larry-form {
         text-align: center;
     }
@@ -235,6 +244,13 @@
         	background: #e3cb61;
         	border: 1px solid #a58b1e;
         }
+    }
+
+    .pane-widgets-s-socialmedia-profile-default {
+        flex: 1 1 auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
     }
 
     #widgets-element-socialmedia_profile-default {
