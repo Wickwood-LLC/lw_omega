@@ -209,51 +209,6 @@ body.cke_editable {
   overflow: hidden;
 }
 
-.page-calendar table.fc-header {
-  margin-bottom: 3px;
-}
-.page-calendar table.fc-header tr {
-  display: flex;
-  flex-flow: row wrap;
-  width: 100%;
-}
-.page-calendar table.fc-header tr td {
-  display: flex;
-  justify-content: center;
-}
-.page-calendar table.fc-header tr td.fc-header-left {
-  flex: 1 0 135px;
-}
-.page-calendar table.fc-header tr td.fc-header-center {
-  flex: 1 0 185px;
-}
-.page-calendar table.fc-header tr td.fc-header-right {
-  flex: 1 0 175px;
-}
-.page-calendar table.fc-header .fc-header-title h2 {
-  margin: 0;
-}
-.page-calendar .l-main {
-  display: flex;
-  flex-flow: row wrap;
-}
-.page-calendar .l-banner {
-  flex: 1 1 100%;
-}
-.page-calendar .l-content {
-  order: 1;
-  flex: 1 1 70%;
-  margin: 10px 30px;
-  max-width: calc(100% - 60px);
-}
-.page-calendar .l-region--sidebar-first {
-  order: 0;
-  flex: 1 1 20%;
-}
-.page-calendar .fc-view {
-  overflow-x: scroll;
-}
-
 .boxed {
   border-radius: 5px;
   border: 1px solid #c5bc90;
@@ -459,51 +414,6 @@ input[type="submit"].active {
   color: #F7EDC9;
   background: #707a6c;
   border: 1px solid #484e46;
-}
-
-#webform-ajax-wrapper-65 {
-  display: flex;
-}
-
-#webform-client-form-65 {
-  flex: 0 1 65%;
-  border-style: double;
-  border-color: #cbc299;
-  margin-bottom: 1em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: calc(100% - 6px);
-}
-#webform-client-form-65 .form-item, #webform-client-form-65 .form-actions {
-  width: 95%;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  display: flex;
-  flex-flow: row wrap;
-}
-#webform-client-form-65 .webform-component--general-instructions {
-  justify-content: flex-end;
-}
-#webform-client-form-65 .webform-component--general-instructions p {
-  margin: 0;
-}
-#webform-client-form-65 label {
-  width: 160px;
-  display: block;
-  float: left;
-  margin-right: .5em;
-  text-align: left;
-}
-#webform-client-form-65 input#edit-submitted-first-name,
-#webform-client-form-65 input#edit-submitted-last-name {
-  flex: 1 1 auto;
-  min-width: 0;
-}
-#webform-client-form-65 input#edit-submitted-email-address {
-  max-width: calc(100% - 4px);
 }
 
 .l-branding {
@@ -1018,144 +928,6 @@ input[type="submit"].active {
   font-weight: bold;
 }
 
-.page-user #user-login,
-.page-user #user-pass {
-  max-width: 500px;
-  margin: 1em auto;
-  text-align: center;
-}
-.page-user #user-login input.form-text,
-.page-user #user-pass input.form-text {
-  max-width: 100%;
-  box-sizing: border-box;
-  width: 365px;
-}
-.page-user #user-login fieldset.captcha,
-.page-user #user-pass fieldset.captcha {
-  max-width: 100%;
-  min-width: 0;
-  box-sizing: border-box;
-}
-.page-user .g-recaptcha {
-  display: inline-block;
-  overflow-x: auto;
-  overflow-y: hidden;
-  max-width: 100%;
-}
-
-body.maintenance-page .site-logo {
-  float: none;
-}
-body.maintenance-page .l-content {
-  text-align: center;
-  margin-top: 5em;
-}
-
-.page-media-kit #media-kit-toc .menu {
-  max-width: 250px;
-  margin: 1em auto 1em auto;
-}
-.page-media-kit #media-kit-toc .menu li {
-  margin: 5px 0 0 10px;
-  font-weight: bold;
-}
-
-main#main-content #mini-panel-contact_information table {
-  width: 276px;
-  margin-right: auto;
-  margin-left: auto;
-}
-main#main-content #mini-panel-contact_information table th, main#main-content #mini-panel-contact_information table td {
-  border: none;
-}
-main#main-content #mini-panel-contact_information table img {
-  float: left;
-  border-width: 0;
-  margin: 0px 10px 15px 10px;
-}
-main#main-content #mini-panel-contact_information table div.views-field {
-  margin-left: 5em;
-  margin-bottom: .4em;
-}
-main#main-content #mini-panel-contact_information table div.views-field.views-field-picture {
-  margin-left: 0em;
-}
-main#main-content #mini-panel-contact_information table div.field-content {
-  display: inline;
-}
-
-#media-kit-contacts .panels-flexible-5-inside {
-  display: flex;
-  flex-flow: row wrap;
-}
-#media-kit-contacts .panels-flexible-5-inside .panels-flexible-column {
-  flex: 1 1 250px;
-}
-
-.view-media-appearances-view .view-content {
-  overflow-x: auto;
-}
-
-main#main-content #mini-panel-media_appearances table {
-  margin: 1px;
-  border-collapse: separate;
-  *border-collapse: collapse;
-  border-spacing: 0;
-  width: calc(100% - 2px);
-}
-main#main-content #mini-panel-media_appearances thead {
-  background-color: #ecdb99;
-}
-main#main-content #mini-panel-media_appearances th {
-  border: 1px none #C7BC8F;
-  border-top: 1px solid #C7BC8F;
-  border-bottom: 1px solid #C7BC8F;
-  background: transparent;
-}
-main#main-content #mini-panel-media_appearances th:first-child {
-  border-left: 1px solid #C7BC8F;
-  border-radius: 6px 0 0 0;
-}
-main#main-content #mini-panel-media_appearances th:last-child {
-  border-right: 1px solid #C7BC8F;
-  border-radius: 0 6px 0 0;
-}
-main#main-content #mini-panel-media_appearances th th:only-child {
-  border-top: 1px solid #C7BC8F;
-  border-radius: 6px 6px 0 0;
-}
-main#main-content #mini-panel-media_appearances tbody tr:last-child td:first-child {
-  border-radius: 0 0 0 0.6em;
-}
-main#main-content #mini-panel-media_appearances tbody tr:last-child td:last-child {
-  border-radius: 0 0 0.6em 0;
-}
-main#main-content #mini-panel-media_appearances tr.odd {
-  background-color: transparent;
-}
-main#main-content #mini-panel-media_appearances tr.even {
-  background-color: #e9e4d3;
-}
-main#main-content #mini-panel-media_appearances td {
-  border: 1px none #C7BC8F;
-  border-bottom: 1px solid #C7BC8F;
-}
-main#main-content #mini-panel-media_appearances td:first-child {
-  border-left: 1px solid #C7BC8F;
-}
-main#main-content #mini-panel-media_appearances td:last-child {
-  border-right: 1px solid #C7BC8F;
-}
-main#main-content #mini-panel-media_appearances .views-field-field-event-date,
-main#main-content #mini-panel-media_appearances .views-field-field-event-links {
-  width: 10em;
-  text-align: center;
-}
-main#main-content #mini-panel-media_appearances .views-field-title {
-  text-align: left;
-  padding-left: 0;
-}
-
 #block-superfish-1 {
   display: inline-block;
   width: 100%;
@@ -1286,25 +1058,6 @@ main#main-content #mini-panel-media_appearances .views-field-title {
   content: '\f0d7';
   margin-left: 0.5em;
   font-family: FontAwesome;
-}
-
-.page-user main#main-content {
-  border-radius: 5px;
-  border: 1px solid #c5bc90;
-  margin: 10px;
-  padding: 1em 2.8%;
-  background: #f6f5ee;
-  overflow: hidden;
-}
-.page-user #user-account-main-page .center-wrapper {
-  display: flex;
-  flex-flow: row wrap;
-}
-.page-user #user-account-main-page .center-wrapper > div {
-  flex: 1 1 225px;
-  min-width: 225px;
-  width: initial;
-  float: none;
 }
 
 /*# sourceMappingURL=lw-omega.styles.css.map */

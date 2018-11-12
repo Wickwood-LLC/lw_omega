@@ -1,0 +1,37 @@
+#webform-ajax-wrapper-65 {
+  display: flex; }
+
+#webform-client-form-65 {
+  flex: 0 1 65%;
+  border-style: double;
+  border-color: #cbc299;
+  margin-bottom: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(100% - 6px); }
+  #webform-client-form-65 .form-item, #webform-client-form-65 .form-actions {
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-flow: row wrap; }
+  #webform-client-form-65 .webform-component--general-instructions {
+    justify-content: flex-end; }
+    #webform-client-form-65 .webform-component--general-instructions p {
+      margin: 0; }
+  #webform-client-form-65 label {
+    width: 160px;
+    display: block;
+    float: left;
+    margin-right: .5em;
+    text-align: left; }
+  #webform-client-form-65 input#edit-submitted-first-name,
+  #webform-client-form-65 input#edit-submitted-last-name {
+    flex: 1 1 auto;
+    min-width: 0; }
+  #webform-client-form-65 input#edit-submitted-email-address {
+    max-width: calc(100% - 4px); }
+/*# sourceMappingURL=contact.css.map */

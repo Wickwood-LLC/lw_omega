@@ -1,0 +1,17 @@
+.page-user main#main-content {
+  border-radius: 5px;
+  border: 1px solid #c5bc90;
+  margin: 10px;
+  padding: 1em 2.8%;
+  background: #f6f5ee;
+  overflow: hidden; }
+
+.page-user #user-account-main-page .center-wrapper {
+  display: flex;
+  flex-flow: row wrap; }
+  .page-user #user-account-main-page .center-wrapper > div {
+    flex: 1 1 225px;
+    min-width: 225px;
+    width: initial;
+    float: none; }
+/*# sourceMappingURL=user.css.map */

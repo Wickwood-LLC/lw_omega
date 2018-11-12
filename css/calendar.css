@@ -1,0 +1,38 @@
+.page-calendar table.fc-header {
+  margin-bottom: 3px; }
+  .page-calendar table.fc-header tr {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%; }
+    .page-calendar table.fc-header tr td {
+      display: flex;
+      justify-content: center; }
+      .page-calendar table.fc-header tr td.fc-header-left {
+        flex: 1 0 135px; }
+      .page-calendar table.fc-header tr td.fc-header-center {
+        flex: 1 0 185px; }
+      .page-calendar table.fc-header tr td.fc-header-right {
+        flex: 1 0 175px; }
+  .page-calendar table.fc-header .fc-header-title h2 {
+    margin: 0; }
+
+.page-calendar .l-main {
+  display: flex;
+  flex-flow: row wrap; }
+
+.page-calendar .l-banner {
+  flex: 1 1 100%; }
+
+.page-calendar .l-content {
+  order: 1;
+  flex: 1 1 70%;
+  margin: 10px 30px;
+  max-width: calc(100% - 60px); }
+
+.page-calendar .l-region--sidebar-first {
+  order: 0;
+  flex: 1 1 20%; }
+
+.page-calendar .fc-view {
+  overflow-x: scroll; }
+/*# sourceMappingURL=calendar.css.map */
