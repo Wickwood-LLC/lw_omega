@@ -157,6 +157,7 @@
 
     .pane-mailchimp-form {
         flex: 1 1 calc(100% - 120px);
+        max-width: 100%;
     }
 
     #mailchimp-signup-subscribe-block-follow-larry-form {
@@ -219,6 +220,12 @@
             	width: calc(100% - 6px);
             }
         }
+    }
+
+    .pane-mailchimp-signup-form-actions {
+        width: 171px;
+        max-width: 100%;
+        text-align: center;
     }
 
     #edit-actions {

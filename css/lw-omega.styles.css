@@ -713,6 +713,7 @@ input[type="submit"].active {
 }
 #block-panels-mini-follow-block .pane-mailchimp-form {
   flex: 1 1 calc(100% - 120px);
+  max-width: 100%;
 }
 #block-panels-mini-follow-block #mailchimp-signup-subscribe-block-follow-larry-form {
   text-align: center;
@@ -768,6 +769,11 @@ input[type="submit"].active {
   height: 1.2em;
   text-align: center;
   width: calc(100% - 6px);
+}
+#block-panels-mini-follow-block .pane-mailchimp-signup-form-actions {
+  width: 171px;
+  max-width: 100%;
+  text-align: center;
 }
 #block-panels-mini-follow-block #edit-actions {
   text-align: center;
