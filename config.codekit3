@@ -652,6 +652,74 @@
 		"oAP": "/css/media-kit.css.map",
 		"oF": 0
 		},
+	"/css/nodequeue.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/nodequeue-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/nodequeue.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/css/nodequeue.css.map",
+		"oF": 0
+		},
+	"/css/published-article.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/published-article-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/published-article.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/css/published-article.css.map",
+		"oF": 0
+		},
+	"/css/published-articles-view.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/published-articles-view-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/published-articles-view.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/css/published-articles-view.css.map",
+		"oF": 0
+		},
+	"/css/published-books.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/published-books-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/published-books.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/css/published-books.css.map",
+		"oF": 0
+		},
 	"/css/user.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1295,6 +1363,68 @@
 		"oA": 0,
 		"oAP": "/css/media-kit.css",
 		"oF": 3,
+		"oS": 0,
+		"uL": 1
+		},
+	"/sass/pages/nodequeue-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/sass/pages/nodequeue-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/sass/pages/nodequeue.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "/css/nodequeue.css",
+		"oF": 2,
+		"oS": 0,
+		"uL": 1
+		},
+	"/sass/pages/published-article.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "/css/published-article.css",
+		"oF": 2,
+		"oS": 0,
+		"uL": 1
+		},
+	"/sass/pages/published-articles-view.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "/css/published-articles-view.css",
+		"oF": 2,
+		"oS": 0,
+		"uL": 1
+		},
+	"/sass/pages/published-books.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "/css/published-books.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},

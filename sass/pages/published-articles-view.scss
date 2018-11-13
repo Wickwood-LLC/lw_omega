@@ -1,0 +1,41 @@
+.view-list-of-published-articles {
+	.views-row {
+		.node__title,
+		.field--name-field-teaser-title-link {
+			text-align: center;
+			margin-bottom: .5em;
+
+			h2 {
+				margin: 0;
+			}
+			a {
+				text-decoration: none;
+				color: black;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+
+		.node__title {
+			margin: 3px 0;
+		}
+	}
+
+	.more-link {
+		font-weight: bold;
+		font-size: 16px;
+		text-align: center;
+	}
+
+	.pager {
+		li {
+		    display: inline-block;
+		    font-size: 16px;
+		}
+		.pager-current {
+			font-weight: bold;
+		}
+	}
+}

@@ -1,0 +1,16 @@
+.node.node--published-article-listing {
+	.field--name-field-article-publication-date {
+		text-align: center;
+	}
+
+	.node__links {
+		text-align: right;
+		font-style: italic;
+		margin-top: 0.5em;
+
+		li {
+			display: inline-block;
+			float: none;
+		}
+	}
+}

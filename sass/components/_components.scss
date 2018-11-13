@@ -85,66 +85,6 @@
 	}
 }
 
-.node-type-published-books {
-	main#main-content .panel-2col-stacked {
-		.center-wrapper {
-			display: flex;
-			flex-flow: row wrap;
-		}
-		.panel-col-first {
-			flex: 1 1 30%;
-			min-width: 210px;
-			display: flex;
-			justify-content: center;
-		}
-		.panel-col-last {
-			flex: 1 1 60%;
-
-			.field--name-title-field,
-			.field--name-field-book-sub-title,
-			.field--name-field-author {
-				text-align: center;
-
-				@include breakpoint(738px) {
-					text-align: center;
-				}
-			}
-		}
-
-		.field--name-field-teaser-title {
-			font-size: 24px;
-			text-align: center;
-			font-weight: bold;
-			margin-bottom: 0.5em;
-		}
-		.field--name-title-field {
-			margin-top: 0;
-			margin-bottom: .2em;
-		}
-		.field--name-field-author {
-			font-weight: bold;
-			margin-bottom: 0.5em;
-		}
-	}
-}
-
-.node.node--published-article-listing {
-	.field--name-field-article-publication-date {
-		text-align: center;
-	}
-
-	.node__links {
-		text-align: right;
-		font-style: italic;
-		margin-top: 0.5em;
-
-		li {
-			display: inline-block;
-			float: none;
-		}
-	}
-}
-
 main#main-content table {
 	th {
 		text-align: center;

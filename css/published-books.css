@@ -1,0 +1,36 @@
+.node-type-published-books main#main-content .panel-2col-stacked .center-wrapper {
+  display: flex;
+  flex-flow: row wrap; }
+
+.node-type-published-books main#main-content .panel-2col-stacked .panel-col-first {
+  flex: 1 1 30%;
+  min-width: 210px;
+  display: flex;
+  justify-content: center; }
+
+.node-type-published-books main#main-content .panel-2col-stacked .panel-col-last {
+  flex: 1 1 60%; }
+  .node-type-published-books main#main-content .panel-2col-stacked .panel-col-last .field--name-title-field,
+  .node-type-published-books main#main-content .panel-2col-stacked .panel-col-last .field--name-field-book-sub-title,
+  .node-type-published-books main#main-content .panel-2col-stacked .panel-col-last .field--name-field-author {
+    text-align: center; }
+    @media (min-width: 738px) {
+      .node-type-published-books main#main-content .panel-2col-stacked .panel-col-last .field--name-title-field,
+      .node-type-published-books main#main-content .panel-2col-stacked .panel-col-last .field--name-field-book-sub-title,
+      .node-type-published-books main#main-content .panel-2col-stacked .panel-col-last .field--name-field-author {
+        text-align: center; } }
+
+.node-type-published-books main#main-content .panel-2col-stacked .field--name-field-teaser-title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0.5em; }
+
+.node-type-published-books main#main-content .panel-2col-stacked .field--name-title-field {
+  margin-top: 0;
+  margin-bottom: .2em; }
+
+.node-type-published-books main#main-content .panel-2col-stacked .field--name-field-author {
+  font-weight: bold;
+  margin-bottom: 0.5em; }
+/*# sourceMappingURL=published-books.css.map */

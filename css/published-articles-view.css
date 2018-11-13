@@ -1,0 +1,30 @@
+.view-list-of-published-articles .views-row .node__title,
+.view-list-of-published-articles .views-row .field--name-field-teaser-title-link {
+  text-align: center;
+  margin-bottom: .5em; }
+  .view-list-of-published-articles .views-row .node__title h2,
+  .view-list-of-published-articles .views-row .field--name-field-teaser-title-link h2 {
+    margin: 0; }
+  .view-list-of-published-articles .views-row .node__title a,
+  .view-list-of-published-articles .views-row .field--name-field-teaser-title-link a {
+    text-decoration: none;
+    color: black; }
+    .view-list-of-published-articles .views-row .node__title a:hover,
+    .view-list-of-published-articles .views-row .field--name-field-teaser-title-link a:hover {
+      text-decoration: underline; }
+
+.view-list-of-published-articles .views-row .node__title {
+  margin: 3px 0; }
+
+.view-list-of-published-articles .more-link {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center; }
+
+.view-list-of-published-articles .pager li {
+  display: inline-block;
+  font-size: 16px; }
+
+.view-list-of-published-articles .pager .pager-current {
+  font-weight: bold; }
+/*# sourceMappingURL=published-articles-view.css.map */
