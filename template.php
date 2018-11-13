@@ -29,9 +29,6 @@ function lw_omega_preprocess_page(&$vars)
     if (arg(0) == 'calendar') {
         // Calendar page
         drupal_add_css(drupal_get_path('theme', 'lw_omega') . '/css/calendar.css', array('group' => CSS_THEME));
-    } else if (arg(0) == 'contact-larry') {
-        // Contact page
-        drupal_add_css(drupal_get_path('theme', 'lw_omega') . '/css/contact.css', array('group' => CSS_THEME));
     } else if (arg(0) == 'media-kit') {
         // Media kit page
         drupal_add_css(drupal_get_path('theme', 'lw_omega') . '/css/media-kit.css', array('group' => CSS_THEME));
@@ -50,6 +47,9 @@ function lw_omega_preprocess_page(&$vars)
     } else if (arg(0) == 'user' && arg(1) == 'login') {
         // Login page
         drupal_add_css(drupal_get_path('theme', 'lw_omega') . '/css/login.css', array('group' => CSS_THEME));
+    } else if (request_path() == 'contact-larry') {
+        // Contact page
+        drupal_add_css(drupal_get_path('theme', 'lw_omega') . '/css/contact.css', array('group' => CSS_THEME));
     }
 }
 
