@@ -47,9 +47,10 @@ function lw_omega_preprocess_page(&$vars)
     } else if (arg(0) == 'user' && arg(1) == 'login') {
         // Login page
         drupal_add_css(drupal_get_path('theme', 'lw_omega') . '/css/login.css', array('group' => CSS_THEME));
-    } else if (request_path() == 'contact-larry') {
-        // Contact page
-        drupal_add_css(drupal_get_path('theme', 'lw_omega') . '/css/contact.css', array('group' => CSS_THEME));
+    }
+    if (request_path() == 'contact-larry') {
+      // Contact page
+      drupal_add_css(drupal_get_path('theme', 'lw_omega') . '/css/contact.css', array('group' => CSS_THEME));
     }
 }
 
