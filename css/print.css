@@ -117,23 +117,23 @@ img.print-logo {
 .print-footer {
   text-align: center; }
 
-.print-version .field-name-field-featured-image,
-.print-version .field--name-field-featured-image {
-  margin: 0 1em 1em 0;
-  float: left;
-  max-width: 300px; }
-  .print-version .field-name-field-featured-image img,
-  .print-version .field--name-field-featured-image img {
-    width: 100%;
-    height: auto; }
-
-.print-version .field-name-title-field,
-.print-version .field--name-title-field,
-.print-version .pane-node-title {
-  text-align: center; }
-
-.print-version .field--name-field-article-publication-date {
-  text-align: center; }
+.print-version {
+  background: transparent; }
+  .print-version .field-name-field-featured-image,
+  .print-version .field--name-field-featured-image {
+    margin: 0 1em 1em 0;
+    float: left;
+    max-width: 300px; }
+    .print-version .field-name-field-featured-image img,
+    .print-version .field--name-field-featured-image img {
+      width: 100%;
+      height: auto; }
+  .print-version .field-name-title-field,
+  .print-version .field--name-title-field,
+  .print-version .pane-node-title {
+    text-align: center; }
+  .print-version .field--name-field-article-publication-date {
+    text-align: center; }
 
 .node-type-press-release.panelized-node.print-version {
   display: flex;
