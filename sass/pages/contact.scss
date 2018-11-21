@@ -49,4 +49,12 @@
 	input#edit-submitted-email-address {
 		max-width: calc(100% - 4px);
 	}
+
+	.captcha {
+		margin: 1em;
+	}
+	.g-recaptcha {
+		margin: auto;
+		display: table;
+	}
 }

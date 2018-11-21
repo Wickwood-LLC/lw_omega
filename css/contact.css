@@ -36,4 +36,9 @@
     min-width: 0; }
   #webform-client-form-65 input#edit-submitted-email-address {
     max-width: calc(100% - 4px); }
+  #webform-client-form-65 .captcha {
+    margin: 1em; }
+  #webform-client-form-65 .g-recaptcha {
+    margin: auto;
+    display: table; }
 /*# sourceMappingURL=contact.css.map */
