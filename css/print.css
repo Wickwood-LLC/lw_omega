@@ -128,7 +128,11 @@ img.print-logo {
     height: auto; }
 
 .print-version .field-name-title-field,
-.print-version .field--name-title-field {
+.print-version .field--name-title-field,
+.print-version .pane-node-title {
+  text-align: center; }
+
+.print-version .field--name-field-article-publication-date {
   text-align: center; }
 
 .node-type-press-release.panelized-node.print-version {

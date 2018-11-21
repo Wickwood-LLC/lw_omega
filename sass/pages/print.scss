@@ -167,7 +167,11 @@ img.print-logo {
         }
     }
     .field-name-title-field,
-    .field--name-title-field {
+    .field--name-title-field,
+    .pane-node-title {
+        text-align: center;
+    }
+    .field--name-field-article-publication-date {
         text-align: center;
     }
 }
