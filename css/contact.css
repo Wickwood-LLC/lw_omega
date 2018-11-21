@@ -18,6 +18,8 @@
     margin-bottom: 1em;
     display: flex;
     flex-flow: row wrap; }
+  #webform-client-form-65 .form-actions {
+    justify-content: center; }
   #webform-client-form-65 .webform-component--general-instructions {
     justify-content: flex-end; }
     #webform-client-form-65 .webform-component--general-instructions p {

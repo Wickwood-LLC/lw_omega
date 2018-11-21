@@ -21,6 +21,9 @@
 	    display: flex;
 	    flex-flow: row wrap;
 	}
+	.form-actions {
+		justify-content: center;
+	}
 
 	.webform-component--general-instructions {
 		justify-content: flex-end;
