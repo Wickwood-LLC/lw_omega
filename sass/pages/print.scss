@@ -156,7 +156,7 @@ img.print-logo {
 
 .print-version {
     background: transparent;
-    
+
     .field-name-field-featured-image,
     .field--name-field-featured-image {
         margin: 0 1em 1em 0;
@@ -176,88 +176,42 @@ img.print-logo {
     .field--name-field-article-publication-date {
         text-align: center;
     }
-}
 
-.node-type-press-release.panelized-node.print-version {
-    display: flex;
-    flex-flow: column nowrap;
+    .node-type-published-books {
+        .panel-2col-stacked {
+            .center-wrapper {
+                display: flex;
+                flex-flow: row wrap;
+            }
+            .panel-col-first {
+                flex: 1 1 30%;
+                min-width: 210px;
+                display: flex;
+                justify-content: center;
+            }
+            .panel-col-last {
+                flex: 1 1 60%;
 
-    .rtecenter {
-        text-align: center;
-    }
+                .field--name-title-field,
+                .field--name-field-book-sub-title,
+                .field--name-field-author {
+                    text-align: center;
+                }
+            }
 
-    #content {
-        margin-right: 1%;
-        margin-left: 1%;
-    }
-
-    .panel-col-mid {
-        flex: 1 1 500px;
-        width: 100%;
-        display: block;
-    }
-
-    .content-inner-top-right,
-    .content-inner-top-left {
-        display: inline-block;
-        width: 49%;
-        vertical-align: top;
-    }
-
-    .panel-col-right {
-        @include breakpoint(1024px) {
-            flex: 0 300px;
-            min-width: 300px;
-        }
-
-        div:first-child .panel-pane {
-            margin-top: 0;
-        }
-    }
-
-    h1.pane-node-title-field {
-        text-align: center;
-    }
-
-    .field-name-field-full-contact-details,
-    .field--name-field-full-contact-details {
-        margin: 2em 0;
-        text-align: center;
-
-        h4 {
-            margin: 0;
-            display: inline-flex;
-        }
-    }
-
-    .content-main {
-        margin: 0 auto 1em auto;
-        display: block;
-    }
-
-    .content-bottom {
-        width: 100%;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .pane-custom.pane-1 {
-        text-align: center;
-    }
-
-    @include breakpoint(550px) {
-        .panel-wwm-3col-stacked .panel-col-mid {
-
-            .content-inner-top-right,
-            .content-inner-top-left {
-                flex: 1 0px;
-                margin-left: .5em;
-                display: inline-block;
-                width: calc(50% - 1em);
-                vertical-align: top;
+            .field--name-field-teaser-title {
+                font-size: 24px;
+                text-align: center;
+                font-weight: bold;
+                margin-bottom: 0.5em;
+            }
+            .field--name-title-field {
+                margin-top: 0;
+                margin-bottom: .2em;
+            }
+            .field--name-field-author {
+                font-weight: bold;
+                margin-bottom: 0.5em;
             }
         }
     }

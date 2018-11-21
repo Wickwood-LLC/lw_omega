@@ -134,56 +134,29 @@ img.print-logo {
     text-align: center; }
   .print-version .field--name-field-article-publication-date {
     text-align: center; }
-
-.node-type-press-release.panelized-node.print-version {
-  display: flex;
-  flex-flow: column nowrap; }
-  .node-type-press-release.panelized-node.print-version .rtecenter {
-    text-align: center; }
-  .node-type-press-release.panelized-node.print-version #content {
-    margin-right: 1%;
-    margin-left: 1%; }
-  .node-type-press-release.panelized-node.print-version .panel-col-mid {
-    flex: 1 1 500px;
-    width: 100%;
-    display: block; }
-  .node-type-press-release.panelized-node.print-version .content-inner-top-right,
-  .node-type-press-release.panelized-node.print-version .content-inner-top-left {
-    display: inline-block;
-    width: 49%;
-    vertical-align: top; }
-  @media (min-width: 1024px) {
-    .node-type-press-release.panelized-node.print-version .panel-col-right {
-      flex: 0 300px;
-      min-width: 300px; } }
-  .node-type-press-release.panelized-node.print-version .panel-col-right div:first-child .panel-pane {
-    margin-top: 0; }
-  .node-type-press-release.panelized-node.print-version h1.pane-node-title-field {
-    text-align: center; }
-  .node-type-press-release.panelized-node.print-version .field-name-field-full-contact-details,
-  .node-type-press-release.panelized-node.print-version .field--name-field-full-contact-details {
-    margin: 2em 0;
-    text-align: center; }
-    .node-type-press-release.panelized-node.print-version .field-name-field-full-contact-details h4,
-    .node-type-press-release.panelized-node.print-version .field--name-field-full-contact-details h4 {
-      margin: 0;
-      display: inline-flex; }
-  .node-type-press-release.panelized-node.print-version .content-main {
-    margin: 0 auto 1em auto;
-    display: block; }
-  .node-type-press-release.panelized-node.print-version .content-bottom {
-    width: 100%; }
-  .node-type-press-release.panelized-node.print-version img {
-    max-width: 100%;
-    height: auto; }
-  .node-type-press-release.panelized-node.print-version .pane-custom.pane-1 {
-    text-align: center; }
-  @media (min-width: 550px) {
-    .node-type-press-release.panelized-node.print-version .panel-wwm-3col-stacked .panel-col-mid .content-inner-top-right,
-    .node-type-press-release.panelized-node.print-version .panel-wwm-3col-stacked .panel-col-mid .content-inner-top-left {
-      flex: 1 0px;
-      margin-left: .5em;
-      display: inline-block;
-      width: calc(50% - 1em);
-      vertical-align: top; } }
+  .print-version .node-type-published-books .panel-2col-stacked .center-wrapper {
+    display: flex;
+    flex-flow: row wrap; }
+  .print-version .node-type-published-books .panel-2col-stacked .panel-col-first {
+    flex: 1 1 30%;
+    min-width: 210px;
+    display: flex;
+    justify-content: center; }
+  .print-version .node-type-published-books .panel-2col-stacked .panel-col-last {
+    flex: 1 1 60%; }
+    .print-version .node-type-published-books .panel-2col-stacked .panel-col-last .field--name-title-field,
+    .print-version .node-type-published-books .panel-2col-stacked .panel-col-last .field--name-field-book-sub-title,
+    .print-version .node-type-published-books .panel-2col-stacked .panel-col-last .field--name-field-author {
+      text-align: center; }
+  .print-version .node-type-published-books .panel-2col-stacked .field--name-field-teaser-title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0.5em; }
+  .print-version .node-type-published-books .panel-2col-stacked .field--name-title-field {
+    margin-top: 0;
+    margin-bottom: .2em; }
+  .print-version .node-type-published-books .panel-2col-stacked .field--name-field-author {
+    font-weight: bold;
+    margin-bottom: 0.5em; }
 /*# sourceMappingURL=print.css.map */
