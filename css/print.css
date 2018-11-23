@@ -152,4 +152,7 @@ img.print-logo {
   .print-version .node-type-published-books .panel-2col-stacked .field--name-field-author {
     font-weight: bold;
     margin-bottom: 0.5em; }
+  .print-version .node-type-published-books .panel-2col-stacked .pane-node-field-book-cover {
+    margin-top: 2em;
+    text-align: center; }
 /*# sourceMappingURL=print.css.map */
