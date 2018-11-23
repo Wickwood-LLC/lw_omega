@@ -157,6 +157,11 @@ img.print-logo {
 .print-version {
     background: transparent;
 
+    blockquote {
+        background-color: transparent;
+        filter: grayscale(1);
+    }
+
     .field-name-field-featured-image,
     .field--name-field-featured-image {
         margin: 0 1em 1em 0;

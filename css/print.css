@@ -119,6 +119,10 @@ img.print-logo {
 
 .print-version {
   background: transparent; }
+  .print-version blockquote {
+    background-color: transparent;
+    -webkit-filter: grayscale(1);
+            filter: grayscale(1); }
   .print-version .field-name-field-featured-image,
   .print-version .field--name-field-featured-image {
     margin: 0 1em 1em 0;
