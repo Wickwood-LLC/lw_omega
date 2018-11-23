@@ -34,7 +34,10 @@
   font-weight: bold;
   margin-bottom: 0.5em; }
 
-.node-type-published-books main#main-content .panel-2col-stacked .pane-node-field-book-cover {
+.node-type-published-books main#main-content .panel-2col-stacked .pane-node-links {
+  margin-top: 1em; }
+
+.node-type-published-books .pane-node-field-book-cover {
   margin-top: 2em;
   text-align: center; }
 /*# sourceMappingURL=published-books.css.map */
