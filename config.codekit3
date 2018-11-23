@@ -540,6 +540,23 @@
 		"oAP": "/bower_components/sassy-maps/sassy-maps.gemspec",
 		"oF": 0
 		},
+	"/css/basic-page.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/basic-page-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/basic-page.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/css/basic-page.css.map",
+		"oF": 0
+		},
 	"/css/calendar.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1310,6 +1327,19 @@
 		"oF": 2,
 		"oS": 1,
 		"uL": 0
+		},
+	"/sass/pages/basic-page.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "/css/basic-page.css",
+		"oF": 2,
+		"oS": 0,
+		"uL": 1
 		},
 	"/sass/pages/calendar.scss": {
 		"aP": 1,

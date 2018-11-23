@@ -40,6 +40,8 @@ function lw_omega_preprocess_page(&$vars)
             drupal_add_css(drupal_get_path('theme', 'lw_omega') . '/css/published-books.css', array('group' => CSS_THEME));
         } else if ($node->type == 'published_article_listing') {
             drupal_add_css(drupal_get_path('theme', 'lw_omega') . '/css/published-article.css', array('group' => CSS_THEME));
+        } else if ($node->type == 'page') {
+            drupal_add_css(drupal_get_path('theme', 'lw_omega') . '/css/basic-page.css', array('group' => CSS_THEME));
         }
     } else if (arg(0) == 'users') {
         // User page
