@@ -39,8 +39,12 @@
 			font-weight: bold;
 			margin-bottom: 0.5em;
 		}
-		.pane-node-links {
-			margin-top: 1em;
+		.pane-print-ui-print-links {
+			font-style: italic;
+
+			@include breakpoint(654px) {
+				margin-top: 1em;
+			}
 		}
 	}
 
