@@ -42,7 +42,7 @@
 		.pane-print-ui-print-links {
 			font-style: italic;
 
-			@include breakpoint(654px) {
+			@include breakpoint(500px) {
 				margin-top: 1em;
 			}
 		}
@@ -51,5 +51,15 @@
 	.pane-node-field-book-cover {
 	    margin-top: 2em;
 	    text-align: center;
+	}
+
+	.print_html, .print_mail, .print_pdf, .print_epub {
+		margin-left: 0;
+		margin-right: 1em;
+		display: inline-block;
+
+		@include breakpoint(654px) {
+			width: 100%;
+		}
 	}
 }
