@@ -46,7 +46,7 @@ function lw_omega_preprocess_page(&$vars)
     } else if (arg(0) == 'users') {
         // User page
         drupal_add_css(drupal_get_path('theme', 'lw_omega') . '/css/login.css', array('group' => CSS_THEME));
-    } else if (arg(0) == 'user' && arg(1) == 'login') {
+    } else if (arg(0) == 'user' && in_array(arg(1), array('login', 'password'))) {
         // Login page
         drupal_add_css(drupal_get_path('theme', 'lw_omega') . '/css/login.css', array('group' => CSS_THEME));
     }
