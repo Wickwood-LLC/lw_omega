@@ -1,9 +1,22 @@
 .page-user {
+	#main-content {
+		border: 1px solid #c7bd8c;
+		border-radius: 5px;
+		padding: 1em;
+		max-width: 500px;
+		margin: auto;
+		background: #f6f5ee;
+	}
+
 	#user-login,
 	#user-pass {
 		max-width: 500px;
 		margin: 1em auto;
 		text-align: center;
+
+		.form-item label {
+			display: inline-block;
+		}
 
 		input.form-text {
 			max-width: 100%;

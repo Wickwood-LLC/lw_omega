@@ -1,8 +1,19 @@
+.page-user #main-content {
+  border: 1px solid #c7bd8c;
+  border-radius: 5px;
+  padding: 1em;
+  max-width: 500px;
+  margin: auto;
+  background: #f6f5ee; }
+
 .page-user #user-login,
 .page-user #user-pass {
   max-width: 500px;
   margin: 1em auto;
   text-align: center; }
+  .page-user #user-login .form-item label,
+  .page-user #user-pass .form-item label {
+    display: inline-block; }
   .page-user #user-login input.form-text,
   .page-user #user-pass input.form-text {
     max-width: 100%;
