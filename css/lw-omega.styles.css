@@ -362,6 +362,21 @@ input[type="submit"].active {
   border: 1px solid #484e46;
 }
 
+#block-widgets-s-socialmedia-share-default .block__title,
+#block-widgets-s-socialmedia-share-default .block__content {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#colorbox .mg-lightbox-wrapper .lightbox-title {
+  text-align: center;
+}
+#colorbox .mg-lightbox-detail {
+  padding-right: 0;
+  width: 100%;
+  text-align: center;
+}
+
 .l-branding {
   background: linear-gradient(to bottom, #eed889 0%, #e3be3c 50%, #eed889 100%);
   border-radius: 5px;

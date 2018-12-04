@@ -166,3 +166,22 @@ input[type="submit"] {
 		border: 1px solid #484e46;
 	}
 }
+
+#block-widgets-s-socialmedia-share-default {
+	.block__title,
+	.block__content {
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+
+#colorbox {
+	.mg-lightbox-wrapper .lightbox-title {
+		text-align: center;
+	}
+	.mg-lightbox-detail {
+	    padding-right: 0;
+	    width: 100%;
+	    text-align: center;
+	}
+}
