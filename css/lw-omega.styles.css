@@ -805,4 +805,10 @@ input[type="submit"].active {
   font-family: FontAwesome;
 }
 
+#block-widgets-s-socialmedia-share-default .block__title,
+#block-widgets-s-socialmedia-share-default .block__content {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /*# sourceMappingURL=lw-omega.styles.css.map */

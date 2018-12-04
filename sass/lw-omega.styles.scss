@@ -6,3 +6,11 @@
 @import "abstractions/*";
 @import "base/*";
 @import "components/*";
+
+#block-widgets-s-socialmedia-share-default {
+	.block__title,
+	.block__content {
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
