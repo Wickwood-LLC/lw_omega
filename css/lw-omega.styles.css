@@ -366,10 +366,13 @@ input[type="submit"].active {
 #block-widgets-s-socialmedia-share-default .block__content {
   display: inline-block;
   vertical-align: middle;
+  font-size: 1em;
 }
 
 #colorbox .mg-lightbox-wrapper .lightbox-title {
   text-align: center;
+  max-width: 60vw;
+  margin: auto;
 }
 #colorbox .mg-lightbox-detail {
   padding-right: 0;
@@ -818,12 +821,6 @@ input[type="submit"].active {
   content: '\f0d7';
   margin-left: 0.5em;
   font-family: FontAwesome;
-}
-
-#block-widgets-s-socialmedia-share-default .block__title,
-#block-widgets-s-socialmedia-share-default .block__content {
-  display: inline-block;
-  vertical-align: middle;
 }
 
 /*# sourceMappingURL=lw-omega.styles.css.map */

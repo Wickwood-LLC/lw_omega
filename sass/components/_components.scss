@@ -172,12 +172,15 @@ input[type="submit"] {
 	.block__content {
 		display: inline-block;
 		vertical-align: middle;
+		font-size: 1em;
 	}
 }
 
 #colorbox {
 	.mg-lightbox-wrapper .lightbox-title {
 		text-align: center;
+		max-width: 60vw;
+		margin: auto;
 	}
 	.mg-lightbox-detail {
 	    padding-right: 0;
