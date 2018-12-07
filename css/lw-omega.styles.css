@@ -388,9 +388,6 @@ main#main-content table.jb-cap-frame td {
   margin: auto;
 }
 #views_slideshow_cycle_teaser_section_image_gallery_slideshow-panel_pane_1_1 .views-slideshow-cycle-main-frame-row {
-  width: 100% !important;
-  height: 100% !important;
-  display: flex !important;
   justify-content: center;
   align-items: center;
 }
