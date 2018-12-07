@@ -192,3 +192,30 @@ input[type="submit"] {
 main#main-content table.jb-cap-frame td {
 	vertical-align: bottom;
 }
+
+#views_slideshow_cycle_teaser_section_image_gallery_slideshow-panel_pane_1_1 {
+	margin: auto;
+
+	.views-slideshow-cycle-main-frame-row {
+		width: 100% !important;
+		height: 100% !important;
+		display: flex !important;
+		justify-content: center;
+		align-items: center;
+	}
+	.views-slideshow-cycle-main-frame-row-item {
+		position: relative;
+	}
+	.views-field.views-field-rendered .field-content {
+		display: flex;
+	}
+	.views-field.views-field-media-title {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		padding: 1em;
+		box-sizing: border-box;
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+	}
+}

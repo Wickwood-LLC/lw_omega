@@ -384,6 +384,32 @@ main#main-content table.jb-cap-frame td {
   vertical-align: bottom;
 }
 
+#views_slideshow_cycle_teaser_section_image_gallery_slideshow-panel_pane_1_1 {
+  margin: auto;
+}
+#views_slideshow_cycle_teaser_section_image_gallery_slideshow-panel_pane_1_1 .views-slideshow-cycle-main-frame-row {
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+#views_slideshow_cycle_teaser_section_image_gallery_slideshow-panel_pane_1_1 .views-slideshow-cycle-main-frame-row-item {
+  position: relative;
+}
+#views_slideshow_cycle_teaser_section_image_gallery_slideshow-panel_pane_1_1 .views-field.views-field-rendered .field-content {
+  display: flex;
+}
+#views_slideshow_cycle_teaser_section_image_gallery_slideshow-panel_pane_1_1 .views-field.views-field-media-title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
 .l-branding {
   background: linear-gradient(to bottom, #eed889 0%, #e3be3c 50%, #eed889 100%);
   border-radius: 5px;
