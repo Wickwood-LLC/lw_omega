@@ -418,6 +418,10 @@ main#main-content table.jb-cap-frame td {
   width: 100%;
 }
 
+.view-image-gallery-slideshow .views-slideshow-controls-bottom {
+  display: flex;
+  flex-flow: row wrap;
+}
 .view-image-gallery-slideshow .views-slideshow-pager-field-item img {
   border: 3px solid transparent;
 }
@@ -426,6 +430,12 @@ main#main-content table.jb-cap-frame td {
 }
 .view-image-gallery-slideshow .views-slideshow-pager-field-item.active img {
   border: 3px solid #000;
+}
+.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1,
+.view-image-gallery-slideshow #views_slideshow_slide_counter_image_gallery_slideshow-panel_pane_1_1 {
+  text-align: center;
+  flex: 1 100%;
+  order: -1;
 }
 
 .l-branding {

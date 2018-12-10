@@ -237,6 +237,11 @@ main#main-content table.jb-cap-frame td {
 }
 
 .view-image-gallery-slideshow {
+	.views-slideshow-controls-bottom {
+		display: flex;
+		flex-flow: row wrap;
+	}
+
 	.views-slideshow-pager-field-item {
 		img {
 			border: 3px solid transparent;
@@ -249,5 +254,12 @@ main#main-content table.jb-cap-frame td {
 	    		border: 3px solid #000;
 	    	}
 	    }
+	}
+
+	#vscc_controls_image_gallery_slideshow-panel_pane_1_1,
+	#views_slideshow_slide_counter_image_gallery_slideshow-panel_pane_1_1 {
+		text-align: center;
+	    flex: 1 100%;
+	    order: -1;
 	}
 }
