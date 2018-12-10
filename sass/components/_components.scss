@@ -234,17 +234,20 @@ main#main-content table.jb-cap-frame td {
         text-align: center;
         width: 100%;
     }
+}
 
-    .views-slideshow-pager-field-item {
-    	img {
-    		border: 3px solid transparent;
-    	}
-    	&.active {
-        	text-decoration: none;
+.view-image-gallery-slideshow {
+	.views-slideshow-pager-field-item {
+		img {
+			border: 3px solid transparent;
+		}
+		
+		&.active {
+	    	text-decoration: none;
 
-        	img {
-        		border: 3px solid #000;
-        	}
-        }
-    }
+	    	img {
+	    		border: 3px solid #000;
+	    	}
+	    }
+	}
 }
