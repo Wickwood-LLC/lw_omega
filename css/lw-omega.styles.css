@@ -417,6 +417,15 @@ main#main-content table.jb-cap-frame td {
   text-align: center;
   width: 100%;
 }
+#views_slideshow_cycle_teaser_section_image_gallery_slideshow-panel_pane_1_1 .views-slideshow-pager-field-item img {
+  border: 3px solid transparent;
+}
+#views_slideshow_cycle_teaser_section_image_gallery_slideshow-panel_pane_1_1 .views-slideshow-pager-field-item.active {
+  text-decoration: none;
+}
+#views_slideshow_cycle_teaser_section_image_gallery_slideshow-panel_pane_1_1 .views-slideshow-pager-field-item.active img {
+  border: 3px solid #000;
+}
 
 .l-branding {
   background: linear-gradient(to bottom, #eed889 0%, #e3be3c 50%, #eed889 100%);
