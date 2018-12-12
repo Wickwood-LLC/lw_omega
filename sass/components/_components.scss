@@ -243,6 +243,7 @@ main#main-content table.jb-cap-frame td {
 	.views-slideshow-pager-field-item {
 		img {
 			border: 3px solid transparent;
+			box-sizing: border-box;
 		}
 		
 		&.active {
