@@ -267,48 +267,56 @@ main#main-content table.jb-cap-frame td {
 	}
 
 	#vscc_controls_image_gallery_slideshow-panel_pane_1_1 {
-		.vscc_controls_previous:before {
-			content: '\f0d9';
-			font-family: FontAwesome;
-			color: black;
-			text-decoration: none;
-			font-size: 20px;
+		.vscc_controls_previous {
+			&:before {
+				content: '\f048';
+				font-family: FontAwesome;
+				color: black;
+				text-decoration: none;
+				font-size: 20px;
+			}
 
-			a{
+			a {
 				text-indent: -9999px;
 				display: inline-block;
 			}
 		}
-		.vscc-pause:before {
-			content: '\f04c';
-			font-family: FontAwesome;
-			color: black;
-			text-decoration: none;
-			font-size: 20px;
+		.vscc-pause {
+			&:before {
+				content: '\f04c';
+				font-family: FontAwesome;
+				color: black;
+				text-decoration: none;
+				font-size: 20px;
+			}
 
-			a{
+			a {
 				text-indent: -9999px;
 				display: inline-block;
 			}
 		} 
-		.vscc-resume:before {
-		    content: '\f04b';
-		    font-family: FontAwesome;
-		    color: black;
-		    text-decoration: none;
-		    font-size: 20px;
+		.vscc-resume {
+			&:before {
+				content: '\f04b';
+				font-family: FontAwesome;
+				color: black;
+				text-decoration: none;
+				font-size: 20px;
+			}
 
-		    a{
-			text-indent: -9999px;
-			display: inline-block;
+		    a {
+				text-indent: -9999px;
+				display: inline-block;
 			}
 		}
-		.vscc_controls_next:before {
-			content: '\f0da';
-			font-family: FontAwesome;
-			color: black;
-			text-decoration: none;
-			font-size: 20px;
+		.vscc_controls_next {
+			&:before {
+				content: '\f051';
+				font-family: FontAwesome;
+				color: black;
+				text-decoration: none;
+				font-size: 20px;
+			}
 
 			a{
 				text-indent: -9999px;

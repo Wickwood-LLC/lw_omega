@@ -440,13 +440,13 @@ main#main-content table.jb-cap-frame td {
   order: -1;
 }
 .view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_previous:before {
-  content: '\f0d9';
+  content: '\f048';
   font-family: FontAwesome;
   color: black;
   text-decoration: none;
   font-size: 20px;
 }
-.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_previous:before a {
+.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_previous a {
   text-indent: -9999px;
   display: inline-block;
 }
@@ -457,7 +457,7 @@ main#main-content table.jb-cap-frame td {
   text-decoration: none;
   font-size: 20px;
 }
-.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc-pause:before a {
+.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc-pause a {
   text-indent: -9999px;
   display: inline-block;
 }
@@ -468,18 +468,18 @@ main#main-content table.jb-cap-frame td {
   text-decoration: none;
   font-size: 20px;
 }
-.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc-resume:before a {
+.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc-resume a {
   text-indent: -9999px;
   display: inline-block;
 }
 .view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_next:before {
-  content: '\f0da';
+  content: '\f051';
   font-family: FontAwesome;
   color: black;
   text-decoration: none;
   font-size: 20px;
 }
-.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_next:before a {
+.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_next a {
   text-indent: -9999px;
   display: inline-block;
 }
