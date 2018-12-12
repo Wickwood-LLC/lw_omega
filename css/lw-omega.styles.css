@@ -420,6 +420,9 @@ main#main-content table.jb-cap-frame td {
   display: flex;
   flex-flow: row wrap;
 }
+.view-image-gallery-slideshow #widget_pager_bottom_image_gallery_slideshow-panel_pane_1_1 {
+  text-align: center;
+}
 .view-image-gallery-slideshow .views-slideshow-pager-field-item img {
   border: 3px solid transparent;
   box-sizing: border-box;
