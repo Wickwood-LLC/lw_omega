@@ -439,45 +439,49 @@ main#main-content table.jb-cap-frame td {
   flex: 1 100%;
   order: -1;
 }
-.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_previous a {
-  text-indent: -9999px;
-}
-.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_previous a:before {
+.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_previous:before {
   content: '\f0d9';
   font-family: FontAwesome;
   color: black;
   text-decoration: none;
   font-size: 20px;
 }
-.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc-pause a {
+.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_previous:before a {
   text-indent: -9999px;
+  display: inline-block;
 }
-.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc-pause a:before {
+.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc-pause:before {
   content: '\f04c';
   font-family: FontAwesome;
   color: black;
   text-decoration: none;
   font-size: 20px;
 }
-.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc-resume a {
+.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc-pause:before a {
   text-indent: -9999px;
+  display: inline-block;
 }
-.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc-resume a:before {
+.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc-resume:before {
   content: '\f04b';
   font-family: FontAwesome;
   color: black;
   text-decoration: none;
   font-size: 20px;
 }
-.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_next a {
+.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc-resume:before a {
   text-indent: -9999px;
+  display: inline-block;
 }
-.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_next a:before {
+.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_next:before {
   content: '\f0da';
   font-family: FontAwesome;
   color: black;
   text-decoration: none;
   font-size: 20px;
+}
+.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_next:before a {
+  text-indent: -9999px;
+  display: inline-block;
 }
 
 .l-branding {
