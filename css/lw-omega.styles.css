@@ -426,6 +426,8 @@ main#main-content table.jb-cap-frame td {
 .view-image-gallery-slideshow .views-slideshow-pager-field-item img {
   border: 3px solid transparent;
   box-sizing: border-box;
+  max-width: unset;
+  max-height: unset;
 }
 .view-image-gallery-slideshow .views-slideshow-pager-field-item.active {
   text-decoration: none;

@@ -248,6 +248,8 @@ main#main-content table.jb-cap-frame td {
 		img {
 			border: 3px solid transparent;
 			box-sizing: border-box;
+			max-width: unset;
+			max-height: unset;
 		}
 		
 		&.active {
