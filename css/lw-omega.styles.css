@@ -439,49 +439,19 @@ main#main-content table.jb-cap-frame td {
   flex: 1 100%;
   order: -1;
 }
-.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_previous:before {
-  content: '\f048';
-  font-family: FontAwesome;
-  color: black;
-  text-decoration: none;
-  font-size: 20px;
-}
-.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_previous a {
-  text-indent: -9999px;
-  display: inline-block;
-}
-.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc-pause:before {
-  content: '\f04c';
-  font-family: FontAwesome;
-  color: black;
-  text-decoration: none;
-  font-size: 20px;
-}
-.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc-pause a {
-  text-indent: -9999px;
-  display: inline-block;
-}
-.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc-resume:before {
-  content: '\f04b';
-  font-family: FontAwesome;
-  color: black;
-  text-decoration: none;
-  font-size: 20px;
-}
-.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc-resume a {
-  text-indent: -9999px;
-  display: inline-block;
-}
-.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_next:before {
-  content: '\f051';
-  font-family: FontAwesome;
-  color: black;
-  text-decoration: none;
-  font-size: 20px;
-}
+.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_previous a,
+.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc-pause a,
+.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc-resume a,
 .view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_next a {
-  text-indent: -9999px;
-  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_previous img,
+.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc-pause img,
+.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc-resume img,
+.view-image-gallery-slideshow #vscc_controls_image_gallery_slideshow-panel_pane_1_1 .vscc_controls_next img {
+  width: 20px;
+  height: 20px;
 }
 
 .l-branding {
