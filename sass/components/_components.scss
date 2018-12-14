@@ -221,13 +221,10 @@ main#main-content table.jb-cap-frame td {
 	        display: flex;
 	    }
 
-	    .views-field.views-field-media-title {
+	    .field--name-media- {
 	        position: absolute;
-	        bottom: 0;
-	        padding: 0em 2em 3em 2em;
 	        box-sizing: border-box;
 	        color: black;
-	        font-size: 1em;
 	        text-align: center;
 	        width: 100%;
 	    }
@@ -236,10 +233,40 @@ main#main-content table.jb-cap-frame td {
 	#views_slideshow_cycle_teaser_section_image_gallery_slideshow-panel_pane_1_1 .views-slideshow-cycle-main-frame-row {
 		width: 546px !important;
 		height: 483px !important;
+
+		.landscape {
+			.field--name-media-title {
+				font-size: 1em;
+				padding: 0em 2em;
+				top: 385px;
+			}
+		}
+		.portrait {
+			.field--name-media-title {
+				font-size: 1em;
+				padding: 0em 2em;
+				top: 400px;
+			}
+		}
 	}
 	#views_slideshow_cycle_teaser_section_image_gallery_slideshow-panel_pane_2_1 .views-slideshow-cycle-main-frame-row {
 		width: 273px !important;
 		height: 243px !important;
+
+		.landscape {
+			.field--name-media-title {
+				font-size: 0.8em;
+				padding: 0em 1.5em;
+				top: 188px;
+			}
+		}
+		.portrait {
+			.field--name-media-title {
+				font-size: 0.8em;
+				padding: 0em 1.5em;
+				top: 195px;
+			}
+		}
 	}
 
 	.views-slideshow-controls-bottom {
