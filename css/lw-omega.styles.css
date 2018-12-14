@@ -436,7 +436,7 @@ main#main-content table.jb-cap-frame td {
   text-decoration: none;
 }
 .view-image-gallery-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-field-item.active img {
-  border: 3px solid #000;
+  border: 5px solid #efc507;
 }
 .view-image-gallery-slideshow .views-slideshow-controls-bottom .vscc-controls,
 .view-image-gallery-slideshow .views-slideshow-controls-bottom .views-slideshow-slide-counter {
