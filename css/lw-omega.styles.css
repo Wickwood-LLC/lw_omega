@@ -427,7 +427,7 @@ main#main-content table.jb-cap-frame td {
   margin: auto;
 }
 .view-image-gallery-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-field-item img {
-  border: 3px solid transparent;
+  border: 5px solid transparent;
   box-sizing: border-box;
   max-width: unset;
   max-height: unset;
