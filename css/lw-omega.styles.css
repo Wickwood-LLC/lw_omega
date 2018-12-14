@@ -403,7 +403,7 @@ main#main-content table.jb-cap-frame td {
 .view-image-gallery-slideshow .views-slideshow-cycle-main-frame .views-field.views-field-rendered .field-content {
   display: flex;
 }
-.view-image-gallery-slideshow .views-slideshow-cycle-main-frame .field--name-mediatitle {
+.view-image-gallery-slideshow .views-slideshow-cycle-main-frame .field--name-media-title {
   position: absolute;
   box-sizing: border-box;
   color: black;
