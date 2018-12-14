@@ -209,17 +209,6 @@ main#main-content table.jb-cap-frame td {
 			align-items: center;
 			align-content: center;
 	    }
-	    
-	    #views_slideshow_cycle_teaser_section_image_gallery_slideshow-panel_pane_1_1 .views-slideshow-cycle-main-frame-row {
-			width: 629px !important;
-			height: 500px !important;
-	    }
-	    #views_slideshow_cycle_teaser_section_image_gallery_slideshow-panel_pane_2_1 .views-slideshow-cycle-main-frame-row {
-
-	    }
-	    #views_slideshow_cycle_teaser_section_image_gallery_slideshow-panel_pane_3_1 .views-slideshow-cycle-main-frame-row {
-
-	    }
 
 	    .views-slideshow-cycle-main-frame-row-item {
 	        width: auto;
@@ -244,6 +233,14 @@ main#main-content table.jb-cap-frame td {
 	    }
 	}
 
+	#views_slideshow_cycle_teaser_section_image_gallery_slideshow-panel_pane_1_1 .views-slideshow-cycle-main-frame-row {
+		width: 546px !important;
+		height: 483px !important;
+	}
+	#views_slideshow_cycle_teaser_section_image_gallery_slideshow-panel_pane_2_1 .views-slideshow-cycle-main-frame-row {
+		width: 273px !important;
+		height: 243px !important;
+	}
 
 	.views-slideshow-controls-bottom {
 		display: flex;
