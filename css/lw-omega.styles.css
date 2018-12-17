@@ -479,6 +479,10 @@ main#main-content table.jb-cap-frame td {
   width: 20px;
   height: 20px;
 }
+.view-image-gallery-slideshow .views-slideshow-controls-bottom .vscc-pause,
+.view-image-gallery-slideshow .views-slideshow-controls-bottom .vscc-resume {
+  margin: 0 15px;
+}
 
 .l-branding {
   background: linear-gradient(to bottom, #eed889 0%, #e3be3c 50%, #eed889 100%);
