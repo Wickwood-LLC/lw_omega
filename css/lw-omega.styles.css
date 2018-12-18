@@ -690,7 +690,7 @@ main#main-content table.jb-cap-frame td {
   flex-flow: row wrap;
 }
 #block-panels-mini-follow-block .pane-mailchimp-form {
-  flex: 1 1 80%;
+  flex: 1 0 350px;
   max-width: 100%;
 }
 #block-panels-mini-follow-block #mailchimp-signup-subscribe-block-follow-larry-form {
@@ -777,7 +777,7 @@ main#main-content table.jb-cap-frame td {
   border: 1px solid #a58b1e;
 }
 #block-panels-mini-follow-block .pane-widgets-s-socialmedia-profile-default {
-  flex: 1 1 20%;
+  flex: 1 0 120px;
   display: flex;
   justify-content: center;
 }
