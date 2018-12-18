@@ -690,8 +690,13 @@ main#main-content table.jb-cap-frame td {
   flex-flow: row wrap;
 }
 #block-panels-mini-follow-block .pane-mailchimp-form {
-  flex: 1 0 350px;
+  flex: 1 1 80%;
   max-width: 100%;
+}
+@media (min-width: 447px) {
+  #block-panels-mini-follow-block .pane-mailchimp-form {
+    flex: 1 0 350px;
+  }
 }
 #block-panels-mini-follow-block #mailchimp-signup-subscribe-block-follow-larry-form {
   text-align: center;
@@ -777,9 +782,14 @@ main#main-content table.jb-cap-frame td {
   border: 1px solid #a58b1e;
 }
 #block-panels-mini-follow-block .pane-widgets-s-socialmedia-profile-default {
-  flex: 1 0 120px;
+  flex: 1 1 20%;
   display: flex;
   justify-content: center;
+}
+@media (min-width: 447px) {
+  #block-panels-mini-follow-block .pane-widgets-s-socialmedia-profile-default {
+    flex: 1 0 120px;
+  }
 }
 #block-panels-mini-follow-block #widgets-element-socialmedia_profile-default {
   text-align: right;

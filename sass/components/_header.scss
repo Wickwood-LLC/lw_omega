@@ -156,8 +156,12 @@
     }
 
     .pane-mailchimp-form {
-        flex: 1 0 350px;
+        flex: 1 1 80%;
         max-width: 100%;
+
+        @include breakpoint(447px) {
+            flex: 1 0 350px;
+        }
     }
 
     #mailchimp-signup-subscribe-block-follow-larry-form {
@@ -254,9 +258,13 @@
     }
 
     .pane-widgets-s-socialmedia-profile-default {
-        flex: 1 0 120px;
+        flex: 1 1 20%;
         display: flex;
         justify-content: center;
+
+        @include breakpoint(447px) {
+            flex: 1 0 120px;
+        }
     }
 
     #widgets-element-socialmedia_profile-default {
