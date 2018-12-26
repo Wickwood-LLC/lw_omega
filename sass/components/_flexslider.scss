@@ -1,10 +1,20 @@
 #flexslider-1 {
 	.flex-caption {
 		position: absolute;
-		bottom: calc(20vw - 20px);
+		bottom: calc(22vw - 20px);
 		padding: 0 8vw;
 		width: 100%;
 		box-sizing: border-box;
 		font-size: 2vw;
+
+		@include breakpoint(0px 600px) {
+			font-size: 12px;
+		}
+
+		@include breakpoint(1080px) {
+			bottom: 218px;
+			padding: 0 86.4px;
+			font-size: 22px;
+		}
 	}
 }
