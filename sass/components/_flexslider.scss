@@ -8,6 +8,7 @@
 		font-size: 2vw;
 
 		@include breakpoint(0px 600px) {
+			bottom: calc(18% - 20px);
 			font-size: 12px;
 		}
 

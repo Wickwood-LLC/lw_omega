@@ -494,6 +494,7 @@ main#main-content table.jb-cap-frame td {
 }
 @media (min-width: 0px) and (max-width: 600px) {
   #flexslider-1 .flex-caption {
+    bottom: calc(18% - 20px);
     font-size: 12px;
   }
 }
