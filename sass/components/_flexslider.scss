@@ -1,9 +1,12 @@
 #flexslider-1 {
+	.flex-caption,
 	.portrait .field.field--name-media-title {
 		position: absolute;
+		bottom: calc(22vw - 20px);
 		padding: 0 8vw;
 		width: 100%;
 		box-sizing: border-box;
+		font-size: 2vw;
 
 		@include breakpoint(0px 600px) {
 			bottom: calc(18% - 20px);
@@ -19,9 +22,11 @@
 
 	.landscape .field.field--name-media-title {
 		position: absolute;
+		bottom: calc(22vw - 20px);
 		padding: 0 8vw;
 		width: 100%;
 		box-sizing: border-box;
+		font-size: 2vw;
 
 		@include breakpoint(0px 600px) {
 			top: calc(82% - 20px);
