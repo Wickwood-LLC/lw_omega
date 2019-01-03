@@ -484,23 +484,40 @@ main#main-content table.jb-cap-frame td {
   margin: 0 15px;
 }
 
-#flexslider-1 .flex-caption {
+#flexslider-1 .portrait .field.field--name-media-title {
   position: absolute;
-  bottom: calc(22vw - 20px);
   padding: 0 8vw;
   width: 100%;
   box-sizing: border-box;
-  font-size: 2vw;
 }
 @media (min-width: 0px) and (max-width: 600px) {
-  #flexslider-1 .flex-caption {
+  #flexslider-1 .portrait .field.field--name-media-title {
     bottom: calc(18% - 20px);
     font-size: 12px;
   }
 }
 @media (min-width: 1080px) {
-  #flexslider-1 .flex-caption {
+  #flexslider-1 .portrait .field.field--name-media-title {
     bottom: 218px;
+    padding: 0 86.4px;
+    font-size: 22px;
+  }
+}
+#flexslider-1 .landscape .field.field--name-media-title {
+  position: absolute;
+  padding: 0 8vw;
+  width: 100%;
+  box-sizing: border-box;
+}
+@media (min-width: 0px) and (max-width: 600px) {
+  #flexslider-1 .landscape .field.field--name-media-title {
+    top: calc(82% - 20px);
+    font-size: 12px;
+  }
+}
+@media (min-width: 1080px) {
+  #flexslider-1 .landscape .field.field--name-media-title {
+    top: 680px;
     padding: 0 86.4px;
     font-size: 22px;
   }
