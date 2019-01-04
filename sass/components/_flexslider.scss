@@ -1,10 +1,11 @@
 #flexslider-1 {
 	background: transparent;
 	border: 0;
-	
+
 	.views-field-rendered {
 		img {
 			width: auto;
+			max-width: 100%;
 			height: 240px;
 			margin: auto;
 			max-height: 480px;
@@ -17,42 +18,32 @@
 	.portrait {
 		.field.field--name-media-title {
 			position: absolute;
-			bottom: calc(22vw - 20px);
-			padding: 0 8vw;
+			top: 393px;
+			padding: 0 calc((100% - 285px) / 2);
 			width: 100%;
 			box-sizing: border-box;
-			font-size: 2vw;
+			font-size: 22px;
 	
 			@include breakpoint(0px 600px) {
-				bottom: calc(18% - 20px);
-				font-size: 12px;
-			}
-	
-			@include breakpoint(1080px) {
-				bottom: 218px;
-				padding: 0 86.4px;
-				font-size: 22px;
+				padding: 0 calc((100% - 143px) / 2);
+				top: 200px;
+    			font-size: 11px;
 			}
 		}
 	}
 
 	.landscape .field.field--name-media-title {
 		position: absolute;
-		top: calc(65vw - 20px);
-		padding: 0 8vw;
+		top: 380px;
+		padding: 0 calc((100% - 477px) / 2);
 		width: 100%;
 		box-sizing: border-box;
-		font-size: 2vw;
+		font-size: 22px;
 
 		@include breakpoint(0px 600px) {
-			top: calc(82% - 20px);
-			font-size: 12px;
-		}
-
-		@include breakpoint(1080px) {
-			top: 680px;
-			padding: 0 86.4px;
-			font-size: 22px;
+			padding: 0 calc((100% - 237px) / 2);
+			top: 190px;
+			font-size: 11px;
 		}
 	}
 }
