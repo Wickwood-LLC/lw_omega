@@ -484,7 +484,21 @@ main#main-content table.jb-cap-frame td {
   margin: 0 15px;
 }
 
-#flexslider-1 .flex-caption,
+#flexslider-1 {
+  background: transparent;
+  border: 0;
+}
+#flexslider-1 .views-field-rendered img {
+  width: auto;
+  height: 240px;
+  margin: auto;
+  max-height: 480px;
+}
+@media (min-width: 600px) {
+  #flexslider-1 .views-field-rendered img {
+    height: 480px;
+  }
+}
 #flexslider-1 .portrait .field.field--name-media-title {
   position: absolute;
   bottom: calc(22vw - 20px);
@@ -494,14 +508,12 @@ main#main-content table.jb-cap-frame td {
   font-size: 2vw;
 }
 @media (min-width: 0px) and (max-width: 600px) {
-  #flexslider-1 .flex-caption,
   #flexslider-1 .portrait .field.field--name-media-title {
     bottom: calc(18% - 20px);
     font-size: 12px;
   }
 }
 @media (min-width: 1080px) {
-  #flexslider-1 .flex-caption,
   #flexslider-1 .portrait .field.field--name-media-title {
     bottom: 218px;
     padding: 0 86.4px;

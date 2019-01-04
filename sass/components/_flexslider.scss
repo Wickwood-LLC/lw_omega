@@ -1,22 +1,38 @@
 #flexslider-1 {
-	.flex-caption,
-	.portrait .field.field--name-media-title {
-		position: absolute;
-		bottom: calc(22vw - 20px);
-		padding: 0 8vw;
-		width: 100%;
-		box-sizing: border-box;
-		font-size: 2vw;
+	background: transparent;
+	border: 0;
+	
+	.views-field-rendered {
+		img {
+			width: auto;
+			height: 240px;
+			margin: auto;
+			max-height: 480px;
 
-		@include breakpoint(0px 600px) {
-			bottom: calc(18% - 20px);
-			font-size: 12px;
+			@include breakpoint(600px) {
+				height: 480px;
+			}
 		}
-
-		@include breakpoint(1080px) {
-			bottom: 218px;
-			padding: 0 86.4px;
-			font-size: 22px;
+	}
+	.portrait {
+		.field.field--name-media-title {
+			position: absolute;
+			bottom: calc(22vw - 20px);
+			padding: 0 8vw;
+			width: 100%;
+			box-sizing: border-box;
+			font-size: 2vw;
+	
+			@include breakpoint(0px 600px) {
+				bottom: calc(18% - 20px);
+				font-size: 12px;
+			}
+	
+			@include breakpoint(1080px) {
+				bottom: 218px;
+				padding: 0 86.4px;
+				font-size: 22px;
+			}
 		}
 	}
 
