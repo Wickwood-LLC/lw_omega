@@ -515,6 +515,10 @@ main#main-content table.jb-cap-frame td {
     font-size: 11px;
   }
 }
+#flexslider-1 .portrait .field.field--name-field-long-caption p {
+  margin: 0;
+  font-size: inherit;
+}
 #flexslider-1 .landscape .field.field--name-media-title {
   position: absolute;
   top: 380px;
@@ -529,6 +533,10 @@ main#main-content table.jb-cap-frame td {
     top: 190px;
     font-size: 11px;
   }
+}
+#flexslider-1 .landscape .field.field--name-media-title p {
+  margin: 0;
+  font-size: inherit;
 }
 
 .l-branding {
