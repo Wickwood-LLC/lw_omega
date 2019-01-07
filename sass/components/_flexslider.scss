@@ -57,3 +57,17 @@
 		}
 	}
 }
+
+#flexslider-2 {
+	margin-top: -48px;
+	margin-bottom: 30px;
+
+	li {
+		img {
+			border: 5px solid transparent;
+		}
+		&.flex-active-slide img {
+			border: 5px solid #efc507;
+		}
+	}
+}

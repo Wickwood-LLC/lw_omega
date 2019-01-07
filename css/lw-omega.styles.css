@@ -541,6 +541,17 @@ main#main-content table.jb-cap-frame td {
   text-align: center;
 }
 
+#flexslider-2 {
+  margin-top: -48px;
+  margin-bottom: 30px;
+}
+#flexslider-2 li img {
+  border: 5px solid transparent;
+}
+#flexslider-2 li.flex-active-slide img {
+  border: 5px solid #efc507;
+}
+
 .l-branding {
   background: linear-gradient(to bottom, #eed889 0%, #e3be3c 50%, #eed889 100%);
   border-radius: 5px;
