@@ -500,7 +500,7 @@ main#main-content table.jb-cap-frame td {
     height: 480px;
   }
 }
-#flexslider-1 .portrait .field.field--name-media-title {
+#flexslider-1 .portrait .field.field--name-field-long-caption {
   position: absolute;
   top: 395px;
   padding: 0 calc((100% - 285px) / 2);
@@ -509,7 +509,7 @@ main#main-content table.jb-cap-frame td {
   font-size: 22px;
 }
 @media (min-width: 0px) and (max-width: 600px) {
-  #flexslider-1 .portrait .field.field--name-media-title {
+  #flexslider-1 .portrait .field.field--name-field-long-caption {
     padding: 0 calc((100% - 143px) / 2);
     top: 200px;
     font-size: 11px;
