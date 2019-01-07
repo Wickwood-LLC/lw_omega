@@ -21,27 +21,28 @@
 		padding: 0 calc((100% - 285px) / 2);
 		width: 100%;
 		box-sizing: border-box;
-		font-size: 22px;
+		font-size: 16px;
 
 		@include breakpoint(0px 600px) {
 			padding: 0 calc((100% - 143px) / 2);
-			top: 200px;
+			top: 196px;
 			font-size: 11px;
 		}
 
 		p {
 			margin: 0;
 			font-size: inherit;
+			text-align: center;
 		}		
 	}
 
-	.landscape .field.field--name-media-title {
+	.landscape .field.field--name-field-long-caption {
 		position: absolute;
 		top: 380px;
 		padding: 0 calc((100% - 477px) / 2);
 		width: 100%;
 		box-sizing: border-box;
-		font-size: 22px;
+		font-size: 16px;
 
 		@include breakpoint(0px 600px) {
 			padding: 0 calc((100% - 237px) / 2);
@@ -52,6 +53,7 @@
 		p {
 			margin: 0;
 			font-size: inherit;
+			text-align: center;
 		}
 	}
 }

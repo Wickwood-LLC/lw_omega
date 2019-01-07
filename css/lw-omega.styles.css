@@ -506,37 +506,39 @@ main#main-content table.jb-cap-frame td {
   padding: 0 calc((100% - 285px) / 2);
   width: 100%;
   box-sizing: border-box;
-  font-size: 22px;
+  font-size: 16px;
 }
 @media (min-width: 0px) and (max-width: 600px) {
   #flexslider-1 .portrait .field.field--name-field-long-caption {
     padding: 0 calc((100% - 143px) / 2);
-    top: 200px;
+    top: 196px;
     font-size: 11px;
   }
 }
 #flexslider-1 .portrait .field.field--name-field-long-caption p {
   margin: 0;
   font-size: inherit;
+  text-align: center;
 }
-#flexslider-1 .landscape .field.field--name-media-title {
+#flexslider-1 .landscape .field.field--name-field-long-caption {
   position: absolute;
   top: 380px;
   padding: 0 calc((100% - 477px) / 2);
   width: 100%;
   box-sizing: border-box;
-  font-size: 22px;
+  font-size: 16px;
 }
 @media (min-width: 0px) and (max-width: 600px) {
-  #flexslider-1 .landscape .field.field--name-media-title {
+  #flexslider-1 .landscape .field.field--name-field-long-caption {
     padding: 0 calc((100% - 237px) / 2);
     top: 190px;
     font-size: 11px;
   }
 }
-#flexslider-1 .landscape .field.field--name-media-title p {
+#flexslider-1 .landscape .field.field--name-field-long-caption p {
   margin: 0;
   font-size: inherit;
+  text-align: center;
 }
 
 .l-branding {
