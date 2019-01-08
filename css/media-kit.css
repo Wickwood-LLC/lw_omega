@@ -6,9 +6,12 @@
     font-weight: bold; }
 
 main#main-content #mini-panel-contact_information table {
-  width: 276px;
+  max-width: 276px;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  margin-top: 1.3em; }
+  main#main-content #mini-panel-contact_information table tr {
+    background-color: transparent; }
   main#main-content #mini-panel-contact_information table th, main#main-content #mini-panel-contact_information table td {
     border: none; }
   main#main-content #mini-panel-contact_information table img {

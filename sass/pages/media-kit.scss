@@ -13,9 +13,14 @@
 }
 
 main#main-content #mini-panel-contact_information table {
-    width: 276px;
-    margin-right: auto;
-    margin-left: auto;
+	max-width: 276px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1.3em;
+
+    tr {
+    	background-color: transparent;
+    }
 
     th, td {
         border: none;
