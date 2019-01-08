@@ -322,3 +322,11 @@ main#main-content table.jb-cap-frame td {
 		}
 	}
 }
+
+div.media-element-container.mce-align-left,
+div.media-element-container.mce-align-right {
+    @include breakpoint(0px 570px) {
+        float: none;
+        text-align: center;
+    }
+}

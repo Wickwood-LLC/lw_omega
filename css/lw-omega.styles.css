@@ -484,6 +484,14 @@ main#main-content table.jb-cap-frame td {
   margin: 0 15px;
 }
 
+@media (min-width: 0px) and (max-width: 570px) {
+  div.media-element-container.mce-align-left,
+  div.media-element-container.mce-align-right {
+    float: none;
+    text-align: center;
+  }
+}
+
 #flexslider-1 {
   background: transparent;
   border: 0;
