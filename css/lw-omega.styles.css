@@ -485,14 +485,14 @@ main#main-content table.jb-cap-frame td {
 }
 
 @media (min-width: 0px) and (max-width: 600px) {
-  div[class*="media-polaroid_portrait"] {
+  div.media-element-container[class*="media-polaroid_portrait"] {
     float: none;
     text-align: center;
   }
 }
 
 @media (min-width: 0px) and (max-width: 700px) {
-  div[class*="media-polaroid_landscape"] {
+  div.media-element-container[class*="media-polaroid_landscape"] {
     float: none;
     text-align: center;
   }

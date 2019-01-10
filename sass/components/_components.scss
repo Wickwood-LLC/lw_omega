@@ -323,13 +323,13 @@ main#main-content table.jb-cap-frame td {
 	}
 }
 
-div[class*="media-polaroid_portrait"] {
+div.media-element-container[class*="media-polaroid_portrait"] {
     @include breakpoint(0px 600px) {
         float: none;
         text-align: center;
     }
 }
-div[class*="media-polaroid_landscape"] {
+div.media-element-container[class*="media-polaroid_landscape"] {
     @include breakpoint(0px 700px) {
         float: none;
         text-align: center;
