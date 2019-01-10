@@ -484,9 +484,15 @@ main#main-content table.jb-cap-frame td {
   margin: 0 15px;
 }
 
-@media (min-width: 0px) and (max-width: 570px) {
-  div.media-element-container.mce-align-left,
-  div.media-element-container.mce-align-right {
+@media (min-width: 0px) and (max-width: 600px) {
+  div[class*="media-polaroid_portrait"] {
+    float: none;
+    text-align: center;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 700px) {
+  div[class*="media-polaroid_landscape"] {
     float: none;
     text-align: center;
   }

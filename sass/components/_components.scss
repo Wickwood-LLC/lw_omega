@@ -323,9 +323,14 @@ main#main-content table.jb-cap-frame td {
 	}
 }
 
-div.media-element-container.mce-align-left,
-div.media-element-container.mce-align-right {
-    @include breakpoint(0px 570px) {
+div[class*="media-polaroid_portrait"] {
+    @include breakpoint(0px 600px) {
+        float: none;
+        text-align: center;
+    }
+}
+div[class*="media-polaroid_landscape"] {
+    @include breakpoint(0px 700px) {
         float: none;
         text-align: center;
     }
