@@ -16,6 +16,9 @@
 .view-list-of-published-articles .views-row .node__title {
   margin: 3px 0; }
 
+.view-list-of-published-articles .views-row .field--name-field-article-publication-date {
+  text-align: center; }
+
 .view-list-of-published-articles .more-link {
   font-weight: bold;
   font-size: 16px;
