@@ -498,6 +498,10 @@ main#main-content table.jb-cap-frame td {
   }
 }
 
+#admin-menu ul {
+  overflow: initial;
+}
+
 #flexslider-1 {
   background: transparent;
   border: 0;
