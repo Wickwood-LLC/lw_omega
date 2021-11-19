@@ -55,7 +55,7 @@
         &.menuparent {
             >a:after {
                 content: '\f0d7';
-                font-family: FontAwesome;
+                font-family: "Font Awesome 5 Free";
                 position: relative;
                 left: 5px;
             }
@@ -132,7 +132,7 @@
 		> a:after {
 			content: '\f0da';
 			margin-left: 0.5em;
-			font-family: FontAwesome;
+			font-family: "Font Awesome 5 Free";
 		}
 
 		ul {
@@ -148,7 +148,7 @@
 		> a:after {
 			content: '\f0d7';
 			margin-left: 0.5em;
-			font-family: FontAwesome;
+			font-family: "Font Awesome 5 Free";
 		}
 	}
 }

@@ -941,7 +941,7 @@ main#main-content table.jb-cap-frame td {
 }
 #superfish-1 li.sf-depth-1.menuparent > a:after {
   content: '\f0d7';
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
   position: relative;
   left: 5px;
 }
@@ -1007,7 +1007,7 @@ main#main-content table.jb-cap-frame td {
 #superfish-1-accordion li.menuparent > a:after {
   content: '\f0da';
   margin-left: 0.5em;
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
 }
 #superfish-1-accordion li.menuparent ul {
   display: block;
@@ -1020,7 +1020,7 @@ main#main-content table.jb-cap-frame td {
 #superfish-1-accordion li.menuparent.sf-expanded > a:after {
   content: '\f0d7';
   margin-left: 0.5em;
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
 }
 
 /*# sourceMappingURL=lw-omega.styles.css.map */
